@@ -1,10 +1,10 @@
 # ml_ops_project
 
-**Overall goal:** The goal of the project is to perform binary image classification of artwork images in order to determine whether an image is AI-generated or human generated.
+**Overall goal:** The goal of the project is to perform binary image classification of artwork images in order to determine whether an image is AI-generated or human generated. 
 
-**Framework:** We will use pytorch for the deep learning framework, as well as Docker to containerise our solution. We will probably add more to our framework once we start working.
+**Framework:** We will use pytorch/pytorch lightning for the deep learning framework, as well as Docker to containerise our solution. We will probably add more to our framework once we start working.
 
-**Data:** We've found a database on Kaggle of artwork labelled as either human-made or AI-generated. The dataset contains 975 artworks, where about half of which are AI-generated. [The database can be downloaded here.](https://www.kaggle.com/datasets/hassnainzaidi/ai-art-vs-human-art/data) Since the dataset is relatively small for a deep learning project, we will need to consider ways to mitigate overfitting. The dataset was published within the last few months, so the images are representative of current AI image generation capabilities.
+**Data:** We've found a database on Kaggle of artwork labelled as either human-made or AI-generated. The dataset contains 975 artworks, where about half of which are AI-generated. [The database can be downloaded here.](https://www.kaggle.com/datasets/alessandrasala79/ai-vs-human-generated-dataset/data) Since we may only be able to work with a smaller subset of the data (due to compute limitations), we may need to consider ways to mitigate overfitting. The dataset was published around a year ago, so the images are relatively representative of current AI image generation capabilities.
 
 **Models:** We are planning to use a simple CNN model to classify the images as either AI-generated or human-made. As mentioned above, we may need to include strategies to mitigate overfitting, but we will make adjustments to the pipeline once we've completed the simple implementation.
 
