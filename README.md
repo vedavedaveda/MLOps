@@ -49,6 +49,9 @@ The directory structure of the project looks like this:
 └── tasks.py                  # Project tasks
 ```
 
+## Overall goal
+Overall goal: The goal of the project is to do a binary image classification of artwork images
+in order to determine whether an image is AI-generated or human generated.
 
 Created using [mlops_template](https://github.com/SkafteNicki/mlops_template),
 a [cookiecutter template](https://github.com/cookiecutter/cookiecutter) for getting
