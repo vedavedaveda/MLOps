@@ -1,4 +1,4 @@
-# ml_ops_project
+# Group 39 - MLOps Project
 
 **Overall goal:** The goal of the project is to perform binary image classification of artwork images in order to determine whether an image is AI-generated or human generated. 
 
