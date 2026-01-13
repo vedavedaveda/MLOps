@@ -1,0 +1,9 @@
+# @package _group_
+model:
+  number_of_classes: 2
+
+training:
+  learning_rate: 1e-3
+  batch_size: 32
+  epochs: 10
+  log_every_n_steps: 100
