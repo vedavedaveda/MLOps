@@ -1,4 +1,3 @@
-
 from ml_ops_project.model import CNN
 from ml_ops_project.data import get_datasets      # adjust: should return (train_set, test_set)
 
