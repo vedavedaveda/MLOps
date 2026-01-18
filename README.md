@@ -56,6 +56,9 @@ The directory structure of the project looks like this:
 └── tasks.py                  # Project tasks
 ```
 
+## Hyperparameter Sweep
+https://wandb.ai/frejaj9-danmarks-tekniske-universitet-dtu/MLOps-src_ml_ops_project?nw=nwuserfrejaj9
+
 Created using [mlops_template](https://github.com/SkafteNicki/mlops_template),
 a [cookiecutter template](https://github.com/cookiecutter/cookiecutter) for getting
 started with Machine Learning Operations (MLOps).
