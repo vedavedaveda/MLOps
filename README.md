@@ -1,6 +1,6 @@
 # Group 39 - MLOps Project
 
-**Overall goal:** The goal of the project is to perform binary image classification of artwork images in order to determine whether an image is AI-generated or human generated. 
+**Overall goal:** The goal of the project is to perform binary image classification of artwork images in order to determine whether an image is AI-generated or human generated.
 
 **Framework:** We will use pytorch/pytorch lightning for the deep learning framework, as well as Docker to containerise our solution. We will probably add more to our framework once we start working.
 
