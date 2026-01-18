@@ -1,8 +1,9 @@
 import torch
-from torch.utils.data import TensorDataset
 from omegaconf import OmegaConf
+from torch.utils.data import TensorDataset
 
 import ml_ops_project.train as train
+
 
 def make_fake_datasets(number_of_classes: int):
     """Small fake dataset, shaped like CIFAR: (N, 3, 32, 32)."""
@@ -42,14 +43,15 @@ def setup_wandb_mocks(monkeypatch):
     monkeypatch.setattr(train.wandb, "init", lambda **kwargs: None)
     monkeypatch.setattr(train.wandb, "log", lambda *args, **kwargs: None)
     monkeypatch.setattr(train.wandb, "finish", lambda: None)
-    
+
     # Mock wandb.Artifact
     class FakeArtifact:
         def __init__(self, *args, **kwargs):
             pass
+
         def add_file(self, *args, **kwargs):
             pass
-    
+
     monkeypatch.setattr(train.wandb, "Artifact", FakeArtifact)
     monkeypatch.setattr(train.wandb, "log_artifact", lambda *args, **kwargs: None)
     monkeypatch.setattr(train.wandb, "Image", lambda *args, **kwargs: None)
@@ -61,7 +63,7 @@ def test_optimizer_step_is_called(tmp_path, monkeypatch):
     monkeypatch.setenv("MPLBACKEND", "Agg")
     monkeypatch.setattr(train, "DEVICE", torch.device("cpu"))
     monkeypatch.setattr(train, "get_datasets", lambda: make_fake_datasets(3))
-    
+
     # Setup wandb mocks
     setup_wandb_mocks(monkeypatch)
 
@@ -88,7 +90,7 @@ def test_training_changes_model_weights(tmp_path, monkeypatch):
     monkeypatch.setenv("MPLBACKEND", "Agg")
     monkeypatch.setattr(train, "DEVICE", torch.device("cpu"))
     monkeypatch.setattr(train, "get_datasets", lambda: make_fake_datasets(3))
-    
+
     # Setup wandb mocks
     setup_wandb_mocks(monkeypatch)
 
@@ -114,9 +116,7 @@ def test_training_changes_model_weights(tmp_path, monkeypatch):
     trained_state = saved["state_dict"]
 
     any_parameter_changed = any(
-        not torch.allclose(baseline_state[name], trained_state[name])
-        for name in baseline_state
+        not torch.allclose(baseline_state[name], trained_state[name]) for name in baseline_state
     )
 
     assert any_parameter_changed
-    

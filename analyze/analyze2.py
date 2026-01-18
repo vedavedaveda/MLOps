@@ -4,5 +4,6 @@
 
 # Afterwads, we executed this analyze2.py to be able to analyze the results.
 import pstats
-p = pstats.Stats('analyze/profile2.txt')
-p.sort_stats('cumulative').print_stats(10)
+
+p = pstats.Stats("analyze/profile2.txt")
+p.sort_stats("cumulative").print_stats(10)

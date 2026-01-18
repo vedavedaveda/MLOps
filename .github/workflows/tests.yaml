@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     runs-on: ${{ matrix.os }}
-    
+
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
@@ -35,6 +35,3 @@ jobs:
     - name: Test with pytest
       run: |
         uv run pytest -v
-
-
-        

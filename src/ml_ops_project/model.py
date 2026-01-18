@@ -1,5 +1,6 @@
-from torch import Tensor
 import torch.nn as nn
+from torch import Tensor
+
 
 class CNN(nn.Module):
     """
@@ -20,15 +21,12 @@ class CNN(nn.Module):
             nn.Conv2d(in_channels=3, out_channels=32, kernel_size=3, padding=1),
             nn.ReLU(),
             nn.MaxPool2d(kernel_size=2),
-
             nn.Conv2d(in_channels=32, out_channels=64, kernel_size=3, padding=1),
             nn.ReLU(),
             nn.MaxPool2d(kernel_size=2),
-
             nn.Conv2d(in_channels=64, out_channels=64, kernel_size=3, padding=1),
             nn.ReLU(),
             nn.MaxPool2d(kernel_size=2),
-
             nn.Flatten(),
             nn.Linear(64 * 4 * 4, 512),  # assumes input images are 32x32
             nn.ReLU(),
@@ -37,7 +35,8 @@ class CNN(nn.Module):
 
     def forward(self, x: Tensor) -> Tensor:
         return self.model(x)
- 
+
+
 if __name__ == "__main__":
     model = CNN()
     x = torch.rand(1, 3, 32, 32)  # Example input tensor

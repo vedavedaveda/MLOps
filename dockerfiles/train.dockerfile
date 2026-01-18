@@ -25,7 +25,7 @@ ENTRYPOINT ["uv", "run", "python", "src/ml_ops_project/train.py"]
 # docker run --name experiment1 train:latest (add --rm to the command and it will be deleted after running)
 #
 # LIST ALL CONTAINERS:
-# docker ps -a 
+# docker ps -a
 #
 # REMOVE A CONTAINER:
 # docker rm <container_id>
