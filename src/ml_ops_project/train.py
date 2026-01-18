@@ -17,7 +17,12 @@ DEVICE = torch.device("cuda" if torch.cuda.is_available() else "mps" if torch.ba
 @hydra.main(config_path="../../configs", config_name="default_config")
 def train(cfg) -> None:
     # Configure loguru to save logs to hydra output directory
-    hydra_path = hydra.core.hydra_config.HydraConfig.get().runtime.output_dir
+    try:
+        hydra_path = hydra.core.hydra_config.HydraConfig.get().runtime.output_dir
+    except ValueError:
+        # Hydra not initialized (e.g., in tests)
+        hydra_path = "."
+    
     logger.add(os.path.join(hydra_path, "training.log"), level="DEBUG")
     
     logger.info("Starting training session")
