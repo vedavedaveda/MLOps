@@ -62,3 +62,12 @@ https://wandb.ai/frejaj9-danmarks-tekniske-universitet-dtu/MLOps-src_ml_ops_proj
 Created using [mlops_template](https://github.com/SkafteNicki/mlops_template),
 a [cookiecutter template](https://github.com/cookiecutter/cookiecutter) for getting
 started with Machine Learning Operations (MLOps).
+
+
+
+## Notes for us
+
+DVC/Cloud stuff:
+```uv run dvc add data```
+```uv run dvc push --no-run-cache```
+```uv run dvc pull --no-run-cache```
