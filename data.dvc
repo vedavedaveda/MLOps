@@ -3,12 +3,12 @@ outs:
   path: data
   files:
   - relpath: .DS_Store
-    md5: b9c5834ad979304516cd74e130d8658f
-    size: 6148
+    md5: a8f38b955e86da3081adf19159b672a4
+    size: 10244
     cloud:
       remote_storage:
-        etag: 0895e7ada5bc9792031001
-        version_id: '1768821155918741'
+        etag: 0896ddd2ccd19792031001
+        version_id: '1768826875457174'
   - relpath: Art/.DS_Store
     md5: 194577a7e20bdcc7afbb718f502c134c
     size: 6148
@@ -20,3117 +20,3899 @@ outs:
       Art/AiArtData/-how-important-people-from-the-past-really-looked-11-Pics-5ffd5c0f4d77f__880.jpg
     md5: df61ca02c1db704614751e707f8828d9
     size: 97136
+    cloud:
+      remote_storage:
+        etag: 0890f6c8cdd19792031001
+        version_id: '1768826877393680'
   - relpath: 
       Art/AiArtData/-s-fluffy-fur-and-round-features-immediately-melted-the-viewer-s-heart-photo.jpg
     md5: 43352150d061ac863eff3d302623c19d
     size: 329446
+    cloud:
+      remote_storage:
+        etag: 08c5f5e3ced19792031001
+        version_id: '1768826879933125'
   - relpath: 
       Art/AiArtData/-using-generative-ai-technology-landscape-pattern-abstract-concept-269270897.jpg
     md5: 5756434a9052767c4d724939f183f094
     size: 267045
+    cloud:
+      remote_storage:
+        etag: 08aec5b9ced19792031001
+        version_id: '1768826879238830'
   - relpath: 
       Art/AiArtData/-yellow-kimono-with-a-golden-crown-and-a-very-detailed-Barn-owl-copy-800x800.jpg
     md5: cb161dc86f1af5ad90cfb49f045cff35
     size: 89671
+    cloud:
+      remote_storage:
+        etag: 08a29cb6cfd19792031001
+        version_id: '1768826881281570'
   - relpath: 
       Art/AiArtData/.amazonaws.com2Fpublic2Fimages2Ff89de3bb-279b-42c9-9822-a653fb5b21e6_600x480.png
     md5: c7be9cfc32d7c3c042e3bb6290e5dc51
     size: 52677
+    cloud:
+      remote_storage:
+        etag: 08e7f096ced19792031001
+        version_id: '1768826878670951'
   - relpath: Art/AiArtData/0002_AI-in-animal-classification.png
     md5: dd39c1707c239b958af8b28d1da63904
     size: 199760
+    cloud:
+      remote_storage:
+        etag: 08f49df5ced19792031001
+        version_id: '1768826880216820'
   - relpath: 
       Art/AiArtData/00urban_biodiversity_landscape_architecture_14ed209d-45ca-4c57-b995-4d1552813cc1.jpg
     md5: 7fd13fb18174477f2ba11c2625177d42
     size: 585336
+    cloud:
+      remote_storage:
+        etag: 08caede7ced19792031001
+        version_id: '1768826879997642'
   - relpath: Art/AiArtData/03a3gbCKfH8dDJnjhHLuHDf-1.fit_lim.v1665523315.png
     md5: 2a2ce5ee83d4610a07b02fd329cf1a10
     size: 691510
+    cloud:
+      remote_storage:
+        etag: 08b8f0e7ced19792031001
+        version_id: '1768826879998008'
   - relpath: Art/AiArtData/06as5rHi0sgG4W2Tq.png
     md5: 609a472ace1b20781aaace4f5b08f261
     size: 1639880
+    cloud:
+      remote_storage:
+        etag: 08aeeff8ccd19792031001
+        version_id: '1768826876082094'
   - relpath: Art/AiArtData/06db055c-ai-hallucination-rag-1024x688.jpg
     md5: 0a971cb5520e5b086b0bb4281f3c79c3
     size: 246067
+    cloud:
+      remote_storage:
+        etag: 08cae2f5ccd19792031001
+        version_id: '1768826876031306'
   - relpath: Art/AiArtData/07-the-coffee-service-hossaini-art-ai.x3e656121.png
     md5: f941a993f1e1569e034e4e3c00823472
     size: 1745344
+    cloud:
+      remote_storage:
+        etag: 08a7f3d7cdd19792031001
+        version_id: '1768826877639079'
   - relpath: Art/AiArtData/07IHO-LENSA-TOPART-articleLarge.jpg
     md5: 5531410a38d4c214b867e2c0cfee10a1
     size: 119031
+    cloud:
+      remote_storage:
+        etag: 08b5a4e5ccd19792031001
+        version_id: '1768826875761205'
   - relpath: Art/AiArtData/082922_GeneratedArtAI_02_teh_z1b_04.jpg
     md5: 66f28381c0de51814ecbe25bc7ba74b7
     size: 137674
+    cloud:
+      remote_storage:
+        etag: 08b99d95cdd19792031001
+        version_id: '1768826876546745'
   - relpath: Art/AiArtData/08_No-more-lost-in-translation.jpg
     md5: a2abb7db7e0ceb1046d2fecdd377c830
     size: 513692
+    cloud:
+      remote_storage:
+        etag: 08d2c2c1ced19792031001
+        version_id: '1768826879369554'
   - relpath: Art/AiArtData/0EAwg7WIIMhgnSfLf.png
     md5: 2914d751bfb87194006dff0659e023a4
     size: 2274123
+    cloud:
+      remote_storage:
+        etag: 08f194b2cfd19792031001
+        version_id: '1768826881215089'
   - relpath: Art/AiArtData/0nglsAEPlxapCcJZA.jpeg
     md5: ae0fbcef47f9a7c3840157d2b2854f14
     size: 577136
+    cloud:
+      remote_storage:
+        etag: 0896f38dced19792031001
+        version_id: '1768826878523798'
   - relpath: Art/AiArtData/0qL4hrXp-V_NW-FR-.jpg
     md5: 51163128fdedae18ad9af0b8c7a36cf9
     size: 199395
+    cloud:
+      remote_storage:
+        etag: 08f5c39dcdd19792031001
+        version_id: '1768826876682741'
   - relpath: 
       Art/AiArtData/1-trippy-cubism-psychedelic-fun-cocktails-mojitos-ai-generated-olfactoart-studio.jpg
     md5: 068e9d84aecc6854d740175dc3e2a1ce
     size: 245190
+    cloud:
+      remote_storage:
+        etag: 08d1edacced19792031001
+        version_id: '1768826879030993'
   - relpath: Art/AiArtData/1000_F_551420122_DMVybsWtGw1kS6ogwlk66jcm78PmUIgn.jpg
     md5: 00a6c3a6feda6e022c4ff0a590f94d01
     size: 417952
+    cloud:
+      remote_storage:
+        etag: 089cf1c3cdd19792031001
+        version_id: '1768826877311132'
   - relpath: Art/AiArtData/1000_F_555746402_GNMEIKpEuTIXooW5B1SEEy7VnK3rklI5.jpg
     md5: 5d66d32390b5f8787f8b6fd9b69fdc5a
     size: 490361
+    cloud:
+      remote_storage:
+        etag: 08f09cf7ced19792031001
+        version_id: '1768826880249456'
   - relpath: Art/AiArtData/1000_F_557173172_OZOK6P7w9PBUajB5n9YKcGlvMYumKKaL.jpg
     md5: dbef77d76a3bf4d09231450b71a30a84
     size: 528012
+    cloud:
+      remote_storage:
+        etag: 08b9ebc7ced19792031001
+        version_id: '1768826879473081'
   - relpath: Art/AiArtData/1000_F_561457876_KjtqRhGC0EqEr1G7OaLgn1tjWW38Z2bI.jpg
     md5: 8d250b1c21b65dbfe2fdd5c289450de6
     size: 263226
+    cloud:
+      remote_storage:
+        etag: 0893b3a5cdd19792031001
+        version_id: '1768826876811667'
   - relpath: Art/AiArtData/1000_F_563719058_JXnzcPV4GRpWqmF5sqnqmbJ7ow3ca3DS.jpg
     md5: c66cf4f48b629f2f1f0b544fead4ec4f
     size: 320027
+    cloud:
+      remote_storage:
+        etag: 08cdb9e3cdd19792031001
+        version_id: '1768826877828301'
   - relpath: Art/AiArtData/1000_F_564265464_mp9OwlBNexenRBJcwg5qhCwOxr4TC3gk.jpg
     md5: 85439ddd97c1467942553c3c8dea3205
     size: 547609
+    cloud:
+      remote_storage:
+        etag: 08ecabe4ced19792031001
+        version_id: '1768826879940076'
   - relpath: Art/AiArtData/1000_F_570271411_Tqbdg5z0mL3qV3eaDS0XGrjMMwk6aNTf.jpg
     md5: 87b379838316f18a78dbf63869fe757f
     size: 170267
+    cloud:
+      remote_storage:
+        etag: 08fa9796cdd19792031001
+        version_id: '1768826876562426'
   - relpath: Art/AiArtData/1000_F_588347899_rcxPfuXCi7gXABcOl1TuboinIVfa6ggf.jpg
     md5: 60791fd3b6640ab380e78c44c6351af2
     size: 388427
+    cloud:
+      remote_storage:
+        etag: 08a1c9f8ccd19792031001
+        version_id: '1768826876077217'
   - relpath: Art/AiArtData/1000_F_609715304_7ejZLzTd3JM94FT5O5jHEkI3pE9PTgZR.jpg
     md5: c66e83e86c233bb92020bf132af4e79a
     size: 444855
+    cloud:
+      remote_storage:
+        etag: 08adf093ced19792031001
+        version_id: '1768826878621741'
   - relpath: Art/AiArtData/100960167.jpg
     md5: 3b8ad22af74f43119862c9211bd19e56
     size: 708765
+    cloud:
+      remote_storage:
+        etag: 08c5e7dbced19792031001
+        version_id: '1768826879800261'
   - relpath: Art/AiArtData/101325148.jpg
     md5: 370d8f7c33f39c86439b929690ab0ab9
     size: 164313
+    cloud:
+      remote_storage:
+        etag: 088de884cdd19792031001
+        version_id: '1768826876277773'
   - relpath: Art/AiArtData/10352-original.jpg
     md5: 1ae41d1122bd1406465b7ee9dd014965
     size: 162256
+    cloud:
+      remote_storage:
+        etag: 08affeaacdd19792031001
+        version_id: '1768826876903215'
   - relpath: Art/AiArtData/104023917.jpg
     md5: 875dfc45fc2df329f18012b66ce96bc1
     size: 74316
+    cloud:
+      remote_storage:
+        etag: 08eefe9ccfd19792031001
+        version_id: '1768826880868206'
   - relpath: Art/AiArtData/120522_Lensa_AI.width-696.jpg
     md5: 494cf193ba35d81c0f36fb56eb979d01
     size: 59084
+    cloud:
+      remote_storage:
+        etag: 08c5ba80ced19792031001
+        version_id: '1768826878303557'
   - relpath: Art/AiArtData/1235748-ai-animals.png
     md5: 2c6adaed41bfb04b0fc07a7319a0a94e
     size: 83829
+    cloud:
+      remote_storage:
+        etag: 08e5afd2ced19792031001
+        version_id: '1768826879645669'
   - relpath: Art/AiArtData/13-3.png
     md5: 00cf4f2c88c2c007054cb445c8969702
     size: 1299653
+    cloud:
+      remote_storage:
+        etag: 08def09dced19792031001
+        version_id: '1768826878785630'
   - relpath: Art/AiArtData/1344278.jpg
     md5: c7fe64e785077922e66c8de162c510f8
     size: 402067
+    cloud:
+      remote_storage:
+        etag: 08b5a7b1ced19792031001
+        version_id: '1768826879103925'
   - relpath: Art/AiArtData/1440_AI_and_animal_lang_spotted_naked_mole_rat.jpg
     md5: 5446a28fc9b6ff5c2f1afb7c4c98d386
     size: 179294
+    cloud:
+      remote_storage:
+        etag: 08dddbffccd19792031001
+        version_id: '1768826876194269'
   - relpath: Art/AiArtData/1440_AI_and_animal_language_feat.jpg
     md5: 5ee94e0f77f806b30fd7ff5a6d8da8fe
     size: 261369
+    cloud:
+      remote_storage:
+        etag: 08afa5b1cdd19792031001
+        version_id: '1768826877006511'
   - relpath: Art/AiArtData/1486689.jpg
     md5: b35a9ccc72ebd4a439207f8e7965414a
     size: 106565
+    cloud:
+      remote_storage:
+        etag: 0890aff0ced19792031001
+        version_id: '1768826880137104'
   - relpath: Art/AiArtData/1491589248601-image.png
     md5: 35307cd0a34b716b0e8e37c34f75b8e3
     size: 1746434
+    cloud:
+      remote_storage:
+        etag: 08e6b6c8cfd19792031001
+        version_id: '1768826881579878'
   - relpath: Art/AiArtData/14PMNtflOIXcw4g9HTntybg.png
     md5: 8fab0669ee73c1cef345154521078ecc
     size: 1438620
+    cloud:
+      remote_storage:
+        etag: 08b79eb6cfd19792031001
+        version_id: '1768826881281847'
   - relpath: Art/AiArtData/1588269690157-Screen-Shot-2020-04-30-at-20037-PM.png
     md5: 74d6dfa856c6b10e2eff4ccc2b738a1f
     size: 5517486
+    cloud:
+      remote_storage:
+        etag: 0888bc95ced19792031001
+        version_id: '1768826878647816'
   - relpath: Art/AiArtData/15G9ADdejiQlTQc0UxNt3Cg.png
     md5: 6e8716654be81fed34d720df324ef32a
     size: 1402358
+    cloud:
+      remote_storage:
+        etag: 0891f69ccfd19792031001
+        version_id: '1768826880867089'
   - relpath: Art/AiArtData/1662575095617-collage-maker-07-sep-2022-0224-pm.jpeg
     md5: 8bb50744c4c65e5778eb309b2bafde5c
     size: 961663
+    cloud:
+      remote_storage:
+        etag: 08dcb480cfd19792031001
+        version_id: '1768826880399964'
   - relpath: Art/AiArtData/1687776010494_Screenshot20230626160839.png
     md5: d07af93fbec82805aeab738167905f7f
     size: 52458
+    cloud:
+      remote_storage:
+        etag: 08fba7a6ced19792031001
+        version_id: '1768826878923771'
   - relpath: Art/AiArtData/185bbf9f7bf9e5d1df18aa782d7ddcd2.jpg
     md5: 253e9c886056730cc898200e90502f53
     size: 50780
+    cloud:
+      remote_storage:
+        etag: 08b4c784cfd19792031001
+        version_id: '1768826880467892'
   - relpath: Art/AiArtData/18871730-0-image-a-27_1569333047511.jpg
     md5: f3c4f571e022614b6506d8a3c544790d
     size: 48931
+    cloud:
+      remote_storage:
+        etag: 08e6c5e2ccd19792031001
+        version_id: '1768826875716326'
   - relpath: Art/AiArtData/188PNRFVDD0f9aTkdz34WYA.png
     md5: 9c39ecb6c174982a388599056436d76c
     size: 1666412
+    cloud:
+      remote_storage:
+        etag: 08d1a4c3cfd19792031001
+        version_id: '1768826881495633'
   - relpath: 
       Art/AiArtData/196027s_art_of_cow_getting_abducted_by_UFO_in_midwest.jpg
     md5: 3df77804d9c0fb9ccbe726b5f65bff5c
     size: 391618
+    cloud:
+      remote_storage:
+        etag: 0896859fcfd19792031001
+        version_id: '1768826880901782'
   - relpath: Art/AiArtData/19lv0WF2Fpg5AVtefTvLQJA.png
     md5: c893aa8d6b35745a0a5a84e37ae61c6f
     size: 2339587
+    cloud:
+      remote_storage:
+        etag: 088eaadfcdd19792031001
+        version_id: '1768826877760782'
   - relpath: Art/AiArtData/1BoIwK3flsWLkT57s18Bpgg.png
     md5: 23076cc5257a0fddb5ec7563bf0edecb
     size: 1165779
+    cloud:
+      remote_storage:
+        etag: 08b1e4cfced19792031001
+        version_id: '1768826879603249'
   - relpath: Art/AiArtData/1DUblwf5wpci3hVlmG4ZnDw.png
     md5: fcc43a4967d3a6f91d8056826b5bba96
     size: 1342950
+    cloud:
+      remote_storage:
+        etag: 08c5f2a4cdd19792031001
+        version_id: '1768826876803397'
   - relpath: Art/AiArtData/1E9WJo1jFlzdGVuFhb4BdQw.png
     md5: 3af7bc30ac1e75b18f95a26e198748ba
     size: 2274251
+    cloud:
+      remote_storage:
+        etag: 08c8fac8ced19792031001
+        version_id: '1768826879491400'
   - relpath: Art/AiArtData/1EOlo-3uyfHVlEE649tq62g.png
     md5: 73c63485709ba52dd07411f8b415bbe2
     size: 2242025
+    cloud:
+      remote_storage:
+        etag: 08affcd6ced19792031001
+        version_id: '1768826879721007'
   - relpath: Art/AiArtData/1IGvTkw48FTa1pO33VbG4eA.png
     md5: 4518434bc2e00f15afd61ebebfaddea1
     size: 584893
+    cloud:
+      remote_storage:
+        etag: 0880e9ddced19792031001
+        version_id: '1768826879833216'
   - relpath: Art/AiArtData/1If0feu29zDCd9QIWw-vG9Q.png
     md5: 3797af01aaf4563306b6ba9541980a78
     size: 1331658
+    cloud:
+      remote_storage:
+        etag: 08a28ca5ced19792031001
+        version_id: '1768826878903842'
   - relpath: Art/AiArtData/1JfLNu1-TgkKhhX-e_FgpOA.png
     md5: 8fd68bc43f9f26954bfb4a8817d6c644
     size: 1494241
+    cloud:
+      remote_storage:
+        etag: 08f7e2baced19792031001
+        version_id: '1768826879258999'
   - relpath: Art/AiArtData/1Mcde2p8rG0uUjwwQ-tGWLg.png
     md5: 310f4eb28afeec889c113822ead0ce6e
     size: 1771470
+    cloud:
+      remote_storage:
+        etag: 08efcbbccfd19792031001
+        version_id: '1768826881385967'
   - relpath: Art/AiArtData/1MhC86XK2wg6AC30Wm2ZiEw.png
     md5: d2084aab1047dbf501ddbf86e8911d5a
     size: 1883847
+    cloud:
+      remote_storage:
+        etag: 08a9c6b4cdd19792031001
+        version_id: '1768826877059881'
   - relpath: Art/AiArtData/1OEipycyFugvcLmEh2_zINQ.png
     md5: 354f0e849f8fea5d6599bae16eec606f
     size: 651050
+    cloud:
+      remote_storage:
+        etag: 08c9a391cdd19792031001
+        version_id: '1768826876481993'
   - relpath: Art/AiArtData/1OeeE1RRVpzeCUyD030s8Kg.png
     md5: 4fab0720a27028ac397c259d702294e4
     size: 657470
+    cloud:
+      remote_storage:
+        etag: 08d4b7e9ced19792031001
+        version_id: '1768826880023508'
   - relpath: Art/AiArtData/1RXHJgL-Sfrm3OoCyiYYhtQ.png
     md5: acfb885817e16dd326ea07afb6c8eb90
     size: 1604723
+    cloud:
+      remote_storage:
+        etag: 08a1bbefcdd19792031001
+        version_id: '1768826878025121'
   - relpath: Art/AiArtData/1VYisIu_trZPEZbLWkUtmBg.jpeg
     md5: 11e304f6da84f9472319cbfe887dc10d
     size: 55244
+    cloud:
+      remote_storage:
+        etag: 089880efccd19792031001
+        version_id: '1768826875920408'
   - relpath: Art/AiArtData/1WA1ZUTaiGV9YO5lVEPPFhA.png
     md5: 167279d4c2ebfa3f06bcd305fe42d526
     size: 3214385
+    cloud:
+      remote_storage:
+        etag: 08d8efb1cdd19792031001
+        version_id: '1768826877016024'
   - relpath: Art/AiArtData/1a9B6fCE7uFAgaQDUMGFRqw.jpeg
     md5: 7f698cc878d3eec66e04dc8c202b6bca
     size: 92527
+    cloud:
+      remote_storage:
+        etag: 08dddffdcdd19792031001
+        version_id: '1768826878259165'
   - relpath: Art/AiArtData/1ayKvyXsQfIHS7OOCswZA1g.png
     md5: 746f192985243be946b47f02e82ec1a8
     size: 2054615
+    cloud:
+      remote_storage:
+        etag: 08c48b9bcdd19792031001
+        version_id: '1768826876642756'
   - relpath: Art/AiArtData/1btbVIzhV6dASEHy6bJmJHA.png
     md5: 406864eab6db85272ac6085f5562023a
     size: 1372608
+    cloud:
+      remote_storage:
+        etag: 08fbacb4ced19792031001
+        version_id: '1768826879153787'
   - relpath: Art/AiArtData/1ddpDkJ0Zx4D37qoUehikeg.png
     md5: 7f9e6aff03978f7d5f28b82c124e99bd
     size: 1181020
+    cloud:
+      remote_storage:
+        etag: 08da9c8bcdd19792031001
+        version_id: '1768826876382810'
   - relpath: Art/AiArtData/1fQEPjVkihxmK4iRm8dyVcA.png
     md5: 4d2b6c7bb260bf7dccdf24751abbac5d
     size: 1207647
+    cloud:
+      remote_storage:
+        etag: 08f1ecc6ced19792031001
+        version_id: '1768826879456881'
   - relpath: Art/AiArtData/1fu-PkIWiOiMMedfiGmFefg.jpeg
     md5: c3fd7af5755bc559f25b7e01033a9afc
     size: 366447
+    cloud:
+      remote_storage:
+        etag: 08d88394cfd19792031001
+        version_id: '1768826880721368'
   - relpath: Art/AiArtData/1k1x6oDDEtXdQeKTAKQsSbQ.jpeg
     md5: f8987b1b742977ad09b3fdfc0b911bea
     size: 134472
+    cloud:
+      remote_storage:
+        etag: 089d9caacfd19792031001
+        version_id: '1768826881084957'
   - relpath: Art/AiArtData/1lYr05XDF4i_da6eQZ0C6yw.png
     md5: 923474f0ed365f30ea48f76745f1621b
     size: 1107131
+    cloud:
+      remote_storage:
+        etag: 088c8784cfd19792031001
+        version_id: '1768826880459660'
   - relpath: Art/AiArtData/1pTojVbbfa1akdP6JfX0hHA.png
     md5: 3453632069acc3b3a4f992f4146c017d
     size: 695597
+    cloud:
+      remote_storage:
+        etag: 08bcaeb2cdd19792031001
+        version_id: '1768826877024060'
   - relpath: Art/AiArtData/1sTXgMwDUW0pk-1yK4iHYFw.png
     md5: c78fe5afc8e96c6c0094f270fd0489a1
     size: 1164170
+    cloud:
+      remote_storage:
+        etag: 08c694eeced19792031001
+        version_id: '1768826880100934'
   - relpath: Art/AiArtData/1u7_j9GJ8BuLJv529Og-Tgg.png
     md5: ab13b5bac70264a2dd0cc98933fc5b6d
     size: 4501987
+    cloud:
+      remote_storage:
+        etag: 08d8aae4ced19792031001
+        version_id: '1768826879939928'
   - relpath: Art/AiArtData/2022-11-10-image-12.jpg
     md5: 512f875b8d3eba96fb4b403840d4d275
     size: 428584
+    cloud:
+      remote_storage:
+        etag: 08ebccf5ced19792031001
+        version_id: '1768826880222827'
   - relpath: Art/AiArtData/2023spring-ai-wildlife.1024-2.jpg
     md5: b652437fe5fe75a983436d4df51830ec
     size: 293382
+    cloud:
+      remote_storage:
+        etag: 08d3d9b9cfd19792031001
+        version_id: '1768826881338579'
   - relpath: Art/AiArtData/22-23-3-17-17-51-3m.jpg
     md5: 8a2667511cf872336c6e3a1af98f2bfd
     size: 120424
+    cloud:
+      remote_storage:
+        etag: 08a1a78bcdd19792031001
+        version_id: '1768826876384161'
   - relpath: Art/AiArtData/221206-lensa-selfies-ai-celebrities-cs-548f22.jpg
     md5: 5aee8b2e45f2756dc145f07c126c7891
     size: 431309
+    cloud:
+      remote_storage:
+        etag: 08feada9cdd19792031001
+        version_id: '1768826876876542'
   - relpath: Art/AiArtData/22acc109-736b-480c-a6f7-8ee4e0fc61ed.jpg
     md5: cd43d7edaa4738785e4f2e2eb2dfe3a4
     size: 38281
+    cloud:
+      remote_storage:
+        etag: 08ad82b1cdd19792031001
+        version_id: '1768826877002029'
   - relpath: Art/AiArtData/230209101637-malik-afegbua-ngochola-younger.jpg
     md5: 535b3b59c95a217d66b4c67f81b0f4ae
     size: 83907
+    cloud:
+      remote_storage:
+        etag: 08dcedaccdd19792031001
+        version_id: '1768826876933852'
   - relpath: Art/AiArtData/230726115314-01-lensa-selfie.jpg
     md5: 2360caa659f30eef3288c7981f9f908d
     size: 38858
+    cloud:
+      remote_storage:
+        etag: 08d7dceccdd19792031001
+        version_id: '1768826877980247'
   - relpath: 
       Art/AiArtData/23uQhgmcFTBQitCwze2wBYPCFjkCmfPzxWbygzom3YM8S8Wz5BKkMsE1NXtEq1DcZuWQS.png
     md5: 5d4eab0ad5caa66ea64f19ccdd50c605
     size: 3857430
+    cloud:
+      remote_storage:
+        etag: 08bfd4ecced19792031001
+        version_id: '1768826880076351'
   - relpath: 
       Art/AiArtData/24-AI-FACES-QUIZ-HP-PROMO-COVER-copy-articleLarge-v3.png
     md5: bffb67b00bdf68570755ac08deef3b01
     size: 418268
+    cloud:
+      remote_storage:
+        etag: 0890fad8ced19792031001
+        version_id: '1768826879753488'
   - relpath: Art/AiArtData/240201-airec-main-ksp-5625e8.jpg
     md5: b85f03b829c8bf4745df3a26be02f531
     size: 184317
+    cloud:
+      remote_storage:
+        etag: 08b5de85cfd19792031001
+        version_id: '1768826880487221'
   - relpath: 
       Art/AiArtData/24jo7tag_a-delhi-and-mumbai-woman-depicted-in-the-aigenerated-artwork_625x300_29_December_22.jpg
     md5: 518f4677b84b6cb22f13f6f9b2591419
     size: 27256
+    cloud:
+      remote_storage:
+        etag: 08fe87e8ced19792031001
+        version_id: '1768826880001022'
   - relpath: Art/AiArtData/2A8oNV0baUgW9iGIEk1X.jpg
     md5: 6ffdfd299bd3d0fe0f859075adee917f
     size: 40209
+    cloud:
+      remote_storage:
+        etag: 089fe9becdd19792031001
+        version_id: '1768826877228191'
   - relpath: Art/AiArtData/2K65J19-2.jpg
     md5: 97b145663c7344d19a3868be70969d20
     size: 375371
+    cloud:
+      remote_storage:
+        etag: 08db8191ced19792031001
+        version_id: '1768826878574811'
   - relpath: Art/AiArtData/3048941-inline-i-2-why-google-deep-dreams-of-dogs.jpg
     md5: 3c0ff17daaf1e314e344a40a36e74e7e
     size: 90208
+    cloud:
+      remote_storage:
+        etag: 08c59d94cdd19792031001
+        version_id: '1768826876530373'
   - relpath: Art/AiArtData/331EB940-E464-438A-B10138CC86B39894_source.jpeg
     md5: 29510a2167752af482201a8fce1a9406
     size: 1602835
+    cloud:
+      remote_storage:
+        etag: 08918cafcdd19792031001
+        version_id: '1768826876970513'
   - relpath: 
       Art/AiArtData/335893730_1248848252414001_2214479283759117231_n_1679724354609_1679724368314_1679724368314.jpg
     md5: 3f38e0352fec3a0d6b33760e47f8d7bd
     size: 145220
+    cloud:
+      remote_storage:
+        etag: 088788f3cdd19792031001
+        version_id: '1768826878084103'
   - relpath: Art/AiArtData/394d68ba91ee4f49d400034d8d487997.jpg
     md5: 6d620dcf917dfd131d7a6ac71703aa01
     size: 68968
+    cloud:
+      remote_storage:
+        etag: 089cd8e3cdd19792031001
+        version_id: '1768826877832220'
   - relpath: Art/AiArtData/3FUI5P53A5JRLCB432NGJMWTMU.jpg
     md5: 895f54d2ed62daf3abe5a7a0d1b248c7
     size: 2194172
+    cloud:
+      remote_storage:
+        etag: 08e2e397cfd19792031001
+        version_id: '1768826880782818'
   - relpath: Art/AiArtData/3UzfFUqU5NuCDJYtoNMaUf-1200-80.jpg
     md5: 087808f1cdd4002ade6e649e426787ac
     size: 108967
+    cloud:
+      remote_storage:
+        etag: 08b0eba5cdd19792031001
+        version_id: '1768826876818864'
   - relpath: Art/AiArtData/3c958e87e755ddec3003722eb91e787a.jpg
     md5: 31b2c11be5736d5304a21e74bdbd268a
     size: 188166
+    cloud:
+      remote_storage:
+        etag: 08b0ccd3ced19792031001
+        version_id: '1768826879665712'
   - relpath: Art/AiArtData/3e9bc32a-1d77-4f0a-b0df-199c80060385-1024x1024.jpg
     md5: c60b4167cb3df926c9d02ac98078d4a2
     size: 114819
+    cloud:
+      remote_storage:
+        etag: 08dcf0e4ccd19792031001
+        version_id: '1768826875754588'
   - relpath: Art/AiArtData/3eb2e6d3-6ab8-445e-beb2-afdadb30afbd.jpg
     md5: d0a3b4a96b30a59ad9753f4a9c29bd1c
     size: 192054
+    cloud:
+      remote_storage:
+        etag: 08e4b5d0cdd19792031001
+        version_id: '1768826877516516'
   - relpath: 
       Art/AiArtData/403e1ee688f55ae08740e13dbcaae5633f7c1d3a-4032x2268.jpg
     md5: 51e823aa9c15da574d5cc5a5f4e8b230
     size: 1382724
+    cloud:
+      remote_storage:
+        etag: 08ebe3e0cdd19792031001
+        version_id: '1768826877784555'
   - relpath: Art/AiArtData/41b6d9592db18a15b1e32dfd50.jpg
     md5: 3d71584d15dd0604ac99865ad0b527c8
     size: 146240
+    cloud:
+      remote_storage:
+        etag: 08c4ff89ced19792031001
+        version_id: '1768826878459844'
   - relpath: Art/AiArtData/43div2to_animal-selfies_625x300_03_April_23.jpg
     md5: 2d54a57d1a7c8405d027f9903ff9e4cf
     size: 163898
+    cloud:
+      remote_storage:
+        etag: 08d0fce4ccd19792031001
+        version_id: '1768826875756112'
   - relpath: 
       Art/AiArtData/4D0B10FA-D43F-427A-8F12-084A42A52081-63ef4da8f2ef6-jpeg__700.jpg
     md5: 64b9ef246eadca46a6ece9cd93fb9c19
     size: 99860
+    cloud:
+      remote_storage:
+        etag: 08fd80c9cdd19792031001
+        version_id: '1768826877395069'
   - relpath: Art/AiArtData/4hPwM82KpnA0Rie1400A.jpg
     md5: 57dee350c2e374d48d10b525e41a2d1e
     size: 37811
+    cloud:
+      remote_storage:
+        etag: 08de8ee5cdd19792031001
+        version_id: '1768826877855582'
   - relpath: Art/AiArtData/4m8ul9jg_kings-ai_625x300_27_January_23.jpg
     md5: 15ce900f147661d73982cd3dc4be657e
     size: 32067
+    cloud:
+      remote_storage:
+        etag: 08e18eb7ced19792031001
+        version_id: '1768826879199073'
   - relpath: Art/AiArtData/52285b755ff9e3869fac20294bfe1fc1.jpg
     md5: e53b85f192b2a2ecb71d259ed762924f
     size: 25505
+    cloud:
+      remote_storage:
+        etag: 08d1db82cfd19792031001
+        version_id: '1768826880437713'
   - relpath: Art/AiArtData/52520977911_33437880be_z.jpg
     md5: 023c592d437ba34448bd770dcde8275f
     size: 70282
+    cloud:
+      remote_storage:
+        etag: 08b1cebdcdd19792031001
+        version_id: '1768826877208369'
   - relpath: Art/AiArtData/5274772_0f37_5.jpg
     md5: 3e99b6f67331ebeb74b133de6127ca8a
     size: 13668
+    cloud:
+      remote_storage:
+        etag: 0893a884cfd19792031001
+        version_id: '1768826880463891'
   - relpath: 
       Art/AiArtData/529D7B2E-8BBA-4082-9CF3-871EC70DB41D-63f30f8004ece-jpeg__700.jpg
     md5: 2a3518494a6c3ec49a368e8a05016f6a
     size: 79270
+    cloud:
+      remote_storage:
+        etag: 08baf9c2cdd19792031001
+        version_id: '1768826877295802'
   - relpath: Art/AiArtData/5552488_6d18_2.jpg
     md5: a2103a2962805101b9b2429b78e5dbfe
     size: 44877
+    cloud:
+      remote_storage:
+        etag: 08e68fc8cdd19792031001
+        version_id: '1768826877380582'
   - relpath: Art/AiArtData/56428422_1662474478_web.png
     md5: a13721a0b27345c747844206e4ba42c5
     size: 738626
+    cloud:
+      remote_storage:
+        etag: 0883f7a2cfd19792031001
+        version_id: '1768826880965507'
   - relpath: Art/AiArtData/59e0ba50419705a2c4b22681fb.jpg
     md5: d0d8d4ff6c22f2f0d2ec1ea10a0f162b
     size: 242742
+    cloud:
+      remote_storage:
+        etag: 08b9daa5cdd19792031001
+        version_id: '1768826876816697'
   - relpath: 
       Art/AiArtData/5d395cf120e51-ai-transforms-celebrities-photo-into-old-portraits-paintings-5d380c2ebd006__700.jpg
     md5: 32e861e2fabd7a14f9418d14382996da
     size: 41147
+    cloud:
+      remote_storage:
+        etag: 08d7ffe2ccd19792031001
+        version_id: '1768826875723735'
   - relpath: 
       Art/AiArtData/5d395cf1a43bd-ai-transforms-celebrities-photo-into-old-portraits-paintings-5d380beb228da__700.jpg
     md5: 2f1937f3f52f56d9639d9c9c50d94764
     size: 54179
+    cloud:
+      remote_storage:
+        etag: 08f19682cdd19792031001
+        version_id: '1768826876234609'
   - relpath: 
       Art/AiArtData/5d395cf1e10ca-ai-transforms-celebrities-photo-into-old-portraits-paintings-5d380c3722b84__700.jpg
     md5: 3b79c3c21f9f7df27eae93476ad38367
     size: 62810
+    cloud:
+      remote_storage:
+        etag: 088ed3dbcdd19792031001
+        version_id: '1768826877700494'
   - relpath: Art/AiArtData/62bf08968c2d68a06b1c7182_image9201-min.jpg
     md5: 38e32b2f9f74051b6402c46026dccc21
     size: 220512
+    cloud:
+      remote_storage:
+        etag: 08f99eb7cdd19792031001
+        version_id: '1768826877103993'
   - relpath: 
       Art/AiArtData/6324662e5ee3110438933c1b_COBE-Pink-Elephant-Midjourney-Article.jpg
     md5: 66fa71048595cf1c4c2c3ab95213f0da
     size: 109249
+    cloud:
+      remote_storage:
+        etag: 08cff89cced19792031001
+        version_id: '1768826878770255'
   - relpath: Art/AiArtData/63964cc739abd575d50b68ed_google-not-against-ai.jpg
     md5: 5c56ff4a5498b9f4aaaf5203f3480376
     size: 552219
+    cloud:
+      remote_storage:
+        etag: 08d7a0c6cdd19792031001
+        version_id: '1768826877349975'
   - relpath: 
       Art/AiArtData/63b413cd19c92c377052b31a_62c85730733d96f8213065f7_HERO2520-2520Yellow.jpeg
     md5: 9f2e2e546727ca92af76e9721bfb52bd
     size: 162734
+    cloud:
+      remote_storage:
+        etag: 0894b5dccdd19792031001
+        version_id: '1768826877713044'
   - relpath: 
       Art/AiArtData/640px-22Mona_Lisa22_with_DeepDream_effect_using_VGG16_network_trained_on_ImageNet.jpg
     md5: 017dea47fd439d438adbc789b09c2876
     size: 197947
+    cloud:
+      remote_storage:
+        etag: 0893b5c4cdd19792031001
+        version_id: '1768826877319827'
   - relpath: 
       Art/AiArtData/6415e4b2cd8ebd571e17d18a_85becjacC5FV9Ohz5fRCohUtpt6IHcA2TUmLvHWInL8.jpeg
     md5: 717834ca03339324e58a4d9a68021707
     size: 325498
+    cloud:
+      remote_storage:
+        etag: 08a9aef6ccd19792031001
+        version_id: '1768826876041001'
   - relpath: 
       Art/AiArtData/6415e4b39e38cb53f00286e0_I_PelxQ-gpM_ZMFzYe2EazKifSdYCsHmcT3kJVA1nuY.jpeg
     md5: 52933d74ea272af4d1c2a0ee43840e5b
     size: 356309
+    cloud:
+      remote_storage:
+        etag: 08eef9e8ccd19792031001
+        version_id: '1768826875821294'
   - relpath: 
       Art/AiArtData/6487517289657f25a1e7febf_How20Generative20AI20Works20to20Create20AI20Generated20Photos.jpg
     md5: 4347de8b56c16a8ae823f9e1557889e9
     size: 201507
+    cloud:
+      remote_storage:
+        etag: 08c7e2fdced19792031001
+        version_id: '1768826880356679'
   - relpath: 
       Art/AiArtData/64dccffa6728f2a276286964_can-ai-generated-content-rank-on-google.jpg
     md5: fcd47e5dc8112eb851e5a36f29c2345f
     size: 108309
+    cloud:
+      remote_storage:
+        etag: 08889cccced19792031001
+        version_id: '1768826879544840'
   - relpath: 
       Art/AiArtData/64efd48f24bacac40feae0b4_qFcGNfN66Fp4nrvBHhQp89Kg425rczlCMKCbW2cNCCs.jpeg
     md5: d2d6f4ceac5d4a5e9371892d0a2df39a
     size: 250299
+    cloud:
+      remote_storage:
+        etag: 08f7edb5cdd19792031001
+        version_id: '1768826877081335'
   - relpath: 
       Art/AiArtData/65523f91e3679a1ab2eed021_face_of_data_art_kirell_benzi.jpg
     md5: 5bac88f974b61bd43c42fede8accaf2a
     size: 365518
+    cloud:
+      remote_storage:
+        etag: 0889f8f9cdd19792031001
+        version_id: '1768826878196745'
   - relpath: 
       Art/AiArtData/6588c371e32a540aace3ecd5_Ci5y2JLvKKO7SveqO8kAb8xloBhjE2Kjd2JzBr9EYNA.jpeg
     md5: f6d186ab8d62cf8237b02d3daa9956a6
     size: 417386
+    cloud:
+      remote_storage:
+        etag: 0899eba2cfd19792031001
+        version_id: '1768826880963993'
   - relpath: Art/AiArtData/65b2f49a8e6bfcb8d19eed88898da02d.jpg
     md5: 7b0b61db40ee0eb20407e26c61389415
     size: 27598
+    cloud:
+      remote_storage:
+        etag: 08a89fe7cdd19792031001
+        version_id: '1768826877890472'
   - relpath: Art/AiArtData/67995309-0-image-a-168_1677149995977.jpg
     md5: e7e6cafc4e307fa2efcbc75a0340a576
     size: 140267
+    cloud:
+      remote_storage:
+        etag: 08cbbc97cdd19792031001
+        version_id: '1768826876583499'
   - relpath: Art/AiArtData/71AlaLQNBuL._AC_UF10001000_QL80_.jpg
     md5: 26ae8ae1376a0a11e72b3b27bb1f4c79
     size: 94360
+    cloud:
+      remote_storage:
+        etag: 089f9afeced19792031001
+        version_id: '1768826880363807'
   - relpath: Art/AiArtData/71SjWeOHKjL._AC_UF10001000_QL80_.jpg
     md5: f4005b3b1aee18a4b7a856337bc97d1c
     size: 104110
+    cloud:
+      remote_storage:
+        etag: 08f3cfe5ccd19792031001
+        version_id: '1768826875766771'
   - relpath: 
       Art/AiArtData/71f09875-ca8e-40e1-b99e-c70a0d3cc063-large16x9_NorthDakota.jpeg
     md5: ebeb6d816a1685872ce82eff39528c99
     size: 84207
+    cloud:
+      remote_storage:
+        etag: 08afe792cfd19792031001
+        version_id: '1768826880701359'
   - relpath: 
       Art/AiArtData/737a36cc-c873-4451-90a5-271f2eae7778_landing-ai-portrait-img-3.png
     md5: 6d164c2ffc711dca3ebbd97f34c07adb
     size: 1865565
+    cloud:
+      remote_storage:
+        etag: 08f4e0c9ced19792031001
+        version_id: '1768826879504500'
   - relpath: Art/AiArtData/76480055-12619627-image-a-40_1697122533354.jpg
     md5: 06be809405ffdf6dfda62d4fff383811
     size: 114160
+    cloud:
+      remote_storage:
+        etag: 08ce88deced19792031001
+        version_id: '1768826879837262'
   - relpath: Art/AiArtData/79ee7c59b0b2a08f9438487b729469ae.jpg
     md5: ea216ff256724de4ffb253541fa9259a
     size: 124706
+    cloud:
+      remote_storage:
+        etag: 08ecb7efccd19792031001
+        version_id: '1768826875927532'
   - relpath: Art/AiArtData/7e644b89-cd82-440c-8836-9a9300c97672.jpg
     md5: acb198946b15086db2dd65160cf83a21
     size: 91936
+    cloud:
+      remote_storage:
+        etag: 0882a285cfd19792031001
+        version_id: '1768826880479490'
   - relpath: Art/AiArtData/863198.jpg
     md5: 973f41154cfe1339ecd80473c1026e0f
     size: 484616
+    cloud:
+      remote_storage:
+        etag: 08d3b29bcfd19792031001
+        version_id: '1768826880842067'
   - relpath: Art/AiArtData/89644a996fdd0cfc9e06398c64320fbe.jpg
     md5: ce0c7a2743dc1b64e75e87098c1185f8
     size: 40316
+    cloud:
+      remote_storage:
+        etag: 08dfcdf5ccd19792031001
+        version_id: '1768826876028639'
   - relpath: Art/AiArtData/8A0B55B5-A6CA-4440-AA2D-C63CA9E904E0-768x1024.jpeg
     md5: cb7d51b9a5f2d4222fb5edd4bb6d1764
     size: 116239
+    cloud:
+      remote_storage:
+        etag: 08ddcc96cfd19792031001
+        version_id: '1768826880763485'
   - relpath: Art/AiArtData/8A9FC0D0-D02D-4909-8E7B90874F98DBF2_source.jpg
     md5: 831a7e5c7b631696a01829a917a3ac92
     size: 190099
+    cloud:
+      remote_storage:
+        etag: 0880dc80cdd19792031001
+        version_id: '1768826876210688'
   - relpath: Art/AiArtData/959b0e7558d409e409de7e789d18e026.jpg
     md5: 29476df4f9b4291248f529cf4a75f555
     size: 138234
+    cloud:
+      remote_storage:
+        etag: 0883e0c7ced19792031001
+        version_id: '1768826879471619'
   - relpath: Art/AiArtData/960x0.jpg
     md5: a44b98a6052a76fe07ba728607362358
     size: 60633
+    cloud:
+      remote_storage:
+        etag: 08bda6e4ccd19792031001
+        version_id: '1768826875745085'
   - relpath: Art/AiArtData/960x02.png
     md5: 407807c7e3e7cdfbd3da2150b6581d12
     size: 744352
+    cloud:
+      remote_storage:
+        etag: 08a9baf8ced19792031001
+        version_id: '1768826880269609'
   - relpath: Art/AiArtData/96715731.jpg
     md5: ca1db841db34ac145e2c7a4568ceca41
     size: 15875
+    cloud:
+      remote_storage:
+        etag: 08d08895cdd19792031001
+        version_id: '1768826876544080'
   - relpath: Art/AiArtData/97224914.jpg
     md5: 5f2ad076d9254f99c0c427b4af7a4067
     size: 124758
+    cloud:
+      remote_storage:
+        etag: 0895bccacdd19792031001
+        version_id: '1768826877419029'
   - relpath: Art/AiArtData/AI-Art.jpeg
     md5: a7faa4dd37436dcc2513a7180245b343
     size: 177671
+    cloud:
+      remote_storage:
+        etag: 08a4d9e3cdd19792031001
+        version_id: '1768826877832356'
   - relpath: Art/AiArtData/AI-Generated-Images-from-AI-Generated-Prompts.png
     md5: 9db2522f014cdce3db9cbdb878640542
     size: 45931
+    cloud:
+      remote_storage:
+        etag: 08be91b6cfd19792031001
+        version_id: '1768826881280190'
   - relpath: Art/AiArtData/AI-Tracking-Cat.jpg
     md5: 048b28840a9881c2987407aff8254db5
     size: 440527
+    cloud:
+      remote_storage:
+        etag: 08879bfdced19792031001
+        version_id: '1768826880347527'
   - relpath: Art/AiArtData/AI-and-Dreams-scaled.jpg
     md5: 47033497a2d56eecf45db65e1f8ed7db
     size: 134794
+    cloud:
+      remote_storage:
+        etag: 088eb3adced19792031001
+        version_id: '1768826879039886'
   - relpath: Art/AiArtData/AI-generated-art-copyright.jpg
     md5: 7776e2dfe11317bb18cb1b4556061f43
     size: 106037
+    cloud:
+      remote_storage:
+        etag: 08e686a2cdd19792031001
+        version_id: '1768826876756838'
   - relpath: Art/AiArtData/AI-generated-images-art-.jpg
     md5: 4193729126ba41e1b7e0e74e9fe8a6b3
     size: 121474
+    cloud:
+      remote_storage:
+        etag: 0891a5aacdd19792031001
+        version_id: '1768826876891793'
   - relpath: Art/AiArtData/AI-generated-landscape-708x400.jpg
     md5: c8348a34470a4b84b2b724d5e514d527
     size: 49052
+    cloud:
+      remote_storage:
+        etag: 08a9ace2ccd19792031001
+        version_id: '1768826875713065'
   - relpath: Art/AiArtData/AI-historical-faces-body-image-1.jpg
     md5: 99811445b561dcbce82515716a32d74d
     size: 281699
+    cloud:
+      remote_storage:
+        etag: 08faa5c0ced19792031001
+        version_id: '1768826879349498'
   - relpath: Art/AiArtData/AI-music-video.png
     md5: a13c875e4ca13f7d6372cfb8d16ced63
     size: 1460926
+    cloud:
+      remote_storage:
+        etag: 08eac892cfd19792031001
+        version_id: '1768826880697450'
   - relpath: Art/AiArtData/AI-portrait-generator.jpg
     md5: 6389f6fe4dcb3519cdb8d41b2787cd44
     size: 62948
+    cloud:
+      remote_storage:
+        etag: 089ebbd2cdd19792031001
+        version_id: '1768826877549982'
   - relpath: 
       Art/AiArtData/AI-recreations-of-men-and-women-from-different-sta_1672816365869.jpg
     md5: 6311476e289ebbb7fc5a4ee4446485d4
     size: 91819
+    cloud:
+      remote_storage:
+        etag: 08f4eae7ced19792031001
+        version_id: '1768826879997300'
   - relpath: Art/AiArtData/AI20Landscape.jpg
     md5: ab32808a8d18ade3925ccd21b53e252e
     size: 78079
+    cloud:
+      remote_storage:
+        etag: 08f8b884cfd19792031001
+        version_id: '1768826880466040'
   - relpath: Art/AiArtData/AI4Animals_Logo.jpg
     md5: b14393eb1deb248781eb4c49e65b513b
     size: 50999
+    cloud:
+      remote_storage:
+        etag: 08bca4b6cfd19792031001
+        version_id: '1768826881282620'
   - relpath: Art/AiArtData/AIArtRoundupFeatured-1200x675.png
     md5: 3fc78f38868789d1a9ec310c6f880d9e
     size: 1294018
+    cloud:
+      remote_storage:
+        etag: 08e3fbc5cdd19792031001
+        version_id: '1768826877345251'
   - relpath: Art/AiArtData/AI_art_1685017093404_1685017098933.jpeg
     md5: d8321fbe3bf00ad647897285de646afb
     size: 159357
+    cloud:
+      remote_storage:
+        etag: 089d9afaced19792031001
+        version_id: '1768826880298269'
   - relpath: Art/AiArtData/AI_image.png
     md5: a572ee50f972ccd38de4ec577dd52f1d
     size: 416918
+    cloud:
+      remote_storage:
+        etag: 08e8c2a2ced19792031001
+        version_id: '1768826878861672'
   - relpath: Art/AiArtData/AIlandscape1A.jpeg
     md5: 225663da0ed7ecb3b6130a97ec23be57
     size: 122359
+    cloud:
+      remote_storage:
+        etag: 08cbe9a0ced19792031001
+        version_id: '1768826878833867'
   - relpath: Art/AiArtData/AdobeStock_559145847.jpeg
     md5: 329669b11b8559ff448758bde351f0c2
     size: 1250976
+    cloud:
+      remote_storage:
+        etag: 08cdb3c5ced19792031001
+        version_id: '1768826879433165'
   - relpath: Art/AiArtData/AdobeStock_591259557-1000x600.jpeg
     md5: 466b042b9ca0b7c4a1220f2407ece217
     size: 97519
+    cloud:
+      remote_storage:
+        etag: 088b8de3ced19792031001
+        version_id: '1768826879919755'
   - relpath: Art/AiArtData/Ai-Da-robot-AI-art-hed.jpg
     md5: 5738bdc4c8b97ea4ec03138150f3f0bb
     size: 253111
+    cloud:
+      remote_storage:
+        etag: 08bc96b7cdd19792031001
+        version_id: '1768826877102908'
   - relpath: Art/AiArtData/Ai-art-for-authors-cover-image.jpg
     md5: c0cd7d230e7df0cc93f2603aa2a7f3e6
     size: 162488
+    cloud:
+      remote_storage:
+        etag: 08fcffcfcdd19792031001
+        version_id: '1768826877509628'
   - relpath: Art/AiArtData/Animals04april2023.jpg
     md5: 595e37e13dc0c40753cf394d640899d6
     size: 203927
+    cloud:
+      remote_storage:
+        etag: 08848cdaced19792031001
+        version_id: '1768826879772164'
   - relpath: Art/AiArtData/B49447D3-BE5D-4A25-8505059961823425_source.jpg
     md5: 95065a9a4cedaae564ea58dc9de7303a
     size: 2341030
+    cloud:
+      remote_storage:
+        etag: 08fded9fced19792031001
+        version_id: '1768826878818045'
   - relpath: Art/AiArtData/BM6NugXodzCJUvbfOEPc_6x.jpg
     md5: cafb86dd1533395f55a3c89b7580c53b
     size: 537864
+    cloud:
+      remote_storage:
+        etag: 0886d696cfd19792031001
+        version_id: '1768826880764678'
   - relpath: Art/AiArtData/BX9vGbWoqCKEVwkfGHvu.jpg
     md5: b6194f298572b65e79696fcf810940f3
     size: 50594
+    cloud:
+      remote_storage:
+        etag: 08868e9acdd19792031001
+        version_id: '1768826876626694'
   - relpath: Art/AiArtData/Bashenga_10-1-1000x552.jpg
     md5: bd12d94757072994f72a6608f00c9f49
     size: 93872
+    cloud:
+      remote_storage:
+        etag: 08aeffbccdd19792031001
+        version_id: '1768826877198254'
   - relpath: Art/AiArtData/Biden1400.jpg
     md5: 8882861d2a13e82d8091bed6004ea791
     size: 1150566
+    cloud:
+      remote_storage:
+        etag: 08c9b28eced19792031001
+        version_id: '1768826878531913'
   - relpath: 
       Art/AiArtData/Blog-Photo-the-science-behind-AI-Generated-content.png
     md5: 9335c32a7199d19c7cdd5318ba457141
     size: 1498539
+    cloud:
+      remote_storage:
+        etag: 08f4e0afcdd19792031001
+        version_id: '1768826876981364'
   - relpath: Art/AiArtData/Blogs.jpg
     md5: a763b679681ccf0428e15e851c209df8
     size: 174105
+    cloud:
+      remote_storage:
+        etag: 08b9b1e7ccd19792031001
+        version_id: '1768826875795641'
   - relpath: Art/AiArtData/Boris-Eldagsen-AI-art.jpg
     md5: 843c8686ce885f6e127aa853abfc3962
     size: 83102
+    cloud:
+      remote_storage:
+        etag: 08d5dca9cfd19792031001
+        version_id: '1768826881076821'
   - relpath: Art/AiArtData/Bu69yrI45ueNWQX84ap5.jpg
     md5: 7c688015a81560267183971c9dff4927
     size: 134005
+    cloud:
+      remote_storage:
+        etag: 088ab3cbced19792031001
+        version_id: '1768826879531402'
   - relpath: Art/AiArtData/Charon-Sank-805x1024.png
     md5: c788e3dd3ed194c585c9fce26ea131c8
     size: 829034
+    cloud:
+      remote_storage:
+        etag: 08c6aee8cdd19792031001
+        version_id: '1768826877908806'
   - relpath: Art/AiArtData/CreationOfAdam.jpg
     md5: 18a3de4472de28a9fc97e0a6821a59c3
     size: 852976
+    cloud:
+      remote_storage:
+        etag: 088af3f3ced19792031001
+        version_id: '1768826880194954'
   - relpath: Art/AiArtData/Dark-Side-of-the-Moon-AI.jpg
     md5: 65cd082327388bf45bd490bdf809a37a
     size: 689144
+    cloud:
+      remote_storage:
+        etag: 08d8e183cdd19792031001
+        version_id: '1768826876260568'
   - relpath: Art/AiArtData/Dave-McKean-3.jpeg
     md5: d375dd148871158ac72fc0f92339b9c7
     size: 347264
+    cloud:
+      remote_storage:
+        etag: 08e4def8ccd19792031001
+        version_id: '1768826876079972'
   - relpath: Art/AiArtData/Deepfake-AI-generated-2023.jpg
     md5: fbcbdc6be4179b4cb4abe96393db1a6d
     size: 163141
+    cloud:
+      remote_storage:
+        etag: 088cb29fcfd19792031001
+        version_id: '1768826880907532'
   - relpath: 
       Art/AiArtData/Dottemannen_photo_of_a_blonde_swede_5d222c23-1088-4336-93c6-0fbd355e8150.png
     md5: bb9c077557ba266dc21fa37d5f640e5c
     size: 1067725
+    cloud:
+      remote_storage:
+        etag: 08b4d0c2cdd19792031001
+        version_id: '1768826877290548'
   - relpath: 
       Art/AiArtData/Earth-Species-project-generative-ai-unders.max-2100x2100.jpg
     md5: 760264486d20bf510cbd804bdf95e36e
     size: 5626183
+    cloud:
+      remote_storage:
+        etag: 08aeefa0cfd19792031001
+        version_id: '1768826880931758'
   - relpath: Art/AiArtData/Ej6jaxYtzcL24kFW7kmKYC.jpg
     md5: 757610d34afac421f152c91793cdaabd
     size: 1002070
+    cloud:
+      remote_storage:
+        etag: 08a48dbfcfd19792031001
+        version_id: '1768826881427108'
   - relpath: Art/AiArtData/EmaqLSjrm4SBsK7Xspie--1--avr9b.jpg
     md5: 7af962ae099d856702b67b8d73f59ec3
     size: 21231
+    cloud:
+      remote_storage:
+        etag: 08b9d5aeced19792031001
+        version_id: '1768826879060665'
   - relpath: 
       Art/AiArtData/Fantastic-Realism-Fungus-AI-Generated-Art-Psychedelic-Art-Fungus-Decor-65247356-1.png
     md5: 359354002403c6054c92ecadf9582048
     size: 373616
+    cloud:
+      remote_storage:
+        etag: 08e6dfb0cfd19792031001
+        version_id: '1768826881191910'
   - relpath: Art/AiArtData/Feature-Image_MidJourney.jpg
     md5: 8ad4df2bad0f8e3df30d325016656304
     size: 278585
+    cloud:
+      remote_storage:
+        etag: 0895ef91cfd19792031001
+        version_id: '1768826880685973'
   - relpath: Art/AiArtData/Flower-Trip-style.jpeg
     md5: dbf63d1523cf4ca08b74899d07bee5b9
     size: 2005236
+    cloud:
+      remote_storage:
+        etag: 08b1cfb4cdd19792031001
+        version_id: '1768826877061041'
   - relpath: Art/AiArtData/FmX1O9YaEAIiFuX.jpg
     md5: f90268ecce0d1b7f663063ca4146ae02
     size: 80288
+    cloud:
+      remote_storage:
+        etag: 0889e8bfced19792031001
+        version_id: '1768826879341577'
   - relpath: Art/AiArtData/Fotor-AI-portrait-generator-interface.jpg
     md5: 4ae838646a554ee15938f61727733e91
     size: 61459
+    cloud:
+      remote_storage:
+        etag: 08a7c1bacdd19792031001
+        version_id: '1768826877157543'
   - relpath: Art/AiArtData/GANimal-1280x540.jpg
     md5: f1be2763fd400fe4d95c688b853b9f9c
     size: 104079
+    cloud:
+      remote_storage:
+        etag: 08bfa4b9ced19792031001
+        version_id: '1768826879234623'
   - relpath: Art/AiArtData/GettyImages-1096829784-copy.jpg
     md5: 49a5fed8b776569916be097f34df65b4
     size: 234286
+    cloud:
+      remote_storage:
+        etag: 08a2dff4cdd19792031001
+        version_id: '1768826878111650'
   - relpath: Art/AiArtData/GoogleAI-theAIgang.jpg
     md5: 183fa53a6fc9d922b6aa3af4b317df6f
     size: 656688
+    cloud:
+      remote_storage:
+        etag: 08f58bdfced19792031001
+        version_id: '1768826879854069'
   - relpath: Art/AiArtData/Gopnik_ai_art.jpg
     md5: d9e7e980a520616c51c2a988d22015d4
     size: 1361812
+    cloud:
+      remote_storage:
+        etag: 08f4efaaced19792031001
+        version_id: '1768826878998516'
   - relpath: Art/AiArtData/Group_12467.jpg
     md5: abc1d303e5ceb2cb6d36f53b75a3c279
     size: 92925
+    cloud:
+      remote_storage:
+        etag: 089cebf9cdd19792031001
+        version_id: '1768826878195100'
   - relpath: Art/AiArtData/HD-wallpaper-ai-landscape-2023-digital-art.jpg
     md5: f78acb1285ee995babd73235317f608c
     size: 50063
+    cloud:
+      remote_storage:
+        etag: 089a85abcfd19792031001
+        version_id: '1768826881098394'
   - relpath: 
       Art/AiArtData/HD-wallpaper-artwork-midjourney-ai-ai-generated-nature-landscape-mountains-resolution.jpg
     md5: 52842539f91fdfbec01bd5c047afb272
     size: 131421
+    cloud:
+      remote_storage:
+        etag: 08cf9ab2cdd19792031001
+        version_id: '1768826877021519'
   - relpath: Art/AiArtData/Hallucinating-with-AI-1200x960.png
     md5: a2031a9795e78cc5b63070e83384f000
     size: 1650782
+    cloud:
+      remote_storage:
+        etag: 08abc2c6cfd19792031001
+        version_id: '1768826881548587'
   - relpath: Art/AiArtData/Header-2.jpg
     md5: 3a995eb247ddbdc62021c11bccc48c77
     size: 300970
+    cloud:
+      remote_storage:
+        etag: 08c8e6eaced19792031001
+        version_id: '1768826880045896'
   - relpath: Art/AiArtData/Header-L-316a743.jpg
     md5: 905b657b4cda07a10c71d83c1c5763a6
     size: 172618
+    cloud:
+      remote_storage:
+        etag: 0888e0c3cdd19792031001
+        version_id: '1768826877308936'
   - relpath: 
       Art/AiArtData/How-can-AI-unlock-the-psychedelic-drugs-do-to-our-brains.jpg
     md5: 5d5f76398fd0cc961d2970cbd5731bc0
     size: 505821
+    cloud:
+      remote_storage:
+        etag: 08ce89ecced19792031001
+        version_id: '1768826880066766'
   - relpath: 
       Art/AiArtData/How-to-Earn-Money-through-AI-Generated-Artwork-A-Simplified-Guide.jpg
     md5: aa54f032070fc9ef951021b18994330a
     size: 41030
+    cloud:
+      remote_storage:
+        etag: 08b9e5a4cdd19792031001
+        version_id: '1768826876801721'
   - relpath: Art/AiArtData/How-to-Use-Midjourney-to-create-AI-Art.jpg
     md5: 4f6a75d283b2766f60f5085d070acd19
     size: 210863
+    cloud:
+      remote_storage:
+        etag: 08f8b5b3ced19792031001
+        version_id: '1768826879138552'
   - relpath: Art/AiArtData/Imagen-comp.jpeg
     md5: 63497caa2eefc14d1bfdf333fa675470
     size: 885030
+    cloud:
+      remote_storage:
+        etag: 08e5988fcdd19792031001
+        version_id: '1768826876447845'
   - relpath: 
       Art/AiArtData/Instagram_Viral_Image_AI_Cat_Dog_1680332724335_1680332736162_1680332736162.png
     md5: f5d157f63bf6fb60b824900f1817c4d1
     size: 93727
+    cloud:
+      remote_storage:
+        etag: 08bfa0d6ced19792031001
+        version_id: '1768826879709247'
   - relpath: Art/AiArtData/Israeli-artist1.jpeg
     md5: 089d54194a92ffc04456aeb98bafe451
     size: 545075
+    cloud:
+      remote_storage:
+        etag: 08c7b1fdccd19792031001
+        version_id: '1768826876156103'
   - relpath: Art/AiArtData/Julian-van-Dieken_A-Girl-With-Glowing-Earrings-.png
     md5: 036f7f19af3fc9da1c2661114dd123b0
     size: 446572
+    cloud:
+      remote_storage:
+        etag: 0891f1f3cdd19792031001
+        version_id: '1768826878097553'
   - relpath: Art/AiArtData/JuliePowell_AI-Banner.jpg
     md5: debc510eb0cfbacc9b9c95efb4f4ded7
     size: 322017
+    cloud:
+      remote_storage:
+        etag: 08b7fcfcced19792031001
+        version_id: '1768826880343607'
   - relpath: Art/AiArtData/Kai-painting-2023.png
     md5: 9f36e1fbfd6233bf055687c2a99a0509
     size: 1460244
+    cloud:
+      remote_storage:
+        etag: 0891a0e1cdd19792031001
+        version_id: '1768826877792273'
   - relpath: Art/AiArtData/Lensa20AI20portraits202.jpg
     md5: 927407852cf7831afbde58686b53ee9a
     size: 195990
+    cloud:
+      remote_storage:
+        etag: 08f8e4d7ced19792031001
+        version_id: '1768826879734392'
   - relpath: Art/AiArtData/MIDJOURNEY.jpg
     md5: 6e6a307433c656d9912f7e2bad515f71
     size: 542292
+    cloud:
+      remote_storage:
+        etag: 08b5d2bbced19792031001
+        version_id: '1768826879273269'
   - relpath: Art/AiArtData/MIT-3Q-GenerativeAI-01-press.jpg
     md5: 95b070eae49e2ebbc63821bdd6906d78
     size: 1705640
+    cloud:
+      remote_storage:
+        etag: 08ca94c8cfd19792031001
+        version_id: '1768826881575498'
   - relpath: Art/AiArtData/Marvel-Secret-Invasion-Opening-Credits-AI-Art.jpg
     md5: b34e46841d9033443f92ab6f26965427
     size: 172251
+    cloud:
+      remote_storage:
+        etag: 08c3ddeecdd19792031001
+        version_id: '1768826878013123'
   - relpath: 
       Art/AiArtData/MicrosoftTeams-image551ad57e01403f080a9df51975ac40b6efba82553c323a742b42b1c71c1e45f1.jpg
     md5: a16436a656b05ace870b9bf22d8edb4d
     size: 95023
+    cloud:
+      remote_storage:
+        etag: 08b7dec5ced19792031001
+        version_id: '1768826879438647'
   - relpath: Art/AiArtData/MidJourney-content-policy-1024x576.jpg
     md5: f7a2e6ea39849af025341860a18f71a3
     size: 142008
+    cloud:
+      remote_storage:
+        etag: 089090d4ced19792031001
+        version_id: '1768826879674384'
   - relpath: Art/AiArtData/Midjourney-1-9527a04.jpg
     md5: 2860cae7aeaefd9de1d08bd276e77b13
     size: 87334
+    cloud:
+      remote_storage:
+        etag: 08d0ca8fcdd19792031001
+        version_id: '1768826876454224'
   - relpath: Art/AiArtData/Midjourney-2.png
     md5: 7217ab7eaa61c0e9834976fcc03d4b36
     size: 1008197
+    cloud:
+      remote_storage:
+        etag: 08ebd685cdd19792031001
+        version_id: '1768826876291947'
   - relpath: Art/AiArtData/Midjourney-AI-Art-Clown.png
     md5: b7ca1ca6057a7e08658f39d341a030d4
     size: 1344339
+    cloud:
+      remote_storage:
+        etag: 08aae7e3cdd19792031001
+        version_id: '1768826877834154'
   - relpath: Art/AiArtData/Midjourney-L-2068f65.jpg
     md5: ecf3d05abd664f39664b973779035f08
     size: 150219
+    cloud:
+      remote_storage:
+        etag: 08fabbd0cdd19792031001
+        version_id: '1768826877517306'
   - relpath: Art/AiArtData/Midjourney-Mishra-abstract-dancing-painting.jpg
     md5: a128b8413d6ce5f7f4c52a576b690cee
     size: 84060
+    cloud:
+      remote_storage:
+        etag: 08c4b58fcfd19792031001
+        version_id: '1768826880645828'
   - relpath: Art/AiArtData/Midjourney-River.jpg
     md5: 9e15583a0fa1b732f42e016844a1518e
     size: 1390510
+    cloud:
+      remote_storage:
+        etag: 08f3d9e7cdd19792031001
+        version_id: '1768826877897971'
   - relpath: Art/AiArtData/Midjourney-Tips.png
     md5: bbece96d1ea64d099cd7d02bc9485be8
     size: 1774015
+    cloud:
+      remote_storage:
+        etag: 0886abd7cdd19792031001
+        version_id: '1768826877629830'
   - relpath: Art/AiArtData/Midjourney-copyright.jpg
     md5: 21041f19101a3bab1cd723b4ce7552d8
     size: 115195
+    cloud:
+      remote_storage:
+        etag: 08a8fcb1cdd19792031001
+        version_id: '1768826877017640'
   - relpath: Art/AiArtData/Midjourney-guide-explained-how-to-use-370x490.jpg
     md5: 5f194c22d490550a6fef15fe4845349b
     size: 39308
+    cloud:
+      remote_storage:
+        etag: 089bc5fdccd19792031001
+        version_id: '1768826876158619'
   - relpath: Art/AiArtData/Midjourney-montage.jpg
     md5: 9cf79bb8568790ea2588c8e84a635607
     size: 142163
+    cloud:
+      remote_storage:
+        etag: 0883a6f7ced19792031001
+        version_id: '1768826880250627'
   - relpath: Art/AiArtData/Midjourney-prompt-23b3316-e1679066406110.png
     md5: 6887092fd29d3adea1090d4b66c4ac00
     size: 363462
+    cloud:
+      remote_storage:
+        etag: 08e8eac2cdd19792031001
+        version_id: '1768826877293928'
   - relpath: Art/AiArtData/Midjourney-v6.jpeg
     md5: 36809f956efebb1d56dd12c8ff107d03
     size: 234440
+    cloud:
+      remote_storage:
+        etag: 08839083ced19792031001
+        version_id: '1768826878347267'
   - relpath: Art/AiArtData/Midjourney-v62.png
     md5: 06042d298b791e937280f867a9c49b29
     size: 1437804
+    cloud:
+      remote_storage:
+        etag: 08e39c91cdd19792031001
+        version_id: '1768826876481123'
   - relpath: Art/AiArtData/Midjourney.png
     md5: 6c43fb815e1be7c0c66bce63101e9671
     size: 853383
+    cloud:
+      remote_storage:
+        etag: 0898ec9ecdd19792031001
+        version_id: '1768826876704280'
   - relpath: Art/AiArtData/NVIDIA-GauGAN-AI-demo-screenshot.jpg
     md5: f6be0ff1e8cffd1dec5c4aa40ef0cb0c
     size: 420351
+    cloud:
+      remote_storage:
+        etag: 089ea88bcfd19792031001
+        version_id: '1768826880578590'
   - relpath: Art/AiArtData/NeseDevenot_02.jpg
     md5: 8ce9d2e42dee179d9be8328d19f0be1f
     size: 36683
+    cloud:
+      remote_storage:
+        etag: 088aa4f1ccd19792031001
+        version_id: '1768826875957770'
   - relpath: Art/AiArtData/Nov20_17_498430921.jpg
     md5: c264245e48fb121a5f96475b895d473d
     size: 1214790
+    cloud:
+      remote_storage:
+        etag: 08eab187cfd19792031001
+        version_id: '1768826880514282'
   - relpath: Art/AiArtData/Picture1.jpg
     md5: 6ae0b381ec03072161589b972dce0f29
     size: 155804
+    cloud:
+      remote_storage:
+        etag: 0895b199cfd19792031001
+        version_id: '1768826880809109'
   - relpath: Art/AiArtData/Portrait-hero-image.png
     md5: d8b01ee573b863917ec3c5dea8e6b4ed
     size: 199845
+    cloud:
+      remote_storage:
+        etag: 08cdb4dcced19792031001
+        version_id: '1768826879810125'
   - relpath: Art/AiArtData/Portrait-of-The-Rift-created-by-Midjourney.png
     md5: 36c025f04f2f4395efaa2e6df616ea6d
     size: 566754
+    cloud:
+      remote_storage:
+        etag: 089f91fccdd19792031001
+        version_id: '1768826878232735'
   - relpath: Art/AiArtData/Portrait_and_paint_drops_Generative_AI.png
     md5: ca5223c4d07b68c885a44125a1b35d26
     size: 1856567
+    cloud:
+      remote_storage:
+        etag: 08f0dc86cfd19792031001
+        version_id: '1768826880503408'
   - relpath: Art/AiArtData/Portrait_female_Midjourney.jpg
     md5: 23484d9c6d90edfc2c53a0738c36ca76
     size: 67562
+    cloud:
+      remote_storage:
+        etag: 08adf2f0cdd19792031001
+        version_id: '1768826878048557'
   - relpath: 
       Art/AiArtData/Psychedelic-AI-Dreaming-In-Cosmic-Horror-Style-41916264-1.png
     md5: 67466d946dda8e1eb51104b5e5bacd4c
     size: 150688
+    cloud:
+      remote_storage:
+        etag: 08eee6faccd19792031001
+        version_id: '1768826876113774'
   - relpath: Art/AiArtData/Realistic-Images.jpg
     md5: 770021c359ba686dd0d05e816603d8c6
     size: 372350
+    cloud:
+      remote_storage:
+        etag: 08868ff6cdd19792031001
+        version_id: '1768826878134150'
   - relpath: Art/AiArtData/Robot_painting-1024x576.jpg
     md5: d2ecd7b5f5e1cd63ce16a8b63f172e43
     size: 91164
+    cloud:
+      remote_storage:
+        etag: 08d39680cfd19792031001
+        version_id: '1768826880396115'
   - relpath: Art/AiArtData/SC-AI-Woman-Off-Plat2-copy-1.jpg
     md5: c3f53e70c87f40853203c87b931db719
     size: 3330046
+    cloud:
+      remote_storage:
+        etag: 08acc8b6cfd19792031001
+        version_id: '1768826881287212'
   - relpath: Art/AiArtData/Screen_Shot_2023-01-22_at_5.33.01_PM.png
     md5: 06d99d352ca6688c5bf8048ec747093d
     size: 4554287
+    cloud:
+      remote_storage:
+        etag: 08e6e394ced19792031001
+        version_id: '1768826878636518'
   - relpath: Art/AiArtData/Simon_HERO.png
     md5: 224e51dbf49235b7f718093ac8505020
     size: 547362
+    cloud:
+      remote_storage:
+        etag: 08fab18acfd19792031001
+        version_id: '1768826880563450'
   - relpath: Art/AiArtData/Spot-the-bot-v1.png
     md5: 85a6c622713982d7d453cc0706e9e02f
     size: 629596
+    cloud:
+      remote_storage:
+        etag: 08b9a0c4cfd19792031001
+        version_id: '1768826881511481'
   - relpath: 
       Art/AiArtData/The-Lensa-app-generates-AI-art-but-at-what-cost_-Photo-courtesy-of-Lensa-app.-900x900.jpg
     md5: 5c787589999faca776fee4d92638b5c7
     size: 118911
+    cloud:
+      remote_storage:
+        etag: 08d5b5b7cdd19792031001
+        version_id: '1768826877106901'
   - relpath: 
       Art/AiArtData/The-Most-Beautiful-Men-and-Women-in-the-World-According-to-AI-641d79584ef75__880.jpg
     md5: 28ac560e6ca39c03c198bc46ebc85eff
     size: 59516
+    cloud:
+      remote_storage:
+        etag: 08bcea81cdd19792031001
+        version_id: '1768826876228924'
   - relpath: 
       Art/AiArtData/Top-7-Amazing-Artworks-Meet-the-AI-Art-Makers-of-the-Future-AI-generated-eyes_face-of-a-woman.jpg
     md5: 33fb87901ea341bf78bb286e7861e3b8
     size: 393939
+    cloud:
+      remote_storage:
+        etag: 089ca0a5ced19792031001
+        version_id: '1768826878906396'
   - relpath: 
       Art/AiArtData/Turn-a-selfie-into-AI-portraits-in-different-styles-instantly-with-Fotor-AI-portrait-generator.jpg
     md5: 8fa55aaf0e4e86421bf40ba556772ca2
     size: 65216
+    cloud:
+      remote_storage:
+        etag: 089697e3cdd19792031001
+        version_id: '1768826877823894'
   - relpath: Art/AiArtData/UNfSEPwoEvvYcUN4H7PR.jpg
     md5: 0c5bde8740a8ec1f70ce41c936ab5a86
     size: 53438
+    cloud:
+      remote_storage:
+        etag: 08cb809bcfd19792031001
+        version_id: '1768826880835659'
   - relpath: Art/AiArtData/Using-Ai-art-tools-neuroflash.com_.png
     md5: f67b14bd94e4c629bcfcd7c594b57201
     size: 192654
+    cloud:
+      remote_storage:
+        etag: 08c29281cdd19792031001
+        version_id: '1768826876217666'
   - relpath: Art/AiArtData/Various-AI-portraits-generated-by-Fotor.jpg
     md5: 2764239ca6fd5abc73437b81a6ef6cfa
     size: 108222
+    cloud:
+      remote_storage:
+        etag: 08e0eed0ced19792031001
+        version_id: '1768826879620960'
   - relpath: Art/AiArtData/Vincent-Favilla-_Pondering_-800x550.jpg
     md5: 2762e75294da2f5172cce0ef1d35ccf5
     size: 61159
+    cloud:
+      remote_storage:
+        etag: 08a99282cdd19792031001
+        version_id: '1768826876234025'
   - relpath: Art/AiArtData/Vincent-progress.jpg
     md5: 91d906462b5876f9613e0f8408d72451
     size: 266016
+    cloud:
+      remote_storage:
+        etag: 08bbc4b0cdd19792031001
+        version_id: '1768826876994107'
   - relpath: Art/AiArtData/WTV_AI_Split_1000x562_Klimt.jpg
     md5: 986bbad3a0dd881f1f015550948c0f28
     size: 1078049
+    cloud:
+      remote_storage:
+        etag: 08eeee91ced19792031001
+        version_id: '1768826878588782'
   - relpath: 
       Art/AiArtData/Worlds-First-AI-Generated-Art-Gallery-in-Amsterdam.jpg
     md5: 057f482fe322b2b51ad04c06c25edac4
     size: 172458
+    cloud:
+      remote_storage:
+        etag: 08a4c2bdcdd19792031001
+        version_id: '1768826877206820'
   - relpath: 
       Art/AiArtData/_a_peaceful_countryside_Beaches_with_a__2edf54e5-d4e4-4507-abde-4f81b9754b54.png
     md5: 4cbccaed33c7f31df324603cb3fdf429
     size: 1318565
+    cloud:
+      remote_storage:
+        etag: 08ad8ea8ced19792031001
+        version_id: '1768826878953261'
   - relpath: 
       Art/AiArtData/_portrait_of_a_stunning_Indian_v_95ff3e93-40ba-4dd8-90ed-d83729d37704-scaled.jpg
     md5: 6b2cb38790d4dd2a4b1959c3a6f4ed13
     size: 408176
+    cloud:
+      remote_storage:
+        etag: 08d7b09dcfd19792031001
+        version_id: '1768826880874583'
   - relpath: Art/AiArtData/a-3-718x523.jpeg
     md5: 28e47be55acb273508c20946882e9d24
     size: 51278
+    cloud:
+      remote_storage:
+        etag: 08ccc4c5ced19792031001
+        version_id: '1768826879435340'
   - relpath: 
       Art/AiArtData/a-beautiful-forest-landscape-made-by-ai-landscape-generator.jpg
     md5: e197981cfc7e0af0d7e9ac939649caeb
     size: 52205
+    cloud:
+      remote_storage:
+        etag: 08f7e0d3ced19792031001
+        version_id: '1768826879668343'
   - relpath: 
       Art/AiArtData/a-painting-depicting-the-experience-of-an-lsd-trip-psychedelic-ai-generated-free-photo.JPG.jpg
     md5: f87cf2dd177ecf3d89a82e32067b283c
     size: 553970
+    cloud:
+      remote_storage:
+        etag: 08c9808dced19792031001
+        version_id: '1768826878509129'
   - relpath: Art/AiArtData/a1ecf33fc27a086ef0120e46385f.jpg
     md5: f2b9a1ecf33fc27a086ef0120e46385f
     size: 1435325
+    cloud:
+      remote_storage:
+        etag: 088fe094ced19792031001
+        version_id: '1768826878636047'
   - relpath: Art/AiArtData/a4411c44-c1cc-45ca-bf4b-2ecaf5172ba8.jpg
     md5: 706190839190ca55df70dfbff4571c27
     size: 157023
+    cloud:
+      remote_storage:
+        etag: 089b9294cfd19792031001
+        version_id: '1768826880723227'
   - relpath: Art/AiArtData/a823fafc36560121553573b1a7252334d9616c2f-1216x705.jpg
     md5: f948d3e7759c4d6f6a92b671b0c343b2
     size: 95653
+    cloud:
+      remote_storage:
+        etag: 08c0d7a0ced19792031001
+        version_id: '1768826878831552'
   - relpath: Art/AiArtData/ah3-932b64a175ba.jpeg
     md5: 3b69f4e89d59fac92c95339664190520
     size: 3013366
+    cloud:
+      remote_storage:
+        etag: 08dbe5b6cfd19792031001
+        version_id: '1768826881290971'
   - relpath: 
       Art/AiArtData/ai-art-beautiful-psychedelic-colored-angel-with-butterflies-2-rose-santuci-sofranko.jpg
     md5: e2f1e9c4ce9f2cd48c3090484a4b0166
     size: 199399
+    cloud:
+      remote_storage:
+        etag: 08b1aa9dcfd19792031001
+        version_id: '1768826880873777'
   - relpath: Art/AiArtData/ai-art-canva.jpg
     md5: 6a582d6c3f0997a8c733db805e47fc17
     size: 69591
+    cloud:
+      remote_storage:
+        etag: 08f5f8e6cdd19792031001
+        version_id: '1768826877885557'
   - relpath: 
       Art/AiArtData/ai-art-illustration-landscape-hd-wallpaper-preview.jpg
     md5: e0ea68d7dd3873613b6fb5e55c6726b0
     size: 78703
+    cloud:
+      remote_storage:
+        etag: 08a7a9edccd19792031001
+        version_id: '1768826875892903'
   - relpath: Art/AiArtData/ai-art-prompt-8.png
     md5: 2f5c103bad84794b7f1ed660843734f1
     size: 1554636
+    cloud:
+      remote_storage:
+        etag: 0886dac4cfd19792031001
+        version_id: '1768826881518854'
   - relpath: Art/AiArtData/ai-art-voguebus-photographer-month-22-story.jpg
     md5: 5ab7354738f81b1bf3944937213a66fa
     size: 422104
+    cloud:
+      remote_storage:
+        etag: 08c6ef85cdd19792031001
+        version_id: '1768826876295110'
   - relpath: Art/AiArtData/ai-art.jpg
     md5: dbb3b6a48f9c3add564b4ab142c14aba
     size: 59190
+    cloud:
+      remote_storage:
+        etag: 08838fe2ccd19792031001
+        version_id: '1768826875709315'
   - relpath: Art/AiArtData/ai-art.png
     md5: f014273e9af9c9bb7ac0d492ba00c886
     size: 1077286
+    cloud:
+      remote_storage:
+        etag: 08bfddcfced19792031001
+        version_id: '1768826879602367'
   - relpath: Art/AiArtData/ai-cartoon-portraits-01.jpg
     md5: 10c9f494f8304d92fdc2538fd2fd8658
     size: 129984
+    cloud:
+      remote_storage:
+        etag: 08c3ad9ecdd19792031001
+        version_id: '1768826876696259'
   - relpath: Art/AiArtData/ai-created-women-visuals-02.jpg
     md5: 62b68209e8a3ffd8b81256f9fcdaa765
     size: 77006
+    cloud:
+      remote_storage:
+        etag: 089caec7ced19792031001
+        version_id: '1768826879465244'
   - relpath: 
       Art/AiArtData/ai-da-robot-ai-paintings-technology-news_dezeen_2364_col_8.jpg
     md5: 1597afc0a022bb4b6ada26b3c3121832
     size: 922424
+    cloud:
+      remote_storage:
+        etag: 088a88e0cdd19792031001
+        version_id: '1768826877772810'
   - relpath: Art/AiArtData/ai-ethicsconference-poster_v5_0.jpg
     md5: 951e089bb0d1e600181be0e106969059
     size: 107134
+    cloud:
+      remote_storage:
+        etag: 0894a090ced19792031001
+        version_id: '1768826878562324'
   - relpath: Art/AiArtData/ai-faces-white.jpg
     md5: 3f8e8de4dfc5b9cec4ee79582165f630
     size: 348898
+    cloud:
+      remote_storage:
+        etag: 08f49dd6cdd19792031001
+        version_id: '1768826877611764'
   - relpath: Art/AiArtData/ai-future-creativity.jpg
     md5: af25b242c378ac1f25e2f732c86b05ac
     size: 39342
+    cloud:
+      remote_storage:
+        etag: 0881fa86cfd19792031001
+        version_id: '1768826880507137'
   - relpath: Art/AiArtData/ai-generated-7483596_1280.jpg
     md5: 9635910739794288b000af48ae655b39
     size: 486572
+    cloud:
+      remote_storage:
+        etag: 08e5aae3cdd19792031001
+        version_id: '1768826877826405'
   - relpath: Art/AiArtData/ai-generated-7670948_1280.jpg
     md5: ab6f69282c546c4beadbc5b100e5be3a
     size: 376435
+    cloud:
+      remote_storage:
+        etag: 08fcc1e1ced19792031001
+        version_id: '1768826879893756'
   - relpath: Art/AiArtData/ai-generated-7768378_1280.jpg
     md5: f4856a1c7f2f2b8e52697eb8488d350d
     size: 252076
+    cloud:
+      remote_storage:
+        etag: 08b8bf9dcfd19792031001
+        version_id: '1768826880876472'
   - relpath: Art/AiArtData/ai-generated-7787714_1280.jpg
     md5: 245414a38bd8329292a45bb1ecf6cb97
     size: 180542
+    cloud:
+      remote_storage:
+        etag: 08b5d590cdd19792031001
+        version_id: '1768826876471989'
   - relpath: Art/AiArtData/ai-generated-7820332_1280.jpg
     md5: 3d0750916369b7ee453d0c39901ce718
     size: 352951
+    cloud:
+      remote_storage:
+        etag: 08dda9e9ccd19792031001
+        version_id: '1768826875827421'
   - relpath: Art/AiArtData/ai-generated-7845357_640.jpg
     md5: 67970383341ad0d464811ba55160222d
     size: 93481
+    cloud:
+      remote_storage:
+        etag: 08c5efeaced19792031001
+        version_id: '1768826880047045'
   - relpath: Art/AiArtData/ai-generated-7921580_1280.jpg
     md5: 228775852e9806e0423bd76008619aaf
     size: 498280
+    cloud:
+      remote_storage:
+        etag: 08899ef9cdd19792031001
+        version_id: '1768826878185225'
   - relpath: Art/AiArtData/ai-generated-8067660_1280.jpg
     md5: 247096f6a5f69b0a0d651a1f73fb5e9b
     size: 424369
+    cloud:
+      remote_storage:
+        etag: 08cbb788cdd19792031001
+        version_id: '1768826876337099'
   - relpath: Art/AiArtData/ai-generated-8146218_1280.png
     md5: 85c551ce519582b088921408504fc8e7
     size: 608035
+    cloud:
+      remote_storage:
+        etag: 089e92ebced19792031001
+        version_id: '1768826880051486'
   - relpath: Art/AiArtData/ai-generated-8175497_1280.jpg
     md5: 43bdd3a87a9541f0240243b10c55da7f
     size: 357938
+    cloud:
+      remote_storage:
+        etag: 08f6dab9cfd19792031001
+        version_id: '1768826881338742'
   - relpath: Art/AiArtData/ai-generated-8247695_1280.jpg
     md5: cd113ec5186d5702b3802d7a50250998
     size: 248664
+    cloud:
+      remote_storage:
+        etag: 08f9b5c8ced19792031001
+        version_id: '1768826879482617'
   - relpath: Art/AiArtData/ai-generated-8260240_1280.jpg
     md5: ea35a656d7c6548527827341cafdc8b0
     size: 290450
+    cloud:
+      remote_storage:
+        etag: 0885e7b3cfd19792031001
+        version_id: '1768826881241989'
   - relpath: Art/AiArtData/ai-generated-animal-crossbreeds-02.jpg
     md5: 0bb587ac9bdb4447c966693281cfc77e
     size: 85190
+    cloud:
+      remote_storage:
+        etag: 08ecafd2ced19792031001
+        version_id: '1768826879645676'
   - relpath: Art/AiArtData/ai-generated-animal-crossbreeds-06.jpg
     md5: bd8231fce4d3c49cd3b3cef0e0b7dafc
     size: 103462
+    cloud:
+      remote_storage:
+        etag: 0880dce4ced19792031001
+        version_id: '1768826879946240'
   - relpath: Art/AiArtData/ai-generated-animal-crossbreeds-09.jpg
     md5: deb314077141effc472e17efea6be04f
     size: 103479
+    cloud:
+      remote_storage:
+        etag: 08a898b1ced19792031001
+        version_id: '1768826879101992'
   - relpath: Art/AiArtData/ai-generated-background-1.jpg
     md5: 48ad292f340871b93d63786e32e13979
     size: 79856
+    cloud:
+      remote_storage:
+        etag: 08d1dbe4ced19792031001
+        version_id: '1768826879946193'
   - relpath: Art/AiArtData/ai-generated-human-2.png
     md5: 70abc534fa9924247be94b0ae778cfb1
     size: 489898
+    cloud:
+      remote_storage:
+        etag: 0890f6e6ced19792031001
+        version_id: '1768826879982352'
   - relpath: 
       Art/AiArtData/ai-generated-illistration-group-animals-wearing-designer-jacket-high-fashion_441362-3757.jpg
     md5: bbfff553093bb27860564a48019fa546
     size: 99891
+    cloud:
+      remote_storage:
+        etag: 08a98ebdcdd19792031001
+        version_id: '1768826877200169'
   - relpath: 
       Art/AiArtData/ai-generated-photos-1514935235304-videoSixteenByNineJumbo1600-v4.jpg
     md5: e4f04189ed4c6223c13b9c9a198a48df
     size: 1130120
+    cloud:
+      remote_storage:
+        etag: 08b3b38dced19792031001
+        version_id: '1768826878515635'
   - relpath: Art/AiArtData/ai-generated-photos-aurel-manea-1.jpg
     md5: 346a2a3a7bd43d3d9b21c3f3191d9bf9
     size: 153338
+    cloud:
+      remote_storage:
+        etag: 08da8790cdd19792031001
+        version_id: '1768826876462042'
   - relpath: 
       Art/AiArtData/ai-generated-portrait-of-cat-businessman-animal-head-in-business-suit-photo.jpg
     md5: fc45198d2e99def378642187b427f22b
     size: 302942
+    cloud:
+      remote_storage:
+        etag: 08e4ded5cdd19792031001
+        version_id: '1768826877603684'
   - relpath: Art/AiArtData/ai-generated-throwback-yearbook.jpg
     md5: 721c4ce41058acd5160aa52ba124b84b
     size: 77350
+    cloud:
+      remote_storage:
+        etag: 08aec4cbced19792031001
+        version_id: '1768826879533614'
   - relpath: Art/AiArtData/ai-header-4.jpg
     md5: 6f50e257b5a60d538e1fb01f9125848d
     size: 136327
+    cloud:
+      remote_storage:
+        etag: 08b094cbced19792031001
+        version_id: '1768826879527472'
   - relpath: Art/AiArtData/ai-images-news.jpg
     md5: 2ca694d4098d06d98a0d289f9b204fd1
     size: 258657
+    cloud:
+      remote_storage:
+        etag: 08f599c0cfd19792031001
+        version_id: '1768826881445109'
   - relpath: Art/AiArtData/ai-last-selfie-taken-earth-comp.jpg
     md5: 0f53144640af9b2a6b8cc421e3c9da4a
     size: 981351
+    cloud:
+      remote_storage:
+        etag: 08c5e4f3ccd19792031001
+        version_id: '1768826875998789'
   - relpath: Art/AiArtData/ai-paintings-bali-van-gogh-512.jpg
     md5: f0d0dbf97db127447cb85048c5e0b556
     size: 102042
+    cloud:
+      remote_storage:
+        etag: 08fdfeb3cdd19792031001
+        version_id: '1768826877050749'
   - relpath: Art/AiArtData/ai-portrait-10.jpg
     md5: c0a1b7ce55e76bc4aa3b52224a5f11e9
     size: 87570
+    cloud:
+      remote_storage:
+        etag: 088e8cbacdd19792031001
+        version_id: '1768826877150734'
   - relpath: Art/AiArtData/ai-portraits-ars.jpg
     md5: bcd8bc3fa7b80c39aef93c61999cd78d
     size: 1273285
+    cloud:
+      remote_storage:
+        etag: 0883afa9cdd19792031001
+        version_id: '1768826876876675'
   - relpath: Art/AiArtData/ai-portraits-celebrities-beyonce.jpg
     md5: 3078f6f5aa7148c67638d7ac6cc65d91
     size: 38785
+    cloud:
+      remote_storage:
+        etag: 089bdc84ced19792031001
+        version_id: '1768826878373403'
   - relpath: Art/AiArtData/ai-portraits-celebrities-dwayne-johnson-the-rock.jpg
     md5: f889e4022d390fa67f7afd3e4e4a6d70
     size: 54238
+    cloud:
+      remote_storage:
+        etag: 08bcf38dcdd19792031001
+        version_id: '1768826876426684'
   - relpath: Art/AiArtData/ai-portraits-celebrities-keanu-reeves.jpg
     md5: d1e0b067c0d965decd9e1b2ecf34a678
     size: 67342
+    cloud:
+      remote_storage:
+        etag: 08f6ef9fced19792031001
+        version_id: '1768826878818294'
   - relpath: 
       Art/AiArtData/ai-portraits-millions-actors-photos-designboom-1200.jpg
     md5: ca0c0eb092cd5544826f8819a39c169e
     size: 145308
+    cloud:
+      remote_storage:
+        etag: 0890a9dfced19792031001
+        version_id: '1768826879857808'
   - relpath: 
       Art/AiArtData/ai-transforms-celebrities-photo-into-old-portraits-paintings-5d380c16e46fd__700.jpg
     md5: 722f28c58e8a8efb880f296c1c735d37
     size: 37226
+    cloud:
+      remote_storage:
+        etag: 08b0999ccfd19792031001
+        version_id: '1768826880855216'
   - relpath: Art/AiArtData/ai20images20holi20vrindavan1687103503681.jpg
     md5: 17259c047dd0031112c301ec140b9db7
     size: 175451
+    cloud:
+      remote_storage:
+        etag: 08a6b1afcfd19792031001
+        version_id: '1768826881169574'
   - relpath: Art/AiArtData/ai_image_landscape_12x.png
     md5: b458f4b7121a69715f0e1e6551d1187d
     size: 624944
+    cloud:
+      remote_storage:
+        etag: 08deeaa5cfd19792031001
+        version_id: '1768826881013086'
   - relpath: Art/AiArtData/aiart.jpg
     md5: 2832643e0a6a9b6ecec951d04e520f16
     size: 475143
+    cloud:
+      remote_storage:
+        etag: 08ba9df3ced19792031001
+        version_id: '1768826880183994'
   - relpath: Art/AiArtData/aiart.png
     md5: 6b29fc20605da2e4a74e515b6825e951
     size: 1472830
+    cloud:
+      remote_storage:
+        etag: 089ba88ccfd19792031001
+        version_id: '1768826880594971'
   - relpath: 
       Art/AiArtData/ake-underwater-landscape-background-adventure-explore-vibe-graphic-art-photo.jpg
     md5: 9738d851a1d0604745c3a4392c4a6af5
     size: 1126107
+    cloud:
+      remote_storage:
+        etag: 08bef4edccd19792031001
+        version_id: '1768826875902526'
   - relpath: 
       Art/AiArtData/ale_full_body_glasses_sci-fi_maximum__6c55f7b9-e0e6-4588-bc6e-aa6a4fbfea38-1.png
     md5: 2e61dd1bef6a91927c6be7c0e03653e7
     size: 1986317
+    cloud:
+      remote_storage:
+        etag: 089fc689cdd19792031001
+        version_id: '1768826876355359'
   - relpath: Art/AiArtData/alice.png
     md5: 4130b6778893450ea37c188c422f8ee3
     size: 1660533
+    cloud:
+      remote_storage:
+        etag: 089fe79fced19792031001
+        version_id: '1768826878817183'
   - relpath: 
       Art/AiArtData/amazonaws.com2Fpublic2Fimages2Fc5e787c1-70fc-4178-9f18-497c6ec85f79_832x832.jpeg
     md5: d515c95e7359cba89eb3c2f7e585325a
     size: 108252
+    cloud:
+      remote_storage:
+        etag: 088ae2ccced19792031001
+        version_id: '1768826879553802'
   - relpath: 
       Art/AiArtData/an-ai-jungle-landscape-made-by-ai-landscape-generator.jpg
     md5: 012a47bda8c401da21cdc576f0f343e9
     size: 70251
+    cloud:
+      remote_storage:
+        etag: 0896e3a1ced19792031001
+        version_id: '1768826878849430'
   - relpath: 
       Art/AiArtData/ancient_thing_when_the_leaves_take_thei_a1c8ef7e-e531-4d0d-8bcf-e5714b420f8e.png
     md5: c94d08aee182d2fc78ccd7cb2a159c70
     size: 1241106
+    cloud:
+      remote_storage:
+        etag: 089bd8a2ced19792031001
+        version_id: '1768826878864411'
   - relpath: 
       Art/AiArtData/animal-happy-character-cute-ai-generated-free-photo.jpg
     md5: 42df0ab9faca65c48cfda61efa25b013
     size: 87317
+    cloud:
+      remote_storage:
+        etag: 08bfaaf5ced19792031001
+        version_id: '1768826880218431'
   - relpath: 
       Art/AiArtData/ape_photography_Photograph_Photorealist_d64c461c-1d9d-44c5-8e09-5c35a0c37ae0.jpg
     md5: 66ca3f15e4d52aad12b730582e41f9e2
     size: 1038139
+    cloud:
+      remote_storage:
+        etag: 08fbf2b9cfd19792031001
+        version_id: '1768826881341819'
   - relpath: 
       Art/AiArtData/architecture-and-styles-midjourney-works-hassan-ragab-stirworld-230221015236.jpg
     md5: f68fdb33079f70e308b6f71023b156ad
     size: 528428
+    cloud:
+      remote_storage:
+        etag: 08c9c892cdd19792031001
+        version_id: '1768826876503113'
   - relpath: Art/AiArtData/are_ai_art_engines_ripping_off_artists.jpg
     md5: dbc08f61eb92e7f14755ed79420d17ce
     size: 204395
+    cloud:
+      remote_storage:
+        etag: 08f391e8cdd19792031001
+        version_id: '1768826877905139'
   - relpath: Art/AiArtData/artificial-intelligence-AI-art402x.png
     md5: a65cd78045604f31bd956c2dbb9f5dc3
     size: 294965
+    cloud:
+      remote_storage:
+        etag: 088e9bbecfd19792031001
+        version_id: '1768826881412494'
   - relpath: 
       Art/AiArtData/ath-flowers-vivid-colors-generative-ai-landscape-painting-mountain-281590810.jpg
     md5: 13a9744b102bdc7c1e782f9c89fe9a62
     size: 256267
+    cloud:
+      remote_storage:
+        etag: 08abbdd8ced19792031001
+        version_id: '1768826879745707'
   - relpath: Art/AiArtData/avery_hero_1-800x450.jpg
     md5: 5ddb5a875f10511bb613b6b489ef7a1e
     size: 57548
+    cloud:
+      remote_storage:
+        etag: 08b0daa9cfd19792031001
+        version_id: '1768826881076528'
   - relpath: Art/AiArtData/bDSF6saJUuPLsEu9i3ud--1--gvs7i.jpg
     md5: c7eba7f74c30138d42c741de0fcc4d03
     size: 48406
+    cloud:
+      remote_storage:
+        etag: 08a3b6dccdd19792031001
+        version_id: '1768826877713187'
   - relpath: Art/AiArtData/baby-ping.jpg
     md5: 65f8c38ee4078055032273b49ac889b0
     size: 55131
+    cloud:
+      remote_storage:
+        etag: 08d1c7ebced19792031001
+        version_id: '1768826880058321'
   - relpath: 
       Art/AiArtData/backdrop-nature-beautiful-scenery-wallpaper-ai-generated-art_853163-335.jpg
     md5: a7797e4f17bdb3f03fd35bca9db939c8
     size: 90350
+    cloud:
+      remote_storage:
+        etag: 08a2d198cfd19792031001
+        version_id: '1768826880796834'
   - relpath: Art/AiArtData/banner-img2.png
     md5: a291c5102abd890c66a7a84fe7372218
     size: 181013
+    cloud:
+      remote_storage:
+        etag: 08a1cce5ccd19792031001
+        version_id: '1768826875766305'
   - relpath: 
       Art/AiArtData/banner-of-AI-Landscape-Generator_2023-05-25-100511_xmkz.jpg
     md5: e45c0f31e7a6a4beb4ea293e7695b265
     size: 98628
+    cloud:
+      remote_storage:
+        etag: 08b1dc8ccdd19792031001
+        version_id: '1768826876407345'
   - relpath: 
       Art/AiArtData/barbsotiart_22_DEC_AIART-blog-post-content-photo-5.jpg
     md5: 853b6aab3a430b3378eaf57f5154a590
     size: 204162
+    cloud:
+      remote_storage:
+        etag: 08d699adced19792031001
+        version_id: '1768826879036630'
   - relpath: Art/AiArtData/beautiful-faces.png
     md5: c34426d04836b697e65a9ba4c9294485
     size: 2921315
+    cloud:
+      remote_storage:
+        etag: 08ef8fcacfd19792031001
+        version_id: '1768826881607663'
   - relpath: 
       Art/AiArtData/beautiful-landscape-with-mountains-lake-generative-ai_751108-3474.jpg
     md5: a2d27fd793c85568772d4fbc6d0f78c9
     size: 80920
+    cloud:
+      remote_storage:
+        etag: 08ede3f9cdd19792031001
+        version_id: '1768826878194157'
   - relpath: 
       Art/AiArtData/beautiful-psychedelic-surreal-landscape-water-painting-ai-generated-art_843679-2401.jpg
     md5: 5285693fe56557163c46d9947e1900d2
     size: 161782
+    cloud:
+      remote_storage:
+        etag: 08ce83ddcdd19792031001
+        version_id: '1768826877723086'
   - relpath: Art/AiArtData/befunky-collage_58-sixteen_nine.jpg
     md5: 1acd29c9395b22a376e4d36e9426251c
     size: 183467
+    cloud:
+      remote_storage:
+        etag: 08d48193cfd19792031001
+        version_id: '1768826880704724'
   - relpath: 
       Art/AiArtData/c6cd1ba0-f067-4ca6-9ea2-692684db2b58_hero-ai-portrait-enhancer.jpg
     md5: 01f3c75ef1fb63ab4939a9a2ce7d5329
     size: 169093
+    cloud:
+      remote_storage:
+        etag: 08fbdfaacfd19792031001
+        version_id: '1768826881093627'
   - relpath: Art/AiArtData/cafe-11-header.jpg
     md5: 4e85c804b6ecb8e08b4852daefc9666c
     size: 126505
+    cloud:
+      remote_storage:
+        etag: 08aa88b8ced19792031001
+        version_id: '1768826879214634'
   - relpath: 
       Art/AiArtData/can-artificial-intelligence-systems-like-dall-e-or-midjourney-perform-creative-tasks_8.jpg
     md5: a88d437b8525249a3fa88c8ef30cf6a5
     size: 721442
+    cloud:
+      remote_storage:
+        etag: 08a7c2becdd19792031001
+        version_id: '1768826877223207'
   - relpath: Art/AiArtData/canva-ai-best-image-generators-2023.png
     md5: 45e7d85c441361958c107f44455bd756
     size: 1212393
+    cloud:
+      remote_storage:
+        etag: 08dcc0c6cfd19792031001
+        version_id: '1768826881548380'
   - relpath: Art/AiArtData/chayka_ai_copyright.jpg
     md5: 65d529d98bc0d7d7a412311e67ec67f9
     size: 653217
+    cloud:
+      remote_storage:
+        etag: 08cee19dcdd19792031001
+        version_id: '1768826876686542'
   - relpath: Art/AiArtData/chicken-1024x683.jpg
     md5: 77f24f121655cf6a3252bf8e172cc290
     size: 77590
+    cloud:
+      remote_storage:
+        etag: 08b7e18ecdd19792031001
+        version_id: '1768826876440759'
   - relpath: 
       Art/AiArtData/chrischilek_let_your_mind_wonder_7918d619-e9c8-4374-93fb-2468f1c54130.png
     md5: 8c1518a7897c72221fb44c99f0f5f384
     size: 1805179
+    cloud:
+      remote_storage:
+        etag: 088eec88cdd19792031001
+        version_id: '1768826876343822'
   - relpath: Art/AiArtData/clgjlgjec001a08k0bhi51i88.png
     md5: 48b298af473265f6e8706a7dfd35f987
     size: 471270
+    cloud:
+      remote_storage:
+        etag: 08c494d2cdd19792031001
+        version_id: '1768826877545028'
   - relpath: Art/AiArtData/colombe.jpg
     md5: 287908cc8d558696924363e81c10d276
     size: 249089
+    cloud:
+      remote_storage:
+        etag: 08bce4e5ccd19792031001
+        version_id: '1768826875769404'
   - relpath: Art/AiArtData/cover-AI-Midjourney-3-1499x999.jpg
     md5: 618512086d5428b9002285d2e1cd72b6
     size: 236494
+    cloud:
+      remote_storage:
+        etag: 088285eaced19792031001
+        version_id: '1768826880033410'
   - relpath: 
       Art/AiArtData/create-ai-landscapes-with-ai-landscape-generator-of-fotor.jpg
     md5: d53363122a3b56c8589fdf25e0a0ab74
     size: 75354
+    cloud:
+      remote_storage:
+        etag: 08f7938bcfd19792031001
+        version_id: '1768826880575991'
   - relpath: 
       Art/AiArtData/create-text-prompts-for-you-to-create-ai-generated-arts.png
     md5: 560b5d65f6d0d78e072743e6fdc13dda
     size: 113684
+    cloud:
+      remote_storage:
+        etag: 089990b8ced19792031001
+        version_id: '1768826879215641'
   - relpath: Art/AiArtData/creepy-ai-generated-photos-743.jpg
     md5: d619f40b5d536554217d0391a688752a
     size: 286138
+    cloud:
+      remote_storage:
+        etag: 08a1d6c7cdd19792031001
+        version_id: '1768826877373217'
   - relpath: 
       Art/AiArtData/cute-animals-wearing-clothes-ai-art-dylan-cover_800.png
     md5: dd6bba8220c860b4a9d51ce9b1d6220b
     size: 1281728
+    cloud:
+      remote_storage:
+        etag: 0889f2e2ced19792031001
+        version_id: '1768826879916297'
   - relpath: Art/AiArtData/cute-dog-wearing-raincoat-3.jpg
     md5: acfee4c1a77b5ab96aa480d732051b33
     size: 319419
+    cloud:
+      remote_storage:
+        etag: 08bd8594ced19792031001
+        version_id: '1768826878624445'
   - relpath: Art/AiArtData/cute-furry-animal-ai-generated_970779-15.jpg
     md5: 8fca8462751921628ea5f9028cd714f3
     size: 96387
+    cloud:
+      remote_storage:
+        etag: 089e97adcdd19792031001
+        version_id: '1768826876939166'
   - relpath: Art/AiArtData/d5b733ded7a8468d95d56d317703b3da.jpeg
     md5: 0ac7be8670e8075eb96579e0b1970e3a
     size: 95099
+    cloud:
+      remote_storage:
+        etag: 08a3bdd6ced19792031001
+        version_id: '1768826879712931'
   - relpath: Art/AiArtData/dalle-midjourney.png
     md5: a1e40166c40f6f103b3285d48454e939
     size: 528873
+    cloud:
+      remote_storage:
+        etag: 08acb1a9cdd19792031001
+        version_id: '1768826876876972'
   - relpath: 
       Art/AiArtData/detectingai_02_wide-490b899012edf8bee6419139f70e38d991cbd644-s1100-c50.jpg
     md5: 1afe2812c5d73c49df68fbeadb58913e
     size: 101736
+    cloud:
+      remote_storage:
+        etag: 08aad0a2cdd19792031001
+        version_id: '1768826876766250'
   - relpath: Art/AiArtData/dreamstime_m_130821195-1.jpg
     md5: a2c1ea6f5a62026df5d86333e54fe45a
     size: 174158
+    cloud:
+      remote_storage:
+        etag: 08a081e7ccd19792031001
+        version_id: '1768826875789472'
   - relpath: Art/AiArtData/e47d1283-90b0-4844-98a3-41456f0c341c.jpg
     md5: 183f6f0b286e27b28f4b289f08afa0ee
     size: 97574
+    cloud:
+      remote_storage:
+        etag: 08c5ea85cfd19792031001
+        version_id: '1768826880488773'
   - relpath: Art/AiArtData/eEaTGSQwrmwcAzTDoxJc.jpg
     md5: 047ab769ad4b21d6064f1686aa04bf79
     size: 50764
+    cloud:
+      remote_storage:
+        etag: 08c7bcaeced19792031001
+        version_id: '1768826879057479'
   - relpath: 
       Art/AiArtData/earing-a-yellow-kimono-in-a-beautiful-and-foggy-tropical-greenh-copy-800x800.jpg
     md5: 6272fc5c1dae70d4df0362fe0f63834b
     size: 48900
+    cloud:
+      remote_storage:
+        etag: 0898e388cdd19792031001
+        version_id: '1768826876342680'
   - relpath: Art/AiArtData/edmond-de-belamy-framed-cropped.jpg
     md5: c0365685e35964993189d9c44a064944
     size: 260769
+    cloud:
+      remote_storage:
+        etag: 089ada96cdd19792031001
+        version_id: '1768826876570906'
   - relpath: Art/AiArtData/elephant_topper_fallback.cb6ee071.png
     md5: 1f3e9359ef38ca6d9a301e0dfb2a1d77
     size: 928092
+    cloud:
+      remote_storage:
+        etag: 08dad689cdd19792031001
+        version_id: '1768826876357466'
   - relpath: Art/AiArtData/elijah-clean28129-1.png
     md5: 2da43d160d0ab5c268d2a694c9a3cf26
     size: 641879
+    cloud:
+      remote_storage:
+        etag: 08ada5a8cfd19792031001
+        version_id: '1768826881053357'
   - relpath: Art/AiArtData/elizabeth-rev.jpg
     md5: cd7526a97baffc0106ff92b24200594f
     size: 58883
+    cloud:
+      remote_storage:
+        etag: 08dface1ced19792031001
+        version_id: '1768826879891039'
   - relpath: Art/AiArtData/erreurs-images.jpg
     md5: c9bb68cb1860d805fd2df14382a5a881
     size: 30995
+    cloud:
+      remote_storage:
+        etag: 08c0cf98cdd19792031001
+        version_id: '1768826876602304'
   - relpath: Art/AiArtData/essay-v2-gettyimages-1221733403.jpg
     md5: d095ae73101f76ad1fb4355c88097eec
     size: 126195
+    cloud:
+      remote_storage:
+        etag: 089dfbc7ced19792031001
+        version_id: '1768826879475101'
   - relpath: Art/AiArtData/f5c07759919df7b72cb9755b12.jpg
     md5: 90e24a94b4f9f09cb38a01b7797f1823
     size: 158323
+    cloud:
+      remote_storage:
+        etag: 089b84f5cdd19792031001
+        version_id: '1768826878116379'
   - relpath: Art/AiArtData/fb_image_63f375d3885d6.png
     md5: 09d7318bd01266ac3617b7d15c5b8d46
     size: 698753
+    cloud:
+      remote_storage:
+        etag: 08eba5aacfd19792031001
+        version_id: '1768826881086187'
   - relpath: 
       Art/AiArtData/fc92cc7b1e56043e12b83c18080a2aca54-ai-art.1x.rsquare.w1400.jpg
     md5: fc0d71156a3de66454e076c4b5e09611
     size: 353054
+    cloud:
+      remote_storage:
+        etag: 08d6f8c6ced19792031001
+        version_id: '1768826879458390'
   - relpath: Art/AiArtData/fdfs19-800x533.jpg
     md5: 14e75a9af059a4ea197758aa0bdb98e0
     size: 66030
+    cloud:
+      remote_storage:
+        etag: 08d9ee81cdd19792031001
+        version_id: '1768826876229465'
   - relpath: Art/AiArtData/fdfs2-800x533.jpg
     md5: 92f24bf217ecb9dbdf84f4e38b5865ad
     size: 42734
+    cloud:
+      remote_storage:
+        etag: 08b7f582cfd19792031001
+        version_id: '1768826880441015'
   - relpath: Art/AiArtData/fdfs20-800x533.jpg
     md5: 4fa256c2211845ff6f8e66629bd181ac
     size: 72885
+    cloud:
+      remote_storage:
+        etag: 08b6eda2cfd19792031001
+        version_id: '1768826880964278'
   - relpath: Art/AiArtData/fdfs22-800x533.jpg
     md5: 59daca2fee8472c2f12d29cb40b95d65
     size: 62760
+    cloud:
+      remote_storage:
+        etag: 0881b4f6ced19792031001
+        version_id: '1768826880236033'
   - relpath: Art/AiArtData/feature-image-Midjourney-subscription.png
     md5: 8d884627a7e4ef2ee727b07858f64bda
     size: 412183
+    cloud:
+      remote_storage:
+        etag: 08a19bd0cdd19792031001
+        version_id: '1768826877513121'
   - relpath: Art/AiArtData/file-20220421-24-mcdm2i.jpg
     md5: d51948919938fa1a69c3b3dccc24c74b
     size: 364336
+    cloud:
+      remote_storage:
+        etag: 0891a5f9ced19792031001
+        version_id: '1768826880283281'
   - relpath: 
       Art/AiArtData/filippo-nassetti-ai-designs-spaceships-bosch-caravaggio-designboom-600.jpg
     md5: 06c56bc9763c2434213c0e63e6672d3b
     size: 60196
+    cloud:
+      remote_storage:
+        etag: 08b4a0b8cdd19792031001
+        version_id: '1768826877120564'
   - relpath: Art/AiArtData/flat750x075f-pad750x1000f8f8f8.jpg
     md5: 6d30d0b9c0697b18dd608e07ac078543
     size: 191843
+    cloud:
+      remote_storage:
+        etag: 08d9e6aacdd19792031001
+        version_id: '1768826876900185'
   - relpath: Art/AiArtData/flat750x075f-pad750x1000f8f8f8.u2.jpg
     md5: 3209c4286923a7ecc1bbac453bbdd040
     size: 164402
+    cloud:
+      remote_storage:
+        etag: 089e91f3cdd19792031001
+        version_id: '1768826878085278'
   - relpath: Art/AiArtData/fpostersmallwall_textureproduct750x1000.u2.jpg
     md5: 0d0917a5b6c678c33c3144fb68a5f30a
     size: 112070
+    cloud:
+      remote_storage:
+        etag: 08e189d7cdd19792031001
+        version_id: '1768826877625569'
   - relpath: 
       Art/AiArtData/g_in_the_center_of_a_beautiful_landscap_b555fb6f-fb9c-4bb1-827d-ef7b1df41a7a.png
     md5: 2585c7a045aacebb8136552422526ed1
     size: 3261409
+    cloud:
+      remote_storage:
+        etag: 0899d3bfced19792031001
+        version_id: '1768826879338905'
   - relpath: Art/AiArtData/gangaster-cat-7.jpg
     md5: 08a8873943b5d4670207713293c2c72a
     size: 498194
+    cloud:
+      remote_storage:
+        etag: 0890b5c0cdd19792031001
+        version_id: '1768826877254288'
   - relpath: 
       Art/AiArtData/gar-surreal-psychedelic-abstract-expressionism-graffiti-st-olfactoart-studio.jpg
     md5: acf0410ad93590ffb17bab6f466a3ebb
     size: 148665
+    cloud:
+      remote_storage:
+        etag: 08dbb2b7ced19792031001
+        version_id: '1768826879203675'
   - relpath: Art/AiArtData/google-dream-starry-night.jpg
     md5: 652a0f342b1c5e45b390a6f6333c971d
     size: 293684
+    cloud:
+      remote_storage:
+        etag: 08dfe183cdd19792031001
+        version_id: '1768826876260575'
   - relpath: Art/AiArtData/hXN3TDj3BCU8aYUFBbKG_5.3945x.jpg
     md5: d3a78dc6ec693803fa26bdd019e9a2b6
     size: 447038
+    cloud:
+      remote_storage:
+        etag: 089bbbe5ced19792031001
+        version_id: '1768826879958427'
   - relpath: 
       Art/AiArtData/hassan-ragab-cairo-sketches-midjourney-ai-architecture-hero_dezeen_1704_col_0.jpg
     md5: 877f352674baf28842fb590ea1fe6db6
     size: 442429
+    cloud:
+      remote_storage:
+        etag: 0892e7afcfd19792031001
+        version_id: '1768826881176466'
   - relpath: Art/AiArtData/hero-image.fill.size_1248x702.v1623363981.png
     md5: d9b8077f970f70885922a89984c9e026
     size: 1332732
+    cloud:
+      remote_storage:
+        etag: 08cf86bccfd19792031001
+        version_id: '1768826881377103'
   - relpath: Art/AiArtData/history-of-AI-art.jpg
     md5: 15f6168a9419333dcd06b5ff4bbc7747
     size: 84072
+    cloud:
+      remote_storage:
+        etag: 08b1c58ecfd19792031001
+        version_id: '1768826880631473'
   - relpath: Art/AiArtData/homer-ai-generated-art.jpg
     md5: 4b9e42b148a25a8e20fe14a6d32138a7
     size: 93759
+    cloud:
+      remote_storage:
+        etag: 08a9c194cdd19792031001
+        version_id: '1768826876534953'
   - relpath: 
       Art/AiArtData/how-do-you-make-the-ai-pictures-people-are-posting-on-instagram-1670327982.jpg
     md5: aa008654a11f3823739e3e60590d6417
     size: 63220
+    cloud:
+      remote_storage:
+        etag: 08afbfe3cdd19792031001
+        version_id: '1768826877829039'
   - relpath: Art/AiArtData/hwXBAos.jpg
     md5: 4af5594e2283ab8d5d29ba4cc5594e11
     size: 166396
+    cloud:
+      remote_storage:
+        etag: 0892fff6ced19792031001
+        version_id: '1768826880245650'
   - relpath: Art/AiArtData/i3zbp8cpfu3wmancnc8y.jpg
     md5: 8be7f943ed3df5fe03d34e0d162e4d64
     size: 249868
+    cloud:
+      remote_storage:
+        etag: 08c48787cdd19792031001
+        version_id: '1768826876314564'
   - relpath: Art/AiArtData/i7fdm8o8_ai-pics_625x300_10_March_23.jpg
     md5: 251aaca903fca5f1eb95a38ed7a0115c
     size: 83027
+    cloud:
+      remote_storage:
+        etag: 08ee99d4cdd19792031001
+        version_id: '1768826877578478'
   - relpath: Art/AiArtData/il_570xN.4503972325_g40z.jpg
     md5: 7a0710e0ec7578525d370802a02343ef
     size: 39150
+    cloud:
+      remote_storage:
+        etag: 08d2dd8acfd19792031001
+        version_id: '1768826880569042'
   - relpath: Art/AiArtData/il_570xN.4585214944_j5ob.jpg
     md5: 1d26f2d0fd0f2901563a543f2b122833
     size: 134159
+    cloud:
+      remote_storage:
+        etag: 0882e2e3cdd19792031001
+        version_id: '1768826877833474'
   - relpath: Art/AiArtData/il_570xN.4588037671_ak6c.jpg
     md5: f25f6cff9448de0cc77fb67a90ff28fa
     size: 84267
+    cloud:
+      remote_storage:
+        etag: 08d4dff1ced19792031001
+        version_id: '1768826880159700'
   - relpath: Art/AiArtData/il_570xN.4641411301_ngcf.jpg
     md5: 6ee2a29b906c8a0d8bd4277265a68344
     size: 102756
+    cloud:
+      remote_storage:
+        etag: 08cdd5d3cdd19792031001
+        version_id: '1768826877569741'
   - relpath: Art/AiArtData/il_570xN.4707958416_2553.jpg
     md5: 6c8376a64c4d20d93541c179d6f1cecc
     size: 128523
+    cloud:
+      remote_storage:
+        etag: 08d6d4ffced19792031001
+        version_id: '1768826880387670'
   - relpath: Art/AiArtData/il_fullxfull.4616860275_kccz.jpg
     md5: b8eba8fa67ac0db39b99aec310198c18
     size: 568499
+    cloud:
+      remote_storage:
+        etag: 08cddbb2cfd19792031001
+        version_id: '1768826881224141'
   - relpath: 
       Art/AiArtData/illustrator-fantasy-world-scenery-japan-with-mountain-generate-ai_661039-1069.jpg
     md5: 5f0d02b85508fe91baecb060174c62e4
     size: 82367
+    cloud:
+      remote_storage:
+        etag: 0893e0dacdd19792031001
+        version_id: '1768826877685779'
   - relpath: Art/AiArtData/image13.jpeg
     md5: 7c2df973395c71df24a221df9624967f
     size: 13056
+    cloud:
+      remote_storage:
+        etag: 08c7cceaced19792031001
+        version_id: '1768826880042567'
   - relpath: Art/AiArtData/image14.jpeg
     md5: 58f4f09af59f19400dbb6632da2e6d4a
     size: 11738
+    cloud:
+      remote_storage:
+        etag: 08eae3becdd19792031001
+        version_id: '1768826877227498'
   - relpath: Art/AiArtData/image33.jpg
     md5: 8eab1293fa35b5bfd2eff653ac57848d
     size: 163866
+    cloud:
+      remote_storage:
+        etag: 08eea4a3ced19792031001
+        version_id: '1768826878874222'
   - relpath: Art/AiArtData/image34.jpg
     md5: 8eab1293fa35b5bfd2eff653ac57848d
     size: 163866
+    cloud:
+      remote_storage:
+        etag: 08b8c8efccd19792031001
+        version_id: '1768826875929656'
   - relpath: Art/AiArtData/images12.jpg
     md5: e2c03715a31f12f842ef31dd4cfb42fd
     size: 11861
+    cloud:
+      remote_storage:
+        etag: 08eb8b9ccfd19792031001
+        version_id: '1768826880853483'
   - relpath: Art/AiArtData/images18.jpg
     md5: ef84026b43210c8e89a07d207a54f299
     size: 16145
+    cloud:
+      remote_storage:
+        etag: 08d79c87cfd19792031001
+        version_id: '1768826880511575'
   - relpath: Art/AiArtData/images21.jpg
     md5: 02445e765829ae8cf627b1544e6c96c4
     size: 12890
+    cloud:
+      remote_storage:
+        etag: 08f6abecced19792031001
+        version_id: '1768826880071158'
   - relpath: Art/AiArtData/images49.jpg
     md5: 18f7dac2d9fc2cbc03daacc78ab3f56c
     size: 13611
+    cloud:
+      remote_storage:
+        etag: 08e3ddbbcfd19792031001
+        version_id: '1768826881371875'
   - relpath: Art/AiArtData/images51.jpg
     md5: 2b12b91c09f64cd1227257562e254066
     size: 15107
+    cloud:
+      remote_storage:
+        etag: 08cccfb9ced19792031001
+        version_id: '1768826879240140'
   - relpath: Art/AiArtData/images52.jpg
     md5: e8d3a9d2595d2dd5b0117437c7c9f784
     size: 13682
+    cloud:
+      remote_storage:
+        etag: 08aef182ced19792031001
+        version_id: '1768826878343342'
   - relpath: Art/AiArtData/images71.jpg
     md5: 64d81bf67d4c0dba26178bd8e8dc11b2
     size: 12377
+    cloud:
+      remote_storage:
+        etag: 08fcc296cfd19792031001
+        version_id: '1768826880762236'
   - relpath: Art/AiArtData/images77.jpg
     md5: 2c649bc1c1c1ea8aafb398319577e271
     size: 15244
+    cloud:
+      remote_storage:
+        etag: 08cfcf8aced19792031001
+        version_id: '1768826878470095'
   - relpath: Art/AiArtData/images82.jpg
     md5: ae2692d0dbdc1b2a857657457601bd3a
     size: 14443
+    cloud:
+      remote_storage:
+        etag: 08bb9ee2cdd19792031001
+        version_id: '1768826877808443'
   - relpath: Art/AiArtData/images88.jpg
     md5: 916dcc3ae710b2b1c87082cea78ba85c
     size: 13828
+    cloud:
+      remote_storage:
+        etag: 08ff86e8cdd19792031001
+        version_id: '1768826877903743'
   - relpath: Art/AiArtData/images89.jpg
     md5: b2f119ea3d48abebaedc8fe98e08999a
     size: 14224
+    cloud:
+      remote_storage:
+        etag: 08d6ebf7ced19792031001
+        version_id: '1768826880259542'
   - relpath: Art/AiArtData/impossible-animal-hybrids9.jpg
     md5: 3f91e9aa0e399b843837e7fb6729d0a7
     size: 163933
+    cloud:
+      remote_storage:
+        etag: 08d9e8d0ced19792031001
+        version_id: '1768826879620185'
   - relpath: 
       Art/AiArtData/ious-different-styles-instatnly-with-Fotor-free-online-AI-portrait-generator.jpg
     md5: 61897c76e4673e8971e5e179b5b5018e
     size: 87588
+    cloud:
+      remote_storage:
+        etag: 08e9f0e5cdd19792031001
+        version_id: '1768826877868137'
   - relpath: Art/AiArtData/jesus-dunking-scaled.jpg
     md5: 23abc793cf2758fa3dea1be8def191b7
     size: 2946288
+    cloud:
+      remote_storage:
+        etag: 08f698e6cdd19792031001
+        version_id: '1768826877873270'
   - relpath: Art/AiArtData/jungle-river-3-800x800.png
     md5: 278310e6b1319d9bfa0e2b339bae77ca
     size: 881114
+    cloud:
+      remote_storage:
+        etag: 0883f5dfcdd19792031001
+        version_id: '1768826877770371'
   - relpath: 
       Art/AiArtData/lake-with-mountains-digital-download-ai-art-landscape-627.webp
     md5: 91b387db5c2f568e672cf6b6ab030723
     size: 128953
+    cloud:
+      remote_storage:
+        etag: 08c6b0b9cfd19792031001
+        version_id: '1768826881333318'
   - relpath: Art/AiArtData/landscape-art-ai-generated-photo.jpg
     md5: 79026d0cd11f64d75c275b62ea102981
     size: 572820
+    cloud:
+      remote_storage:
+        etag: 08c8b794cdd19792031001
+        version_id: '1768826876533704'
   - relpath: Art/AiArtData/landscape-art-ai-generated-photo2.jpg
     md5: 33ae27447e142a9e1bd7b169fcc03838
     size: 476632
+    cloud:
+      remote_storage:
+        etag: 08ebfbc0cfd19792031001
+        version_id: '1768826881457643'
   - relpath: Art/AiArtData/landscape2__444ba8e2d22eb8d0b9c065c86d918022.jpeg
     md5: 444ba8e2d22eb8d0b9c065c86d918022
     size: 91592
+    cloud:
+      remote_storage:
+        etag: 0887dee5ccd19792031001
+        version_id: '1768826875768583'
   - relpath: Art/AiArtData/landscapes.png
     md5: 190ee4a2ff70fdc0df01c983e804ab9d
     size: 624348
+    cloud:
+      remote_storage:
+        etag: 0884bbceced19792031001
+        version_id: '1768826879581572'
   - relpath: 
       Art/AiArtData/le_penguin_in_leather_armor_0_517c9353-4e20-4b7d-a13e-e39e63ddf8bf-1024x1024.png
     md5: 00ef851ee0c29adcbc6c185614e1daff
     size: 941159
+    cloud:
+      remote_storage:
+        etag: 08e0a988cdd19792031001
+        version_id: '1768826876335328'
   - relpath: Art/AiArtData/lensa-ai-portrait-2.jpg
     md5: 2d58d7d0522ccbd3c91e30d207fc9e66
     size: 1308930
+    cloud:
+      remote_storage:
+        etag: 08eaccb6ced19792031001
+        version_id: '1768826879190634'
   - relpath: Art/AiArtData/lensa-harry.jpg
     md5: a0fa489e0488b6e92b614e424c0699ad
     size: 206572
+    cloud:
+      remote_storage:
+        etag: 08f5dbfaced19792031001
+        version_id: '1768826880306677'
   - relpath: Art/AiArtData/lensa_ai_1-sixteen_nine.jpg
     md5: 50cc073ff4811affc8734e79312c1cc4
     size: 156582
+    cloud:
+      remote_storage:
+        etag: 08d8f29cced19792031001
+        version_id: '1768826878769496'
   - relpath: Art/AiArtData/loabfeature.jpg
     md5: d14a04f28c34698b3dd3dd68df683dcc
     size: 233489
+    cloud:
+      remote_storage:
+        etag: 08fffcabced19792031001
+        version_id: '1768826879016575'
   - relpath: 
       Art/AiArtData/lothes-and-its-hard-not-to-fall-in-love-with-them-74-Pics-634d0cc885307__700.jpg
     md5: 5d3707371e5ab631ca3d5b54d21a98e8
     size: 84901
+    cloud:
+      remote_storage:
+        etag: 08ded6adcfd19792031001
+        version_id: '1768826881141598'
   - relpath: Art/AiArtData/luke-wells-luke-wells-landscape-midjourney.jpg
     md5: 65cfde3f237c4bc2828afbe19df27640
     size: 1076658
+    cloud:
+      remote_storage:
+        etag: 08f6dff8ccd19792031001
+        version_id: '1768826876080118'
   - relpath: Art/AiArtData/luke-wells-midjourney-generated-image.jpg
     md5: 7610dc4224e3729f3db9fa862ca7cef7
     size: 1262970
+    cloud:
+      remote_storage:
+        etag: 08ab9694cfd19792031001
+        version_id: '1768826880723755'
   - relpath: Art/AiArtData/macron-rev.jpg
     md5: 287d811623d1fdabdf55d1af6816c09b
     size: 48238
+    cloud:
+      remote_storage:
+        etag: 08eecb9acdd19792031001
+        version_id: '1768826876634606'
   - relpath: 
       Art/AiArtData/make-ai-landscape-from-text-with-ai-landscape-generator.jpg
     md5: e57d608fb80ee3d31cb91193862c3dd4
     size: 66762
+    cloud:
+      remote_storage:
+        etag: 088d9b99cdd19792031001
+        version_id: '1768826876611981'
   - relpath: Art/AiArtData/maxresdefault.jpg
     md5: 11497ac3f50d4c13087f8239226a782d
     size: 114067
+    cloud:
+      remote_storage:
+        etag: 088ceed3ced19792031001
+        version_id: '1768826879670028'
   - relpath: Art/AiArtData/maxresdefault2.jpg
     md5: c87d42cbe914f5859040316348092f8e
     size: 237789
+    cloud:
+      remote_storage:
+        etag: 08ae9cb1ced19792031001
+        version_id: '1768826879102510'
   - relpath: Art/AiArtData/maxresdefault3.jpg
     md5: e7dbe7f501d10fa7992c372183706e6c
     size: 259587
+    cloud:
+      remote_storage:
+        etag: 08ce9fe6ccd19792031001
+        version_id: '1768826875776974'
   - relpath: 
       Art/AiArtData/mazonaws.com2Fpublic2Fimages2F322b8da8-dc7a-44de-b28f-c8019d88e9f7_1024x1024.png
     md5: 7977de3733398b2f8a49162279d512ba
     size: 199190
+    cloud:
+      remote_storage:
+        etag: 088bebafced19792031001
+        version_id: '1768826879079819'
   - relpath: 
       Art/AiArtData/meditation-kundalini-energy-colorful-psychedelic-ai-generated-art_843679-6229.jpg
     md5: 325c209ae5ec705b9aee5cabc6a01f7b
     size: 150604
+    cloud:
+      remote_storage:
+        etag: 08ddae9dcdd19792031001
+        version_id: '1768826876680029'
   - relpath: Art/AiArtData/memory-palace-by-Louis-Vivin-250_out-1.png
     md5: 70ec47d9ef0fa30565c8ce5256766139
     size: 3862889
+    cloud:
+      remote_storage:
+        etag: 08c8ecc8cfd19792031001
+        version_id: '1768826881586760'
   - relpath: Art/AiArtData/merkel-rev.jpg
     md5: 2979c428624fb4a8b4f2133b87f38e42
     size: 68738
+    cloud:
+      remote_storage:
+        etag: 08fbdef3cdd19792031001
+        version_id: '1768826878095227'
   - relpath: 
       Art/AiArtData/merlin_145496349_2ef618d1-e2db-41ac-bfc0-333987273896-superJumbo.jpg
     md5: cbcec9c5bf857eb5d54b3280088df62f
     size: 457909
+    cloud:
+      remote_storage:
+        etag: 08c38fb1cfd19792031001
+        version_id: '1768826881198019'
   - relpath: 
       Art/AiArtData/merlin_212276709_3104aef5-3dc4-4288-bb44-9e5624db0b37-articleLarge.jpg
     md5: 71c27321a9b9e1e19e84e3cd34c64ea5
     size: 52090
+    cloud:
+      remote_storage:
+        etag: 0880b2f0cdd19792031001
+        version_id: '1768826878040320'
   - relpath: 
       Art/AiArtData/mhachman_a_castle_on_an_asteroid_floating_through_space_2315526d-252b-40df-9a6d-eeb00aed612f.png
     md5: 09581b2eab503dd6bb1329d27f15b9d2
     size: 3487872
+    cloud:
+      remote_storage:
+        etag: 08d480eecdd19792031001
+        version_id: '1768826878001236'
   - relpath: Art/AiArtData/midjourney-52.jpg
     md5: 610a87a23fb517f896cdb07d5c2fad74
     size: 67927
+    cloud:
+      remote_storage:
+        etag: 08f8fce3ced19792031001
+        version_id: '1768826879934072'
   - relpath: Art/AiArtData/midjourney-images-6.jpg
     md5: 9033d3cdb30c6cb62898e3a3a7424030
     size: 360315
+    cloud:
+      remote_storage:
+        etag: 08aaaea7cdd19792031001
+        version_id: '1768826876843818'
   - relpath: Art/AiArtData/midjourney-putin.jpg
     md5: e010d8380105f6d87cbaf82c39137b6d
     size: 384765
+    cloud:
+      remote_storage:
+        etag: 08cdaaf3cdd19792031001
+        version_id: '1768826878088525'
   - relpath: 
       Art/AiArtData/midjourney-tools-tips-for-photographers-photography-photo-realistic.png
     md5: 14a0205fe421b744a64a5a0321b64d80
     size: 881476
+    cloud:
+      remote_storage:
+        etag: 089887e8ced19792031001
+        version_id: '1768826880000920'
   - relpath: Art/AiArtData/midjourney-v5-drafts-Artboard-4-800x400.jpg
     md5: 5ed2a433f6626badcf6a855538b1f408
     size: 39454
+    cloud:
+      remote_storage:
+        etag: 08e8d7f4ccd19792031001
+        version_id: '1768826876013544'
   - relpath: Art/AiArtData/midjourney20images.jpg
     md5: 88c468baa7a2c2921905aac07716450e
     size: 1173566
+    cloud:
+      remote_storage:
+        etag: 08e8b0d6ced19792031001
+        version_id: '1768826879711336'
   - relpath: Art/AiArtData/midjourney_aiart_gleb_alexandrov_21-1024x731.jpg
     md5: b3fbae4b18d257b27a63a46371275397
     size: 95713
+    cloud:
+      remote_storage:
+        etag: 08adc4b7cdd19792031001
+        version_id: '1768826877108781'
   - relpath: Art/AiArtData/midjourney_inpainting_demo-1.png
     md5: 9d276c1fb78d10685cf1a49d994f5ac7
     size: 529243
+    cloud:
+      remote_storage:
+        etag: 08b0d1fdccd19792031001
+        version_id: '1768826876160176'
   - relpath: Art/AiArtData/midjourney_trump_pope_dance_ai_fake_image.png
     md5: 2895b47dfb4df5258e1a8b606548d61e
     size: 801474
+    cloud:
+      remote_storage:
+        etag: 08f5e28fced19792031001
+        version_id: '1768826878554485'
   - relpath: Art/AiArtData/midjourney_v4_hero_2-640x360.jpg
     md5: 6659ed6e8278560bfaa172d354f474af
     size: 51889
+    cloud:
+      remote_storage:
+        etag: 08f5d1e1ced19792031001
+        version_id: '1768826879895797'
   - relpath: Art/AiArtData/midjourney_v5_hero_2-800x450.jpg
     md5: 79b304d413ab1fe40146b22053e706f7
     size: 51078
+    cloud:
+      remote_storage:
+        etag: 08bef5b1cdd19792031001
+        version_id: '1768826877016766'
   - relpath: 
       Art/AiArtData/midjourney_young_woman_61b02a5d-6935-44aa-842c-8f5e84f4c702-1024x1024.png
     md5: 47d05a18653df2129523c7f9777a59ca
     size: 1353893
+    cloud:
+      remote_storage:
+        etag: 0884efa8cdd19792031001
+        version_id: '1768826876868484'
   - relpath: Art/AiArtData/mmart-4k-fai-7a-art-scale-2-00x.jpg
     md5: b4a17f6b13dc3d8ed4c630eff6d60d68
     size: 804893
+    cloud:
+      remote_storage:
+        etag: 08a9fec7ced19792031001
+        version_id: '1768826879475497'
   - relpath: Art/AiArtData/mmart-fai-102a-art-scale-5-00x.jpg
     md5: 5a7ada6b16861003a98edd144e3af984
     size: 686866
+    cloud:
+      remote_storage:
+        etag: 08a1abcecfd19792031001
+        version_id: '1768826881676705'
   - relpath: 
       Art/AiArtData/morning-sunrise-scenery-lake-landscape-ai-art-nature.jpg
     md5: 3bb072343c0a50f096bbaaa8c111ecec
     size: 72289
+    cloud:
+      remote_storage:
+        etag: 0880f5e4ccd19792031001
+        version_id: '1768826875755136'
   - relpath: Art/AiArtData/mouse-in-a-maze.jpg
     md5: 0911eef37adea02ddbe6e2926d2b4030
     size: 267282
+    cloud:
+      remote_storage:
+        etag: 08f1eed7cdd19792031001
+        version_id: '1768826877638513'
   - relpath: 
       Art/AiArtData/multi-colored-abstract-background-with-vibrant-flying-feathers-generated-by-ai-scaled.jpg
     md5: 8773127dee055abd014dc558bc84bbeb
     size: 706318
+    cloud:
+      remote_storage:
+        etag: 08f5d5c3cfd19792031001
+        version_id: '1768826881501941'
   - relpath: 
       Art/AiArtData/mystical-eye-vector-illustration-psychedelic-design-ai-generated-free-photo.jpg
     md5: 33bbb8994e2e10a4ed0e8dc5300e526b
     size: 553452
+    cloud:
+      remote_storage:
+        etag: 08b1f2a6ced19792031001
+        version_id: '1768826878933297'
   - relpath: Art/AiArtData/nGuYVYiPu3dnmigzNfdMLZ-1200-80.jpg
     md5: 4e4dabc67e896ff5955b7e4347face30
     size: 123458
+    cloud:
+      remote_storage:
+        etag: 08b3e5cfcdd19792031001
+        version_id: '1768826877506227'
   - relpath: Art/AiArtData/nXLRsgDqpZcqChDus9b1_9.4899x.jpg
     md5: a02b3d6abb1217fab44671ed8bae3c19
     size: 604323
+    cloud:
+      remote_storage:
+        etag: 08b4d689cfd19792031001
+        version_id: '1768826880551732'
   - relpath: Art/AiArtData/name320.png
     md5: 950a144da5d127ba3622e4ac852cf913
     size: 289005
+    cloud:
+      remote_storage:
+        etag: 08c3d7c1ced19792031001
+        version_id: '1768826879372227'
   - relpath: Art/AiArtData/name620-e1680453801646.png
     md5: 51a7af8da9bed84a6e379bceae1fd074
     size: 295879
+    cloud:
+      remote_storage:
+        etag: 088fb1d7cdd19792031001
+        version_id: '1768826877630607'
   - relpath: Art/AiArtData/nathan-shipley-historical-ai-portraits-15.jpg
     md5: d41343a418097b4c53979746730f6be9
     size: 61924
+    cloud:
+      remote_storage:
+        etag: 08deced2ced19792031001
+        version_id: '1768826879649630'
   - relpath: Art/AiArtData/nathan-shipley-historical-ai-portraits-16.jpg
     md5: 1b4e0fd99bd2a5a15f1c85b44c40ca33
     size: 89799
+    cloud:
+      remote_storage:
+        etag: 08b7cea6cdd19792031001
+        version_id: '1768826876831543'
   - relpath: 
       Art/AiArtData/ndscape-with-mountains-planets-trees-moon-surrealist-escapism-concept-photo.jpeg
     md5: 49831c604f3f9e7117fb46411fb0eb8a
     size: 1140758
+    cloud:
+      remote_storage:
+        etag: 08a6edaecdd19792031001
+        version_id: '1768826876966566'
   - relpath: Art/AiArtData/new-project-1_tecm.1248.jpg
     md5: a701a9e80efbf16a64ec637d226ac944
     size: 1222910
+    cloud:
+      remote_storage:
+        etag: 08e2c8afcfd19792031001
+        version_id: '1768826881172578'
   - relpath: Art/AiArtData/not-rabbit-not-mouse.jpg
     md5: 9cb67de125a759cc61dc2a9ec9bf0f09
     size: 602569
+    cloud:
+      remote_storage:
+        etag: 08bd9fd0cdd19792031001
+        version_id: '1768826877513661'
   - relpath: Art/AiArtData/notlandscapes.jpg
     md5: 835c2a9f346adc65d506e4a368daf70e
     size: 258165
+    cloud:
+      remote_storage:
+        etag: 08affde6ccd19792031001
+        version_id: '1768826875788975'
   - relpath: Art/AiArtData/nqsvevjgn3gxdubar6ly.JPEG.jpg
     md5: 119a0cd6283df8728fb97d4c1b2eab03
     size: 148494
+    cloud:
+      remote_storage:
+        etag: 08b6c29eced19792031001
+        version_id: '1768826878796086'
   - relpath: Art/AiArtData/nvidia-ai-scribbles-realistic-landscapes.png
     md5: 82b4b8317f5884aed091e637890bca2c
     size: 400344
+    cloud:
+      remote_storage:
+        etag: 089dfcc1cdd19792031001
+        version_id: '1768826877279773'
   - relpath: Art/AiArtData/nvidia_ai.png
     md5: 734ae0fce1aa4133612b730d74c331ab
     size: 2775327
+    cloud:
+      remote_storage:
+        etag: 08f1eaadcdd19792031001
+        version_id: '1768826876949873'
   - relpath: Art/AiArtData/oe33n1zk7l2a1.png
     md5: ac77b1b0f58eb303d4faa43a4242c313
     size: 1323163
+    cloud:
+      remote_storage:
+        etag: 08f1eeabcdd19792031001
+        version_id: '1768826876917617'
   - relpath: 
       Art/AiArtData/oeuvre-art-generee-IA-MidJourney-remporte-1er-prix-Colorado-State-Fair.png
     md5: e6da08c4a119e968aeeee104c2885dc9
     size: 2146034
+    cloud:
+      remote_storage:
+        etag: 08b8b5f5ced19792031001
+        version_id: '1768826880219832'
   - relpath: 
       Art/AiArtData/on-ai-generated-beautiful-flowers-scenery-spring-season-background-293527034.jpg
     md5: 9c86149c98085afedaeb534ba166289a
     size: 93759
+    cloud:
+      remote_storage:
+        etag: 08b38ff3cdd19792031001
+        version_id: '1768826878085043'
   - relpath: Art/AiArtData/original-a7d94b3e8208048992a9732624e4c7fd.png
     md5: 4ef11379107f7f8d6152f81adcf4a640
     size: 3446935
+    cloud:
+      remote_storage:
+        etag: 08f0fecaced19792031001
+        version_id: '1768826879524720'
   - relpath: 
       Art/AiArtData/panoramic-abstract-mountain-scenery-in-flat-style-natural-wallpaper-ai-generated-image-photo.jpg
     md5: 33231b08cf42501d6b060397ec741425
     size: 430479
+    cloud:
+      remote_storage:
+        etag: 08cc95c4ced19792031001
+        version_id: '1768826879412940'
   - relpath: 
       Art/AiArtData/pe-How-To-Use-AI-Images-Good-Bad-Review-Bard-Bing-ChatGPT-Guide-Paul-Reiffer.jpg
     md5: 1b24ff35d5a7156460609622b3f7c998
     size: 202159
+    cloud:
+      remote_storage:
+        etag: 0897e3d6cdd19792031001
+        version_id: '1768826877620631'
   - relpath: Art/AiArtData/popepufferjacket.jpg.jpg.foto.rm.jpeg.foto.rbig.jpeg
     md5: 432858302b6c435f503493b60b99646d
     size: 52580
+    cloud:
+      remote_storage:
+        etag: 08c1adb1cdd19792031001
+        version_id: '1768826877007553'
   - relpath: Art/AiArtData/portrait-01.jpg
     md5: 731b8b51c971d4626df7b86752917775
     size: 120469
+    cloud:
+      remote_storage:
+        etag: 0891b19ccfd19792031001
+        version_id: '1768826880858257'
   - relpath: Art/AiArtData/portraits.jpg
     md5: 0ef948f0558a44b9e7c2d38f804d7899
     size: 167162
+    cloud:
+      remote_storage:
+        etag: 08c7e9c5cdd19792031001
+        version_id: '1768826877342919'
   - relpath: Art/AiArtData/pqhV2Tq8YPmQQZ2iHK40.jpg
     md5: bb29b53de1c88f02ae4e3dc71fd8b76d
     size: 110435
+    cloud:
+      remote_storage:
+        etag: 0892c4ffccd19792031001
+        version_id: '1768826876191250'
   - relpath: Art/AiArtData/psychedelic-1084082_1920.jpg
     md5: 2694356aa3efcb23e341bae8428e67ac
     size: 592240
+    cloud:
+      remote_storage:
+        etag: 08bbe0e9ccd19792031001
+        version_id: '1768826875834427'
   - relpath: 
       Art/AiArtData/psychedelic-artistic-image-christmas-santa-260nw-2401991075.jpg
     md5: 9f0a4f390d6e1735274983efec89169d
     size: 48123
+    cloud:
+      remote_storage:
+        etag: 0899dd92cfd19792031001
+        version_id: '1768826880700057'
   - relpath: 
       Art/AiArtData/psychedelic-artistic-image-geometric-repetitive-260nw-2395394413.jpg
     md5: a20039216f45100923855d466219aafb
     size: 46482
+    cloud:
+      remote_storage:
+        etag: 08b7f8e2ccd19792031001
+        version_id: '1768826875722807'
   - relpath: Art/AiArtData/psychedelic-image-edited-2.png
     md5: 63334dd592f725857cccf1a603b2933b
     size: 82333
+    cloud:
+      remote_storage:
+        etag: 089d8fa5cfd19792031001
+        version_id: '1768826881001373'
   - relpath: 
       Art/AiArtData/psychedelic-planet-surreal-landscape-water-painting-ai-generated-art_843679-2589.jpg
     md5: 917ea52856903abb98a224eb49efb673
     size: 149188
+    cloud:
+      remote_storage:
+        etag: 08d9a1f1ccd19792031001
+        version_id: '1768826875957465'
   - relpath: Art/AiArtData/psychedelic-revelation-ai-artwork-718_300x2x.webp
     md5: 6bcc0ca1bb23529d6c2a591aeccfe0f0
     size: 223688
+    cloud:
+      remote_storage:
+        etag: 08c5bdbfcdd19792031001
+        version_id: '1768826877238981'
   - relpath: Art/AiArtData/rad0ujy1GFGKCCMD6GhR--1--yh4jv_8x.jpg
     md5: 395567efec11aef4908a4a39db2c5105
     size: 237624
+    cloud:
+      remote_storage:
+        etag: 08d3e4d1ced19792031001
+        version_id: '1768826879636051'
   - relpath: 
       Art/AiArtData/realistic-disney-characters-artificial-intelligence-toyboyfan-fb.png
     md5: b0095acfd6cf24395fc645d3deac8f13
     size: 1110767
+    cloud:
+      remote_storage:
+        etag: 089e97d6ced19792031001
+        version_id: '1768826879708062'
   - relpath: Art/AiArtData/robot-art-for-web-1180x560.jpg
     md5: d7d5343edd00315c950d152d2569b75e
     size: 96625
+    cloud:
+      remote_storage:
+        etag: 08feacabced19792031001
+        version_id: '1768826879006334'
   - relpath: Art/AiArtData/robot-monitoring-dairy-farm-1200x800-1.jpg
     md5: ccc238c09725083899cb307aa6c8dc11
     size: 234889
+    cloud:
+      remote_storage:
+        etag: 08a3fbf1ccd19792031001
+        version_id: '1768826875968931'
   - relpath: Art/AiArtData/scenery-art-landscape-ai-987.webp
     md5: 575b85065a23fa6f9349b49f61cc2481
     size: 126922
+    cloud:
+      remote_storage:
+        etag: 08c1b5eacdd19792031001
+        version_id: '1768826877942465'
   - relpath: Art/AiArtData/screen_shot_2022-12-14_at_1.35.54_pm.png
     md5: 72a53f50f1df2165f1ee8482d4be5649
     size: 4446064
+    cloud:
+      remote_storage:
+        etag: 08bcf68fced19792031001
+        version_id: '1768826878556988'
   - relpath: Art/AiArtData/sddefault.jpg
     md5: 9be05a74e54270cba1ab1cc97d6b943d
     size: 38936
+    cloud:
+      remote_storage:
+        etag: 08acafdeced19792031001
+        version_id: '1768826879842220'
   - relpath: Art/AiArtData/sddefault2.jpg
     md5: fd25401e3c40d59feecbb45966f58827
     size: 36950
+    cloud:
+      remote_storage:
+        etag: 08fba9a0cdd19792031001
+        version_id: '1768826876728571'
   - relpath: 
       Art/AiArtData/serene-natural-background-depicting-peaceful-landscape-scenery-ai-generated_523886-6982.jpg
     md5: 41829915ef527b3ec47ba51dda690322
     size: 105959
+    cloud:
+      remote_storage:
+        etag: 08e1b5fbced19792031001
+        version_id: '1768826880318177'
   - relpath: 
       Art/AiArtData/serene-natural-background-depicting-peaceful-landscape-scenery-ai-generated_523886-7267.jpg
     md5: fc6dbcb187a0afbd28b6d4842d879d06
     size: 91844
+    cloud:
+      remote_storage:
+        etag: 08af8985cdd19792031001
+        version_id: '1768826876282031'
   - relpath: Art/AiArtData/sharing-thumb.jpg
     md5: edfa52faacd205d7f6a55d4b82423de1
     size: 211403
+    cloud:
+      remote_storage:
+        etag: 089bd3acced19792031001
+        version_id: '1768826879027611'
   - relpath: Art/AiArtData/skynews-ai-art-generator-tim-flach_6121312.jpg
     md5: 438a03a850df52262ee813df8dd1c7cc
     size: 89403
+    cloud:
+      remote_storage:
+        etag: 08899c8dcfd19792031001
+        version_id: '1768826880609801'
   - relpath: Art/AiArtData/stability-ai-landscape.jpg
     md5: 7a235abb5801f7389ed8bc28f579f72f
     size: 414450
+    cloud:
+      remote_storage:
+        etag: 08ef81d8cdd19792031001
+        version_id: '1768826877640943'
   - relpath: Art/AiArtData/tdraw-girl.jpg
     md5: 3de0e9875ed7a3a69ef9966cb068f147
     size: 494740
+    cloud:
+      remote_storage:
+        etag: 08b48b9ccfd19792031001
+        version_id: '1768826880853428'
   - relpath: Art/AiArtData/teaser_400.jpg
     md5: 894afdde84b07a135fbac4250540307a
     size: 25442
+    cloud:
+      remote_storage:
+        etag: 08d891aacdd19792031001
+        version_id: '1768826876889304'
   - relpath: 
       Art/AiArtData/thejohnechen-a-1691152122-png-selar.co-20230804122842.png
     md5: b5e9cb7ede0b7549a77e1e41b5938c49
     size: 162339
+    cloud:
+      remote_storage:
+        etag: 088ad283ced19792031001
+        version_id: '1768826878355722'
   - relpath: Art/AiArtData/tiger4.jpg
     md5: f95b32078f947f3fe23781634ffa65f4
     size: 3857651
+    cloud:
+      remote_storage:
+        etag: 0893e0cbced19792031001
+        version_id: '1768826879537171'
   - relpath: 
       Art/AiArtData/timparkin_collage_composite_landscape_c209c0c0-18fd-4919-8efd-744fb451e9b8.jpg
     md5: a730271c27177c826d82f1144823dc91
     size: 822973
+    cloud:
+      remote_storage:
+        etag: 08899487cdd19792031001
+        version_id: '1768826876316169'
   - relpath: 
       Art/AiArtData/ting-art-on-a-canvas-with-many-colors-in-art-nouveau-style-1-e1670998298608.jpeg
     md5: eeed0f4ec3671d296d056a4e575546ef
     size: 320270
+    cloud:
+      remote_storage:
+        etag: 08debf91cfd19792031001
+        version_id: '1768826880679902'
   - relpath: 
       Art/AiArtData/tnsc6ik8_personalities-playing-holi_625x300_18_June_23.jpg
     md5: dc353424a544da5f377ed1fc0d1fcc17
     size: 160059
+    cloud:
+      remote_storage:
+        etag: 08dcb6c7ced19792031001
+        version_id: '1768826879466332'
   - relpath: Art/AiArtData/top_5_midjourney_artists_1.jpg
     md5: da26437f3ed388f3343cb26e9fee4eb2
     size: 651790
+    cloud:
+      remote_storage:
+        etag: 08c7a28cced19792031001
+        version_id: '1768826878497095'
   - relpath: Art/AiArtData/top_5_midjourney_artists_2_1.jpg
     md5: ca3cb1c1001fe5b84a243226e6d5296b
     size: 230497
+    cloud:
+      remote_storage:
+        etag: 08d6dcf1ccd19792031001
+        version_id: '1768826875965014'
   - relpath: Art/AiArtData/tp-composite-ai-art-new.jpg
     md5: 95c1133ced2ef77dbbc0a36ce3613b15
     size: 277245
+    cloud:
+      remote_storage:
+        etag: 08be88e2cdd19792031001
+        version_id: '1768826877805630'
   - relpath: Art/AiArtData/tr71123-ai-art.jpeg
     md5: 76ca0e017d47acedc5673e06fcb29c2a
     size: 778347
+    cloud:
+      remote_storage:
+        etag: 08ae98b1cdd19792031001
+        version_id: '1768826877004846'
   - relpath: 
       Art/AiArtData/tr_20240201-the-complete-generative-ai-art-design-mastery-bundle.jpg
     md5: f134443cb8a45a5a2fe32207887dd621
     size: 286929
+    cloud:
+      remote_storage:
+        etag: 08c4ea94cfd19792031001
+        version_id: '1768826880734532'
   - relpath: 
       Art/AiArtData/trippy-psychedelic-artwork-retro-hippie-style-generative-ai-surreal-landscape-274005108.jpg
     md5: ce0601dece622e853501b30d81b3c979
     size: 294189
+    cloud:
+      remote_storage:
+        etag: 089ac183cfd19792031001
+        version_id: '1768826880450714'
   - relpath: Art/AiArtData/trudeau-rev.jpg
     md5: ebe3d394226b6a8bd8f610bb6b2bbdd1
     size: 50807
+    cloud:
+      remote_storage:
+        etag: 0881c0f1cdd19792031001
+        version_id: '1768826878058497'
   - relpath: 
       Art/AiArtData/ts9dtkq8_selfies-from-the-past_625x300_21_March_23.jpg
     md5: 3c52892a901b94009d7c8c3191f27565
     size: 102507
+    cloud:
+      remote_storage:
+        etag: 08f58791ced19792031001
+        version_id: '1768826878575605'
   - relpath: Art/AiArtData/tsia-navigating-ai-landscape-blog-hero.png
     md5: 06eec22f4d43a6d8aebaba34c50c9722
     size: 71462
+    cloud:
+      remote_storage:
+        etag: 088b8780ced19792031001
+        version_id: '1768826878296971'
   - relpath: 
       Art/AiArtData/tunning-double-exposure-landscape-featuring-a-river-trees-and-feathers-photo.jpg
     md5: bd01afba774c84f4699cf80b7e3f2789
     size: 725417
+    cloud:
+      remote_storage:
+        etag: 08c4a0c0cfd19792031001
+        version_id: '1768826881445956'
   - relpath: 
       Art/AiArtData/two-game-landscapes-made-by-ai-landscape-generator.jpg
     md5: 34480dd796413af79961549c5af07a46
     size: 92268
+    cloud:
+      remote_storage:
+        etag: 08fa9d92cfd19792031001
+        version_id: '1768826880691962'
   - relpath: 
       Art/AiArtData/two-landscape-designs-of-yard-made-by-ai-landscape-generator.jpg
     md5: 4906c4042dfde7521ba083eaa54c04cb
     size: 92827
+    cloud:
+      remote_storage:
+        etag: 08fcb99acdd19792031001
+        version_id: '1768826876632316'
   - relpath: Art/AiArtData/ugly-AI-1-1.jpg
     md5: 329fefb535f942dfd31b2a27b8a7b35f
     size: 603338
+    cloud:
+      remote_storage:
+        etag: 08bf97a7cdd19792031001
+        version_id: '1768826876840895'
   - relpath: 
       Art/AiArtData/ures-created-on-midjourney-midjourney-curated-feature-stirworld-220930050044.jpg
     md5: 0b232c6c4e237ba6bebba3006da0036b
     size: 330916
+    cloud:
+      remote_storage:
+        etag: 08ea82b4cfd19792031001
+        version_id: '1768826881245546'
   - relpath: Art/AiArtData/van-gogh.jpg
     md5: 6074aabb219e9ae713879f7a23e6b8b8
     size: 1873655
+    cloud:
+      remote_storage:
+        etag: 08d7d3acced19792031001
+        version_id: '1768826879027671'
   - relpath: Art/AiArtData/violin-buildings.jpg
     md5: f354e0abdca097af2bb40e27d571d156
     size: 75609
+    cloud:
+      remote_storage:
+        etag: 08bfe88ecfd19792031001
+        version_id: '1768826880635967'
   - relpath: Art/AiArtData/widen_1840x0.jpeg
     md5: 6507754cfb3fe81535fd0c90daf4afab
     size: 259420
+    cloud:
+      remote_storage:
+        etag: 08ffe780cdd19792031001
+        version_id: '1768826876212223'
   - relpath: Art/AiArtData/wieland_hero_2-800x450.jpg
     md5: 986b8624a34eb3c6a8094b4ed6a89127
     size: 62332
+    cloud:
+      remote_storage:
+        etag: 08a7f1a0cfd19792031001
+        version_id: '1768826880932007'
   - relpath: Art/AiArtData/wild-animals-tiny-version-ai-01.jpg
     md5: 0951908cbbdffc04677b0c62d1f54aa9
     size: 84951
+    cloud:
+      remote_storage:
+        etag: 08c48fecced19792031001
+        version_id: '1768826880067524'
   - relpath: Art/AiArtData/wild-animals-tiny-version-ai-featured.jpg
     md5: 06fe297cfb06ad52636a325f0dbad01a
     size: 70250
+    cloud:
+      remote_storage:
+        etag: 0887c892cfd19792031001
+        version_id: '1768826880697351'
   - relpath: Art/AiArtData/witchy-studio-japan-psychedelic-01.jpg
     md5: 5270dafc9153ffdb5ad7ae616f495362
     size: 144991
+    cloud:
+      remote_storage:
+        etag: 08bc8de3ced19792031001
+        version_id: '1768826879919804'
   - relpath: Art/AiArtData/witchy-studio-japan-psychedelic-05.jpg
     md5: 6b80b38194b3cd8bb201144ea9b20b2d
     size: 178306
+    cloud:
+      remote_storage:
+        etag: 08f38c86cfd19792031001
+        version_id: '1768826880493171'
   - relpath: 
       Art/AiArtData/wn_landscape_66536f75-c67a-4be6-8124-1c4e1298f6c1-01-6507858fb212e-jpeg__880.jpg
     md5: 04db63783125e0eedba9bff061b28ba8
     size: 189211
+    cloud:
+      remote_storage:
+        etag: 08dcddabcfd19792031001
+        version_id: '1768826881109724'
   - relpath: 
       Art/AiArtData/wonderland-girl-generated-by-Fotor-ai-art-generator.jpg
     md5: 38532541d2564465234f63cd116374d0
     size: 161566
+    cloud:
+      remote_storage:
+        etag: 0893e69bced19792031001
+        version_id: '1768826878751507'
   - relpath: Art/AiArtData/word-image-288-1.png
     md5: c96ac2c03ba06a0a278448865b12247e
     size: 5618340
+    cloud:
+      remote_storage:
+        etag: 08e3af8bcfd19792031001
+        version_id: '1768826880579555'
   - relpath: Art/AiArtData/wp-image-940-16849365973x2.jpg
     md5: bd348bbe3e1306cb9eef357c795a88c9
     size: 65392
+    cloud:
+      remote_storage:
+        etag: 0897f1d3ced19792031001
+        version_id: '1768826879670423'
   - relpath: Art/AiArtData/xATrJT1OBHIRSWYpTL8t--1--Z5XOZ_4x.jpg
     md5: f7d82467b1d4edecda798aa3fd225cd5
     size: 208466
+    cloud:
+      remote_storage:
+        etag: 08c587c2cdd19792031001
+        version_id: '1768826877281221'
   - relpath: Art/AiArtData/y5aca20it7v1kb9qs0ce.jpg
     md5: e4bb152b6ea6f85aed19403788259353
     size: 234037
+    cloud:
+      remote_storage:
+        etag: 08f8a2f9ced19792031001
+        version_id: '1768826880283000'
   - relpath: Art/AiArtData/yWX4ioYtJH4ZaFoAgh4J38-1200-80.jpg
     md5: 5581fe8f4afab0466fccffa61116e472
     size: 231127
+    cloud:
+      remote_storage:
+        etag: 08b2f482ced19792031001
+        version_id: '1768826878343730'
   - relpath: 
       Art/AiArtData/young-woman-eye-reflects-colorful-summer-nature-generated-by-ai_188544-18407.jpg
     md5: 4bbcfffc8340af0b76c10421369d7d37
     size: 59649
+    cloud:
+      remote_storage:
+        etag: 08cad3a5cdd19792031001
+        version_id: '1768826876815818'
   - relpath: Art/AiArtData/zjgkiTBuW5pPg4P7rV8u_4x.jpg
     md5: 495044765dac29c70e006e8752442367
     size: 608032
+    cloud:
+      remote_storage:
+        etag: 0894ebfccdd19792031001
+        version_id: '1768826878244244'
   - relpath: Art/AiArtData/zoomout_1.jpg
     md5: 103e173f4c23baa3048a4423713cf6e8
     size: 313138
-  - relpath: 
-      Art/RealArt/-Skills-Promo-A-Total-Artist-All-of-North-Wests-Impressive-Drawings-Photos-5.jpg
-    md5: 319a091767cd59e859da05ffea4b87a8
-    size: 442338
-  - relpath: 
-      Art/RealArt/-man-sits-with-a-woman-on-her-phone-at-a-table-while-looking-at-a-computer_l.jpg
-    md5: 1fce1a4dd6f4adc399f5e7d5b7be0085
-    size: 95964
-  - relpath: 
-      Art/RealArt/.amazonaws.com2Fpublic2Fimages2Fcb32a00a-bf52-48fe-9ba6-4e21cf4c1c57_800x800.png
-    md5: 483a0c52e88f939aa3da3ae834ca51fa
-    size: 94206
-  - relpath: Art/RealArt/0182.png
-    md5: 3554082e68902e2f34077f8c6504d18b
-    size: 764960
-  - relpath: Art/RealArt/02-still-for-america-room-loop-superJumbo.jpg
-    md5: 77e8feb5ad674bcd177f051669f0cc94
-    size: 563605
-  - relpath: Art/RealArt/05-12-21-happy-people.jpg
-    md5: 0a4d94b23f386c887f4a2236409edbf9
-    size: 97317
-  - relpath: Art/RealArt/0ogZjy9KvWg2elv-I.jpg
-    md5: fd4e989a1e83cabbe75e6ccc7263d30d
-    size: 44945
-  - relpath: Art/RealArt/1-shutterstock_588634790.jpg
-    md5: 504444c86e59306015085540c197eca3
-    size: 83331
-  - relpath: Art/RealArt/10-tips-for-stunning-portrait-photography-7.jpg
-    md5: 4dd94f7420cbb80dcbcf29d6faf0ef84
-    size: 348377
-  - relpath: Art/RealArt/10-tips-for-stunning-portrait-photography-9.jpg
-    md5: 3e3601c2ae65e839e9967e2becf54209
-    size: 410527
-  - relpath: Art/RealArt/1000_F_553971391_58CnJ3qSdxmrOFUp6eojyVhZ9khKq2Et.jpg
-    md5: 01c2e12edd26fb7fcb45bbc8e8d5c09e
-    size: 221622
-  - relpath: Art/RealArt/1010172.jpg
-    md5: 3f9c44233fc767e78336c83aafbdb80d
-    size: 392266
-  - relpath: Art/RealArt/1013032_credit_wspa-jiri_rezac.jpg
-    md5: 22da0d519d63b3e15e24bf2197d95bbb
-    size: 832777
-  - relpath: Art/RealArt/1032249.jpg
-    md5: 0f728ea1c82d53da61604031f544d048
-    size: 645590
-  - relpath: 
-      Art/RealArt/12-reasons-why-people-like-your-posts-on-social-media-001.jpg
-    md5: d620412db43c07db253df831dec8d0be
-    size: 391460
-  - relpath: Art/RealArt/1200px-Claude_Monet2C_Impression2C_soleil_levant.jpg
-    md5: ea72ff3df1476d49d2a3c1d9520c8194
-    size: 400274
-  - relpath: Art/RealArt/1200x0.jpg
-    md5: 2d5489264913bad0c6553305fcea3dea
-    size: 41036
-  - relpath: Art/RealArt/12_20201217171040_10852275_large.jpg
-    md5: 9d45615d2c00da091db43fbd8e71b5be
-    size: 117238
-  - relpath: Art/RealArt/131207210_web1_20230506dj-littiken-1.jpg
-    md5: 098042d4e98bbc0cf6225354617bf891
-    size: 238809
-  - relpath: Art/RealArt/147660_1.jpg
-    md5: c6abff1953a73a8548e0bee28032e96a
-    size: 86333
-  - relpath: Art/RealArt/14_1110x.png
-    md5: c0cdda688206f0a0ce360c731ffa7e51
-    size: 862801
-  - relpath: Art/RealArt/152752.jpg
-    md5: d062e8c24684536f6cc8be29ce4beadd
-    size: 428274
-  - relpath: Art/RealArt/161026190832-kelvin-okafor-hyper-real-images.jpg
-    md5: 92df9b5cb0cfbf073b0da3965855f39f
-    size: 97486
-  - relpath: Art/RealArt/161104185136-kelvin-okafor-hyper-real.jpg
-    md5: 92d223b120b014907bb19304e2c07115
-    size: 87090
-  - relpath: Art/RealArt/17042020_beautiful-scenery.jpg
-    md5: ef159ef31e31dd2df5f48a3cb1416bb3
-    size: 132727
-  - relpath: Art/RealArt/1707541234037
-    md5: fcbde4f9deeee4972d93b9d2c462deb5
-    size: 57549
-  - relpath: Art/RealArt/172711.jpg
-    md5: 1a8dd68231b579871998f785137eb909
-    size: 565671
-  - relpath: Art/RealArt/180222162827-the-kiss-story-top-card-image.jpg
-    md5: 321eb28258605b8b0f7745f0c8db9fd0
-    size: 106470
-  - relpath: Art/RealArt/190430171751-mona-lisa.jpg
-    md5: c869efb7c4bf177ad6762aa7e6664ef9
-    size: 189340
-  - relpath: Art/RealArt/1997.166-GAP.jpg
-    md5: 16f328806af20a7cbc04096997c5b658
-    size: 213680
-  - relpath: Art/RealArt/1_Charles-White.jpg
-    md5: 3d83bfe7ce02e82d657888e1ad393e1f
-    size: 63038
-  - relpath: Art/RealArt/1f6aa65055228e5224e504ba4b0a0de1.png
-    md5: f64c57f598a1e43b93927145f1223e86
-    size: 88468
-  - relpath: Art/RealArt/1jWx9suY2k3Ifq4B8A_vz9g.jpeg
-    md5: b38abc39a310aad4cf51830dd11e6a97
-    size: 146023
-  - relpath: Art/RealArt/2-23-3-4-20-14-31m.jpg
-    md5: 1f5aa0654b7c6c4bbcb5fcbba01afe2b
-    size: 46277
-  - relpath: 
-      Art/RealArt/2-van-gogh-style-paintings-set-a-sea-at-sunset-van-gogh-mounir-khalfouf.jpg
-    md5: 24fe8471a4fe9ae97fb68c6ab6b5c99b
-    size: 91646
-  - relpath: Art/RealArt/200914135645-golden-headed-lion-tamarin-london-zoo.jpg
-    md5: 52eebf30da52f174113b650c6cf1b2f2
-    size: 81425
-  - relpath: Art/RealArt/2020-03-feature-giraffe_tcm7-269465.png
-    md5: e58b89dbb083d2c2f7d5fc89ac96465b
-    size: 359047
-  - relpath: Art/RealArt/20200204-Influential-51_camera-press.jpg
-    md5: dc9d3d631a3a8407493896009795800a
-    size: 348447
-  - relpath: 
-      Art/RealArt/20230807-ashleyfortner-002-asian-elephant-trong-nhi-linh-teaser.jpg
-    md5: 9c2f19201e030899e61b74790623f082
-    size: 176116
-  - relpath: Art/RealArt/210604151110-02-platon-nft-iris-series-restricted.jpg
-    md5: 5ba4c6fbb613b11f7892cbc9c1cf6743
-    size: 142699
-  - relpath: Art/RealArt/231019-Yayoi-Kusama-ew-337p-647c5e.jpg
-    md5: 883b217ec11b1af80ba75353930e7c0d
-    size: 159944
-  - relpath: Art/RealArt/23b94bfecddc840c0ab5c4eaeaeeb974.jpg
-    md5: fe346d22ceb6b48a49de4ea600df6ff9
-    size: 155373
-  - relpath: Art/RealArt/24mag-animal-illo-facebookJumbo-v19.jpg
-    md5: 005176d89e0a8997e4aa6b07bfd2f856
-    size: 70506
-  - relpath: Art/RealArt/2506708-HSC00001-6.jpg
-    md5: 7c5e879f860b22c58d57e6a95a9dc4b4
-    size: 19824
-  - relpath: Art/RealArt/26713309_web1_M-Rob-Schouten-edh-211007.jpg
-    md5: a28ac15605bfd105ff569c72b9997486
-    size: 295774
-  - relpath: Art/RealArt/2g24m0k80001000.png
-    md5: 4c03a46e9c611ee66588536e974ce195
-    size: 95757
-  - relpath: 
-      Art/RealArt/2ibwo5nyey_76768945_200ee080_6772_11ea_99f1_23346ee95a58.jpg
-    md5: e5ba7bf771de4bbe7394388c47694487
-    size: 151274
-  - relpath: Art/RealArt/3-19-9-25-15-39-55m.jpg
-    md5: 3ed4c68b094571989bf30f0d5c64686a
-    size: 100039
-  - relpath: Art/RealArt/3-self-portraits-by-zanele-muholi.jpg
-    md5: d41b73d86d0efd30b6d47a82571c0519
-    size: 119362
-  - relpath: Art/RealArt/3-the-photo-academy-portrait-Yousuf-Karsh.jpeg
-    md5: 30d3b4fadc34dbb6c614a13b8103596c
-    size: 157913
-  - relpath: Art/RealArt/3-x-3-template-newi.jpg
-    md5: 503c5a26ce097115210c9d796fedae7e
-    size: 126299
-  - relpath: Art/RealArt/33100scr.jpg
-    md5: 01b10f2b0bce62ec57b386bd68bc77b7
-    size: 253278
-  - relpath: Art/RealArt/360_F_196873357_Z8LRgbrFSLloSUP1QEqaVAi3OBbVIaWh.jpg
-    md5: 57b595cd64fe34bc80a8c919212897bd
-    size: 57436
-  - relpath: Art/RealArt/360_F_273227473_N0WRQuX3uZCJJxlHKYZF44uaJAkh2xLG.jpg
-    md5: 0dac5b79dec62ca92a4ebc5c567eed30
-    size: 97701
-  - relpath: Art/RealArt/360_F_340509733_5MwYU9THVvHgCBuYKZIC8nm5vIoM0dEv.jpg
-    md5: a26c7a9427e72917456742ea219f7df6
-    size: 50069
-  - relpath: Art/RealArt/360_F_380747975_sS1hCVB0qPqFCWBMZ3qJ5xTqH6rtaDBI.jpg
-    md5: 0c08de4b950ae1da702ce5d7bbe77ee1
-    size: 45534
-  - relpath: Art/RealArt/360_F_482153924_Jc1kuY4feaYUYo5p9tDlzww9OeoGguG4.jpg
-    md5: 81e428e4d9a7b8e027813c4232561904
-    size: 75677
-  - relpath: Art/RealArt/360_F_550617518_Eu3U6kTl3mODPvnfTMFHQ88z1y5KNfNQ.jpg
-    md5: 74a0a76a233e90f81646a017050dcc02
-    size: 59338
-  - relpath: Art/RealArt/360_F_568525285_CrGJ8Yh1noTyqu6QsocfVeGQGY91E0Jb.jpg
-    md5: 3bdfc3208c9d921c6c18f6c699289296
-    size: 63058
-  - relpath: Art/RealArt/360_F_606797008_rGPPk6bFWDQydnX7g7w1w9dVVZ4mD22J.jpg
-    md5: b1d76a8a099bc6e537a64f08acf01b9f
-    size: 73631
-  - relpath: Art/RealArt/39699055175_5876c32612_b1.jpg
-    md5: a619d2ed1351ed8be813967b90cff4ce
-    size: 17002
-  - relpath: Art/RealArt/3F302C18-1DA6-4372-8E313E2FF2CF4D86_source.png
-    md5: 208e4b7ffa3aac5b5e1a1df038a0c6a9
-    size: 265998
-  - relpath: Art/RealArt/3ae7570b10d1f71a41a1daea8bf8de77.jpg
-    md5: c0f75b597ade378ab4ad90705e484679
-    size: 16522
-  - relpath: Art/RealArt/3yl7j5q9n4_WEB_288447.jpg
-    md5: 18ba761485b853184d88c6f498986d25
-    size: 191665
-  - relpath: Art/RealArt/4-23-4-22-8-4-13m.jpg
-    md5: c9d398aa008902f09abeeff93ec827ad
-    size: 104841
-  - relpath: Art/RealArt/49ee445617997a593ca86c6f9b.jpg
-    md5: 0e11cc144265c228ec2b3159f5f673ad
-    size: 169406
-  - relpath: Art/RealArt/4a092cb31ce8d11f8ca53137d86c276f.jpg
-    md5: 09f6f210c6685fea0e712bf362bae24d
-    size: 35778
-  - relpath: 
-      Art/RealArt/4c1d531b-165d-4df6-89a6-0bd99446a31d_3c9c923a-84bb-4512-bb2d-4a16568285bd.jpg
-    md5: e027b2fb10f0054d0631276e6c7845bb
-    size: 173767
-  - relpath: Art/RealArt/5-23-7-23-8-53-6m.jpg
-    md5: 8498897188727b1626f9664efb19f00d
-    size: 75468
-  - relpath: 
-      Art/RealArt/5-Small-but-Famous-Oil-Paintings-3h23gx8wfeu51t7jyudedm.jpg
-    md5: 5a2b72943e76998199f92f0d58b0ea02
-    size: 61762
-  - relpath: Art/RealArt/5-Types-of-People-e1640865120273.jpg
-    md5: f64b89973d662845bc6c62662a15e5dc
-    size: 91502
-  - relpath: Art/RealArt/51sGagaZbS._AC_UF10001000_QL80_.jpg
-    md5: 5f4066c1c19c534be9f3ed63eae30686
-    size: 39620
-  - relpath: Art/RealArt/5c09c4dc82dc441dfb26975fe8dc1634.jpg
-    md5: 676e404377bcdcb5ec0f86b3c91146ee
-    size: 102084
-  - relpath: Art/RealArt/60095595_large1300.jpg
-    md5: 9b41cab0e4c12a42f07b48b04343a6df
-    size: 115310
-  - relpath: Art/RealArt/6170a8ed-8180-448b-8cd1-faaa035fd5c6_570.Jpeg.jpg
-    md5: dadd811f1335f93287b55a39ba2b6e89
-    size: 28807
-  - relpath: Art/RealArt/63743885_605.jpg
-    md5: 3567c24e6a13a4af47cddfcec220c8c0
-    size: 322712
-  - relpath: Art/RealArt/63l8iooc5eobpz5bjjc6ig.jpg
-    md5: 546792572998efa11e736456bc73c0e6
-    size: 80320
-  - relpath: Art/RealArt/66398230_702.jpg
-    md5: 63da3e4ea67634861983af798c39193c
-    size: 28949
-  - relpath: Art/RealArt/69601536314088.jpg
-    md5: f3ecedfba23d23d811df16efb151944e
-    size: 3684365
-  - relpath: Art/RealArt/6c12fdc402726c513901a61f512ba3c6.jpg
-    md5: d6ffd26c5db3b517d2345d5555d13b15
-    size: 21031
-  - relpath: Art/RealArt/71JgyMLYYSL._AC_UF10001000_QL80_.jpg
-    md5: 7d2ecb523ce8fbdfb5ccdf7a8b9fbcd1
-    size: 87468
-  - relpath: Art/RealArt/71L0XXoGIRL._AC_UF8941000_QL80_.jpg
-    md5: aa3ff4f71a345aafece10108ad0bb1d9
-    size: 156716
-  - relpath: Art/RealArt/71OZ5MXTSjL.jpg
-    md5: 698eaa795dd314c4f0c11828c7cb2947
-    size: 225128
-  - relpath: Art/RealArt/71afyFfZx0L._AC_UF8941000_QL80_.jpg
-    md5: e9e988ea71a4742a6422b3542a97d897
-    size: 115451
-  - relpath: Art/RealArt/7592006-HSC00002-7.jpg
-    md5: 0edf03ed3daceae46fa30568966c18bd
-    size: 51203
-  - relpath: Art/RealArt/77505086_large1300.jpg
-    md5: 14debd1283d36b1442026f85f136e61d
-    size: 380966
-  - relpath: Art/RealArt/7761662-XIWBRDDJ-6.jpg
-    md5: 2cbba3f845c79cdcac1774aea9555420
-    size: 34258
-  - relpath: Art/RealArt/7917317-HSC00923-7.jpg
-    md5: a41f441db0c016042139e20d710d4c58
-    size: 147336
-  - relpath: Art/RealArt/7ce6zbax23_WEB_257649.jpg
-    md5: 7a5613021afa5b546bb63d72eee30bd5
-    size: 118159
-  - relpath: Art/RealArt/7final-1-scaled.jpg
-    md5: e60e667d3dd0cbaf6c96955094374c03
-    size: 985935
-  - relpath: Art/RealArt/812EtDiEY9L._AC_UF10001000_QL80_.jpg
-    md5: 814fd5b180324d80e39c1d3d563011fc
-    size: 142452
-  - relpath: Art/RealArt/85120553.jpg
-    md5: 48ac9525ef2b0403dd078b1f329bb2c3
-    size: 579518
-  - relpath: Art/RealArt/85220_africa-21787_1920.rev.1600192341.jpg
-    md5: 88cdf973961a56057a86642694b8c66b
-    size: 102058
-  - relpath: Art/RealArt/91BglHKIKnL._AC_UF8941000_QL80_.jpg
-    md5: 121a3fc9b9ac9a25fe8114bcbfe8e105
-    size: 108073
-  - relpath: Art/RealArt/91NKwoumEpL._AC_UF8941000_QL80_.jpg
-    md5: 8133625981dc6b8a633b385c759b8fed
-    size: 203174
-  - relpath: Art/RealArt/9320811-NWDRYHDP-6.jpg
-    md5: 2950095ef9064e02f5aba8fc9f090e7c
-    size: 14327
-  - relpath: Art/RealArt/9499928367_bf1abd7bf2_z.jpg
-    md5: 2ee477249eb9b63336957cd5d3fab696
-    size: 60125
-  - relpath: Art/RealArt/9511429-QBAHKOGH-7.jpg
-    md5: c9659964107b3ca82a798bd3cc0d8d54
-    size: 145588
-  - relpath: Art/RealArt/9780241416907-jacket-large.jpg
-    md5: 71149d61929775e11cdcffaa9884dd4b
-    size: 120813
-  - relpath: Art/RealArt/99050588b2b7c5aaa581c808c1b687c6.jpg
-    md5: ebecbe522c6cea0ced8234f0734aa344
-    size: 15751
-  - relpath: Art/RealArt/A142xwh4GVL._AC_UF8941000_QL80_.jpg
-    md5: 7d517fa35bb2a3214534b13a497f8fdc
-    size: 245193
-  - relpath: Art/RealArt/About-the-People-living-with-HIV-Stigma-Index.jpg
-    md5: 0742874f05bdab11ad63ec4dc37ca480
-    size: 293307
-  - relpath: Art/RealArt/AdobeStock_502229899.jpeg
-    md5: 486ea3dc23288bbf9995fba903d31b63
-    size: 2265725
-  - relpath: Art/RealArt/Africa-2.png
-    md5: d793ffa2c1b3b996cf4252f2bd8f8fe5
-    size: 615439
-  - relpath: Art/RealArt/Animals-Names-Explore-List-of-100-Names-in-English.png
-    md5: fa49a4a051a3c6fc90fe58d87564ca80
-    size: 69879
-  - relpath: Art/RealArt/Artboard_1_eb959a6d-c289-4196-8f79-44bffa2b6a8c.jpg
-    md5: 8cf419575f08a8ef2d15dbac96b00880
-    size: 494751
-  - relpath: Art/RealArt/B23A9251-Edit-1024x683.jpg
-    md5: 010d65fc3b5b6abd69bf309fa7bf86d6
-    size: 95013
-  - relpath: Art/RealArt/BabyAnimals.jpg
-    md5: 3020cf41adc2eb79eff2e988b124763d
-    size: 914487
-  - relpath: Art/RealArt/Ballerina2030909_36x30_3.jpg
-    md5: f6ac7393b224beee9933012417ea46fc
-    size: 65222
-  - relpath: Art/RealArt/Black-and-White-Portrait-3.jpg
-    md5: 9124c00161948b91b7acf8f7087d02da
-    size: 123961
-  - relpath: Art/RealArt/Bluebirdprojectpainting.jpg
-    md5: 1ca4d013020eca8bae991740c1829b11
-    size: 422996
-  - relpath: Art/RealArt/CB2953EN_img7.jpg
-    md5: 8733d0bd0c7c3fa96c0ae4e3597e2507
-    size: 145764
-  - relpath: Art/RealArt/COLORFUL-NIGHT.jpg
-    md5: b3e7168424236181cfce82bbb23dfebf
-    size: 125593
-  - relpath: Art/RealArt/Captive-lion-hero-C2A9-George-Logan.jpg
-    md5: e97797d9bc960eb38490334506bcbbcf
-    size: 632641
-  - relpath: Art/RealArt/Cheetah-wildlife-hero.jpg
-    md5: f314015899dc3c98c5ea179ff92c65a8
-    size: 599160
-  - relpath: Art/RealArt/Child-face-portraits-Helen-Whittle-1.jpg
-    md5: f2a890b02a1773f4e6a4d4d264dc949e
-    size: 15775
-  - relpath: Art/RealArt/Chris-Pratt.jpg
-    md5: 7defd850746fdcf736d29f2d64a9992c
-    size: 345729
-  - relpath: Art/RealArt/Close_1969.16.jpg
-    md5: fdbb0e74fab156051764f6eeb84e19be
-    size: 79625
-  - relpath: Art/RealArt/Coyote-animal-sentience-research.jpg
-    md5: f7c00fc36e08868b9de0e0a39b1df024
-    size: 440485
-  - relpath: Art/RealArt/Crowd-of-Diverse-People_800x528.jpg
-    md5: 9a9d05b49e511f9d1eb9e18b0daeb551
-    size: 504325
-  - relpath: Art/RealArt/Deer.jpg
-    md5: ddaf6236ac614b7b4643d0f2c85e71d4
-    size: 370710
-  - relpath: Art/RealArt/EPhE1HGU4AAwAdO.jpg
-    md5: 8617151d4d53414fa8340ab541c8076e
-    size: 199827
-  - relpath: Art/RealArt/Famous-Portrait-Paintings-848x530-1.jpg
-    md5: 367db587c1e4959fcf9cb4addc39a715
-    size: 114441
-  - relpath: Art/RealArt/Fireflies_product_800x.jpg
-    md5: a69fcafe7d72d38b85c3cfdfebbddcfb
-    size: 133611
-  - relpath: Art/RealArt/First-image_Fb-size_grande.jpg
-    md5: ff31c98df6b8ffdbb5b56f3598bb9987
-    size: 68683
-  - relpath: Art/RealArt/Fschl-Eric_TrumpMug.jpg
-    md5: 459ea5490db3bb2c88ad1def9f190938
-    size: 197769
-  - relpath: Art/RealArt/G2_231208_TianTian.jpg
-    md5: ee802de4af0d3449ded14ac4d6f224ed
-    size: 1583649
-  - relpath: 
-      Art/RealArt/GALLERY01-1920x1080-c9a073cc958f0b168efced096d8c73b1.jpg
-    md5: c9a073cc958f0b168efced096d8c73b1
-    size: 1446664
-  - relpath: Art/RealArt/Gen-AI-Community-Forum_NC_Header.jpg
-    md5: 5fc88085846fc055657d66946e1df49b
-    size: 6639326
-  - relpath: Art/RealArt/GettyImages-1199904654-1-820x1024.jpg
-    md5: 3d1ed89c8b1b9086fbe9b473d9b495c6
-    size: 190636
-  - relpath: Art/RealArt/GettyImages-141467674-crop.jpg
-    md5: edbd3c1899bff72bbdc41784f2ae0c04
-    size: 263322
-  - relpath: Art/RealArt/GettyImages-450753839_83740.jpg
-    md5: ba9962f5e0fb2e10f60cce0151927f04
-    size: 610010
-  - relpath: Art/RealArt/GettyImages-514622028-1200px.jpg
-    md5: e773a73b28b29d56d0858abab0e8a097
-    size: 175005
-  - relpath: Art/RealArt/Group-of-People.jpg
-    md5: 797b95699e836321624d877aa4b24212
-    size: 101330
-  - relpath: Art/RealArt/H0820-L360654254.jpg
-    md5: 7d2d6d7956f5c942cf228cb63c6c68c0
-    size: 188040
-  - relpath: Art/RealArt/HD-wallpaper-nature-scenery-scenery-nature.jpg
-    md5: 0be157b7bdd8e78da9f9d4ef42518261
-    size: 95313
-  - relpath: Art/RealArt/HD-wallpaper-scenery-lake-nature-sky-tree-water.jpg
-    md5: 868dcee144691453441ad56f40435a93
-    size: 112518
-  - relpath: Art/RealArt/HEADER-Best-Love-Paintings-Ever-Painted_1024x1024.jpg
-    md5: 6989f5ace58aa8818d1f57b73b452f38
-    size: 192506
-  - relpath: Art/RealArt/How-to-Draw-Scenery.jpg
-    md5: 3bba10774a132ce2ebb57c07ba4f16af
-    size: 281230
-  - relpath: 
-      Art/RealArt/Indigenous-Peoples-Myanmar-Meriem-Gray--World-Bank-1440x600.png
-    md5: 10d459f71ac49df8a8d61ec1b295935b
-    size: 2569850
-  - relpath: 
-      Art/RealArt/Jackson-Kania-Montgomery-proximate-leaders-change-592x333.jpg
-    md5: b984884debccaebcdbaf13cb67713334
-    size: 102733
-  - relpath: Art/RealArt/Jason-Brown-lemur-baby.jpg
-    md5: 828d3ed2c0d66c1a7eed78201afb3be6
-    size: 99048
-  - relpath: Art/RealArt/Javan_rhino_Ujung_Kulon_NP.jpg
-    md5: c43bff98e26617219410f107fc2f763b
-    size: 40195
-  - relpath: 
-      Art/RealArt/JoanneHastie-2021-ForestLight-MountSeymourPainting-canvas-prints-003.jpg
-    md5: 55a28e6259082c15531022136ddc4d78
-    size: 780217
-  - relpath: Art/RealArt/LARAJADE_SELFPORTRAIT.jpg
-    md5: bb07e4481fa3d44ce25602c4523cfbff
-    size: 144404
-  - relpath: Art/RealArt/LOOPYLUPINSJPG_1600x.jpg
-    md5: 016e6c5122dd86a37caa71a67533492b
-    size: 341597
-  - relpath: Art/RealArt/Land-Animals-Featured-841x1024.png
-    md5: ec83add39b3ab1375bc1acd9f59f37bf
-    size: 309192
-  - relpath: Art/RealArt/Mali_-_Bozo_girl_in_Bamako.jpg
-    md5: 16681bd1dac88b55c9424f53edd15b22
-    size: 3121778
-  - relpath: Art/RealArt/MightyMountains_v2_product_1024x1024.jpg
-    md5: 80b5b078cca40796507b266f1fbee582
-    size: 222843
-  - relpath: Art/RealArt/Mona-Lisa-by-Leonardo-da-Vinci-687x1024.jpg
-    md5: 609e7c62de312d11072acd8c73a5e60a
-    size: 144982
-  - relpath: Art/RealArt/Monroe_Exotic_Animals_Texas4.jpg
-    md5: 07ef3061bf6ded7127ed9e0c40d1388e
-    size: 679844
-  - relpath: Art/RealArt/Most-Searched-People-on-Google-in-2022_post-1.png
-    md5: 5b2838c13fbc27162f32c77bde8aeb67
-    size: 264665
-  - relpath: Art/RealArt/Mother_sea_otter_with_sleeping_pup.jpeg
-    md5: 6c8171add966f7782fe4deb3465297f2
-    size: 2636317
-  - relpath: Art/RealArt/Opossum-with-babies.jpg
-    md5: 2a30fcc7eed3618b9d2930977457e374
-    size: 196830
-  - relpath: Art/RealArt/PaintingBBR147_1.jpg
-    md5: 204c034834c62729168757c203a5eb8e
-    size: 316434
-  - relpath: Art/RealArt/Paintings-by-Joan-Miro-1140x684.jpg
-    md5: aac9804f3032f3b1dc186e052c5cc20f
-    size: 129003
-  - relpath: Art/RealArt/People-First_Report-Cover.png
-    md5: 4462e87be1b29013530a80be726bd6d7
-    size: 955471
-  - relpath: Art/RealArt/People_Magazine_cover.png
-    md5: 2a078c68918a71f6262ce24cd02f7f2a
-    size: 204361
-  - relpath: Art/RealArt/People_heroXBD201909-00859018.jpg
-    md5: 134a19923e5d1414e9e968c0eb2a7aad
-    size: 810788
-  - relpath: 
-      Art/RealArt/Personal-Crowd-Silhouettes-Human-Group-Of-People-2045498.jpg
-    md5: 14e62c614b49090f2b5fd338c872884e
-    size: 95874
-  - relpath: Art/RealArt/Portrait-Photographers-Yousuf-Karsh-King.jpg
-    md5: 933ad9f3caf62a87de017df664fc1e8a
-    size: 51437
-  - relpath: Art/RealArt/Portrait075a-819x1024.jpg
-    md5: a59676d939eaf2ce48347c2f5deecd45
-    size: 136311
-  - relpath: Art/RealArt/Portrait197a-1280x640.jpg
-    md5: ed68be4f5527759017913dbe7cd7f44e
-    size: 61616
-  - relpath: Art/RealArt/Red-Tailed-Guenon-Animal-Header-768x512.jpg
-    md5: edb61830a5bccd2bf6d17ff18c4bc199
-    size: 49045
-  - relpath: Art/RealArt/Russell-NormalPeople-3.jpg
-    md5: 80f074f22645834ec79a92243adaf45e
-    size: 100596
-  - relpath: Art/RealArt/Science-of-Attraction-feat.jpg
-    md5: 2bc9284c6dd9fde9dbfb86de058548a8
-    size: 381296
-  - relpath: Art/RealArt/Screenshot-2023-06-12-at-18.36.47.png
-    md5: 9db5ea7f855ba8445640a5211cd66051
-    size: 2438481
-  - relpath: Art/RealArt/SeasideEscape_product_400x.jpg
-    md5: a07489c09fbcbedb72f863da7849e8a8
-    size: 40201
-  - relpath: Art/RealArt/Shelley-Newman-Watching-The-Show-2022.jpg
-    md5: 3247cad62aaabbf8aebc4c03c8dbd12d
-    size: 239778
-  - relpath: 
-      Art/RealArt/The_Emotional_Life_of_Animals_And_What_It_Means_for_Us.png
-    md5: d881291264dcf401473b18b2fbb8526c
-    size: 4024563
-  - relpath: Art/RealArt/Threatened-animals-blog-image.jpg
-    md5: 3fe23e1b3620a2845fcc5a619b1a972b
-    size: 4094400
-  - relpath: Art/RealArt/Tiger-1.jpg
-    md5: 818a2ca9011a1146846c2a2b928d8532
-    size: 406002
-  - relpath: Art/RealArt/Tiger-Male-CJ-Walking-Waterfall-JEP_8986.jpg
-    md5: 68e124bf594667ae0f11eb632a370bf3
-    size: 3376379
-  - relpath: Art/RealArt/Top_35_Famous_Acrylic_Landscape_Paintings.png
-    md5: f81e5e644739a6f86019bd5930b5da6a
-    size: 688536
-  - relpath: 
-      Art/RealArt/Two-girlfriends-students-on-a-coffee-break-outdoors-1296x728-header-1296x728.jpg
-    md5: 194dd0c68e868f0494c00cc33ffd8fb8
-    size: 183949
-  - relpath: Art/RealArt/United-States-56136431-EPA.jpg
-    md5: 9295d0128191fc1cb8f317819e29b830
-    size: 37590
-  - relpath: Art/RealArt/Untitled-design-2022-09-06T133056.012.png
-    md5: 5db2f59640c1529421c3f89a8c5d6c1b
-    size: 1483978
-  - relpath: Art/RealArt/Untitled20design2028129-Aug-02-2022-04-20-22-53-PM.png
-    md5: 8933cf804e12d1b753ea1e9a450655f8
-    size: 417439
-  - relpath: Art/RealArt/VIER20PFOTEN_2013-07-19_024-4576x3168-440x305.jpg
-    md5: dc339ca2f2217b97b9798ce0fca19b54
-    size: 38021
-  - relpath: 
-      Art/RealArt/Van-Gogh-Self-Portrait-ft-min-pwoxk5den6j39ictcu0bhuupqqucvoep6902vpd6rs.jpg
-    md5: bfe8ddb8c0a183e5a1b3e8bd973bd06f
-    size: 128013
-  - relpath: Art/RealArt/WBCSD-People-and-Society_i1140.jpg
-    md5: 5884605a54ce86c841396c73b22d5f2d
-    size: 145777
-  - relpath: Art/RealArt/WI110119_W25_32.jpg
-    md5: 9af0debfd0a5d2995be45381e97e6e36
-    size: 363528
-  - relpath: Art/RealArt/WR202206_GiraffeTranslocation_012_360559_reduced.jpg
-    md5: d864218fa89f77ce20d2363b7509375a
-    size: 390161
-  - relpath: Art/RealArt/Women-clothing-Kenya-East-Africa.jpg
-    md5: b1db06dacb340f63fd13be7b9169d54c
-    size: 267179
-  - relpath: 
-      Art/RealArt/Worlds-15-Most-Iconic-Portraits-by-iPhotography.com-11.jpg
-    md5: 1adcf94bc2273f5eb3d92fa5a625d747
-    size: 70700
-  - relpath: Art/RealArt/XaHpf_z51huQS_JPHs-jkPhBp0dLlxFJwt-sPLpGJB0.jpg
-    md5: 7455a3dbfdf1338d85566a0357a88c84
-    size: 636250
-  - relpath: Art/RealArt/_128319873_975784e5-9c6c-441e-9d3e-c77a84d5013f.jpg
-    md5: 2451c03ae5fb980f8f7362cfa4f63138
-    size: 69465
-  - relpath: Art/RealArt/_MG_5812.jpg
-    md5: da150cdcee11c5d3b5d4844343ddf55c
-    size: 890920
-  - relpath: Art/RealArt/a9cb4b9875143b1568ba519ea086af95.png
-    md5: a57ac7dfdda68c60df12f98ba82f5ebf
-    size: 156388
-  - relpath: Art/RealArt/a_meerkat_is_weighed_at_the_annual_weigh_in_website.jpg
-    md5: 3687012b0acc2257efdb3c7a133ce6d3
-    size: 380737
-  - relpath: 
-      Art/RealArt/abstract-art-painting-Information-Paradox-no-hotlink.jpg
-    md5: 3a89bb75b43ec7e8a253ccbdda9166c3
-    size: 161365
-  - relpath: Art/RealArt/african-spurred-tortoise-web-image-300x200.jpg
-    md5: 95bdf835598c480833288c64469353cb
-    size: 35298
-  - relpath: 
-      Art/RealArt/ai-generated-synthetic-scenery-landscape-watercolor-painting-riverside-scenery-at-sunset-photo.jpg
-    md5: 0bf72957d0997b4961c39cb601e0d645
-    size: 551109
-  - relpath: Art/RealArt/alexander-vinogradov-1900x1267-1419x946.jpg
-    md5: cb2c3053cc553cd127e69cf96070fc12
-    size: 129897
-  - relpath: Art/RealArt/arash-zia-artw1.jpg
-    md5: ceeec12a1f5555dc020f43c7f835acbd
-    size: 569548
-  - relpath: Art/RealArt/arash-zia-artw3.jpg
-    md5: e27b103dd14b40eae9ed482071c644c1
-    size: 644595
-  - relpath: Art/RealArt/arbiyashaikh9_66663-IMG_20230517_160453.jpg
-    md5: aa5111492244c41942a671ca90892670
-    size: 85403
-  - relpath: Art/RealArt/arm-people-pleaser-2-wfxzwevfldlg.jpg
-    md5: 038e7c23ada9fad7db660c1dbee7929b
-    size: 861254
-  - relpath: Art/RealArt/autumn-walk-1800329209.jpg
-    md5: 19a172d065759936593de72647534396
-    size: 241200
-  - relpath: 
-      Art/RealArt/b3e341d8ba10a7869442ef08b9fb7663f1ff31aa-aout2019-en.png
-    md5: 2ae2b36a4b89f11b697a11d55d34f329
-    size: 224620
-  - relpath: Art/RealArt/babyanimals_blogpost.jpg
-    md5: 790f59c3d30c61c375970b06db77103d
-    size: 260214
-  - relpath: Art/RealArt/bear-painting-abstract-animal-art-kent-paulette.jpg
-    md5: 62cea83b8ad0bc4d00e8dc0225936f98
-    size: 1078413
-  - relpath: 
-      Art/RealArt/beautiful-landscape-paintingoutdoor-scenery-illustration-GJ7FTK.jpg
-    md5: 898742978297c438d610ab1c21424c05
-    size: 388030
-  - relpath: 
-      Art/RealArt/beautiful-natural-scenery-with-a-lake-and-mountains-free-photo.jpg
-    md5: b01bf8acb8d6dee91fd22477eb2ba42f
-    size: 4953348
-  - relpath: 
-      Art/RealArt/beautiful-nature-mountain-scenery-with-flowers-free-photo.jpg
-    md5: da59c5acb77a9c7ed702b449cd5a2f39
-    size: 7101270
-  - relpath: Art/RealArt/beautiful-nature-scenery-847611-zhjrh-fb.jpg
-    md5: 405e63a69a9c9419dd710f5308e766e5
-    size: 16877
-  - relpath: Art/RealArt/beautiful-nature-scenery-free-photo.jpg
-    md5: 608eb4d92f92edc4945afd8729893641
-    size: 7057450
-  - relpath: 
-      Art/RealArt/beautiful-nature-scenery-smartphone-wallpaper-free-photo.jpg
-    md5: 819824fa71949e53f6989439166db428
-    size: 6270774
-  - relpath: Art/RealArt/beautiful-scenery-136-61dedf99f0878__880.jpg
-    md5: 010020ccb6947a9a3e144e27fb441140
-    size: 485403
-  - relpath: Art/RealArt/beautiful-scenery-arun-sivaprasad.jpg
-    md5: 976e777a8829041bbc4ee414ba659395
-    size: 313102
-  - relpath: Art/RealArt/beautiful-scenery-fb17-png__700.jpg
-    md5: 13e1083aa7e37c0d54c60706f441d696
-    size: 68791
-  - relpath: 
-      Art/RealArt/beautiful-scenery-in-autumn-season-illustration-ai-generative-free-free-photo.jpg
-    md5: f1588b837693a0d61d82a0ba66d475f6
-    size: 168723
-  - relpath: 
-      Art/RealArt/beautiful-scenery-rock-formations-sea-queens-bath-kauai-hawaii-sunset-186645179.jpg
-    md5: 972065d7ed009856eea341272e9ef135
-    size: 71856
-  - relpath: 
-      Art/RealArt/beautiful-scenery-tree-sea-sunset-hd-wallpaper-3842-1920x1080.jpg
-    md5: 98d9e504bd970f87140b5bd19e1780fb
-    size: 430678
-  - relpath: Art/RealArt/beautiful-scenery-wallpaper_1920x1080_91975.jpg
-    md5: 13fe40cf2b0eab91ea29ca946059e29a
-    size: 1748772
-  - relpath: Art/RealArt/beautiful-scenery-wnxju2647uqrcccv.jpg
-    md5: 446d6568665815814f65cd2f7232de5e
-    size: 441068
-  - relpath: 
-      Art/RealArt/beauty-nature-scenery-landscape-background-nature-composition-beautiful-landscape-PA57M3.jpg
-    md5: 0d38c0941f46f7dcc5c93d45414c75fa
-    size: 349395
-  - relpath: Art/RealArt/beauty-portrait-female-face_93675-132045.jpg
-    md5: 90908ea38c32c27152acaf1bc63388e7
-    size: 38900
-  - relpath: Art/RealArt/bff24aa8-a7b3-4919-a9bc-17e1bf4452df.jpg
-    md5: 9165d7c24b3dcdbd6ce8070870f8190a
-    size: 114840
-  - relpath: Art/RealArt/black-american-portraits-130.gif
-    md5: 7554a6145ebc88bafc7079900efb84e5
-    size: 548248
-  - relpath: Art/RealArt/black_and_white_portraits_drew_hays.jpg
-    md5: a4e530c18058974b3f3d6b844532a798
-    size: 13362
-  - relpath: Art/RealArt/black_and_white_portraits_peter_sjo.jpg
-    md5: 92dc5646876557a6e43d149e723e514e
-    size: 127137
-  - relpath: Art/RealArt/bob-ross-white-mountain-many-sigs-detail1_1024x1024.jpg
-    md5: 429ad759e85b84a63ed78b9ebad19a5b
-    size: 262873
-  - relpath: Art/RealArt/bwportraits_cover-1500x1000.jpeg
-    md5: fe21ed5e0c6f651c50d13800cce88049
-    size: 272413
-  - relpath: Art/RealArt/cUAIt5CTS9sQgkglwshb.jpg
-    md5: 425c52ae50f350183af5b07815d84f7d
-    size: 70029
-  - relpath: Art/RealArt/cafe-terrace-on-the-place-du-f.jpg
-    md5: 81bcd4ae94fa28dda5264be0132d4867
-    size: 10195352
-  - relpath: Art/RealArt/capy1.png
-    md5: e84ce2c1e99877718025d403440c5f00
-    size: 1067114
-  - relpath: Art/RealArt/cat-with-ducklings.jpg
-    md5: 4311fb77e97f207dac15b65964025be3
-    size: 645732
-  - relpath: Art/RealArt/cbc662299bd35357e519fe867444b86c.jpg
-    md5: 2d502c9c88e739ab98a71d0f219e21fe
-    size: 57481
-  - relpath: Art/RealArt/changeofscenery-index-1634854124.jpeg
-    md5: f35ca667b452cdcd10058a6f18642c95
-    size: 555146
-  - relpath: Art/RealArt/cheetah-003.jpg
-    md5: b02153827f0e26d595536ebc864061cf
-    size: 138077
-  - relpath: Art/RealArt/child-face-portrait-helen-whittle-767x506.jpg
-    md5: 0c3a4fe5537e738f22072df9ca2554f4
-    size: 32693
-  - relpath: 
-      Art/RealArt/contemporary-realism-portrait-painting-Stanley-Rayfield-artist-Churchhatnew-scaled.jpg
-    md5: 52cabbcbb3a0fae29a06fcf2f369a905
-    size: 683148
-  - relpath: 
-      Art/RealArt/ct-art-vector-illustrations-creative-minimalist-hand-drawn-vector-2286463217.jpg
-    md5: 74f5fd0a92649b0b9907579ad39072f1
-    size: 103414
-  - relpath: Art/RealArt/cute-baby-animals-1558535060.jpg
-    md5: 5f76c9921fc36458ecd1ad4a9d5ddfe0
-    size: 244671
-  - relpath: Art/RealArt/cute-baby-animals-at-australia-zoo.thumb.800.480.png
-    md5: 28744f77e095621ab1be2043652d1a62
-    size: 148944
-  - relpath: Art/RealArt/cute.jpg
-    md5: 1bee70a34375119273ae03ff89428696
-    size: 692106
-  - relpath: Art/RealArt/daniel-norton-portrait-photography-CLOSE.jpg
-    md5: 204e5a1387777a0e401933d24054a9cd
-    size: 78077
-  - relpath: 
-      Art/RealArt/diverse-crowd-people-different-ages-races_74855-5235.jpg
-    md5: 8b86d3838feb30483fd4c35983c6dfa5
-    size: 37897
-  - relpath: Art/RealArt/diverse-people.jpg
-    md5: 1f4cbdb3544a7afa62399fe32d3eadc5
-    size: 1555200
-  - relpath: Art/RealArt/dog.jpg
-    md5: 252c122301dde5f8e40684ee7e72f06e
-    size: 101194
-  - relpath: 
-      Art/RealArt/dwayne-johnson-attends-the-premiere-of-universal-pictures-news-photo-1161880409-1566504158.jpg
-    md5: 4967fd443b7e6d3bd96dd9d44dfef3de
-    size: 438880
-  - relpath: 
-      Art/RealArt/e-world-barack-obama-mark-zuckerberg-oprah-winfrey-greta-thunberg-bill-gates.png
-    md5: 1fbaa267ca2cd1102acfc8b06880a8ed
-    size: 141154
-  - relpath: 
-      Art/RealArt/eCC81e-DOrsay-Art-Gallery.-Photo-by-DeAgostini_Getty-Images_1-a169874-scaled.jpg
-    md5: b7f90adba3eb21cc62f5e1f8af4e828e
-    size: 1753182
-  - relpath: Art/RealArt/ef2646b821cca54a5ad1cdfcf95d2a1a.jpg
-    md5: 368c9175de81dc17f48b65a601f64d1f
-    size: 86356
-  - relpath: Art/RealArt/elelphants_kindness_family_1122.jpg
-    md5: cc50ec01e6d37fe3b3e7d591316acdb1
-    size: 958140
-  - relpath: Art/RealArt/end.jpg
-    md5: 8d602eed72b50af4113f24726bab3786
-    size: 827498
-  - relpath: Art/RealArt/evelyn-bradley.jpg
-    md5: d119db95c28e2d42956c77af2adea7e6
-    size: 29703
-  - relpath: Art/RealArt/extinctions_elephants-555x507.jpg
-    md5: 3e948037f5187ab478669b4a658de04c
-    size: 46865
-  - relpath: Art/RealArt/ezgif.com-gif-maker-3.jpg
-    md5: 5f37a1fade92dddd9e0697e738098928
-    size: 88885
-  - relpath: 
-      Art/RealArt/famous-hispanic-people-america-ferrera-64aee223e68b1.png
-    md5: 95368f483f20c16b564d61eae0f72c1b
-    size: 2539303
-  - relpath: Art/RealArt/famous-paintings-fb.png
-    md5: a128a10176adbf2593a7c888fb9df724
-    size: 1175469
-  - relpath: Art/RealArt/famous-paintings.png
-    md5: f81ab146fcdfc01150ddefe737510e55
-    size: 731554
-  - relpath: Art/RealArt/famous-portrait-paintings-u3.jpg
-    md5: 74df14ca0e2beabf60f20f3a20e72ae3
-    size: 30239
-  - relpath: Art/RealArt/famous-portrait-paintings_wide-3-2-636b81a7177ce.png
-    md5: e73cf1fc374b8e5124eede3a1752c6ef
-    size: 1750322
-  - relpath: 
-      Art/RealArt/father-and-daughter-impressionist-beach-painting-artaistry-canvas-print.jpg
-    md5: 7a2323fcd8ae863d8482a3f798c8a237
-    size: 57751
-  - relpath: Art/RealArt/fe9d1f1322c456403839aef00b20126d.jpg
-    md5: 85558c92555b92c8f4cd0a3f6d587576
-    size: 41509
-  - relpath: Art/RealArt/feat-iStock-1333294167-1600x1200.jpg
-    md5: 9f4b3987ee2491a6fe2bfca8d7438b1d
-    size: 438145
-  - relpath: Art/RealArt/feature.jpg
-    md5: 2a617a4c431bdeec1c5b5b559430b44e
-    size: 638593
-  - relpath: Art/RealArt/female-face-eye-level-portrait.jpg
-    md5: ee1f44fc35a3669e8909b6b6f7cdaa55
-    size: 62074
-  - relpath: Art/RealArt/female-face-girl-posing-outdoors-in-natural-light.jpg
-    md5: cce08a3034aaf7fae33df967c7b586d3
-    size: 58341
-  - relpath: Art/RealArt/female-face-girl-wearing-hat-outdoors.jpg
-    md5: 94ddb6092e274ad15f6fcdbbb7e8a62f
-    size: 53604
-  - relpath: Art/RealArt/female-face-girl-with-wind-in-hair.jpg
-    md5: 17d6e50a394e526aab4b59db984db67a
-    size: 62432
-  - relpath: Art/RealArt/file-20230721-6326-u8u6fj.jpg
-    md5: 191bec454bf32399908567cecb6ae3d4
-    size: 499397
-  - relpath: Art/RealArt/file-20231005-16-1flnlj.jpg
-    md5: f5dafffa742c661159b79760527606fa
-    size: 308913
-  - relpath: Art/RealArt/final_animals-homeschooling_credit-alamy.jpg
-    md5: 8f94f52fd295a392f644571a8a025142
-    size: 1927511
-  - relpath: Art/RealArt/final_credit-alamy-1.jpg
-    md5: 6698ef5b8a8b4041d76a62aac25b6e13
-    size: 650332
-  - relpath: 
-      Art/RealArt/for-desktop-nature-scenes-beautiful-scenery-1920x1080-wallpaper-preview.jpg
-    md5: 4b75aca26f50e85a41a406bc9f5ab6d8
-    size: 123137
-  - relpath: Art/RealArt/forest-landscape_71767-127.jpg
-    md5: 37114693dbbbcaa7647d325b094e3947
-    size: 93834
-  - relpath: Art/RealArt/fox-937049_1920.jpg
-    md5: 5fba172264621d1fc34aa90a3c512377
-    size: 11311
-  - relpath: Art/RealArt/fw-fox-squirrel.jpg
-    md5: 0dc74dd0792de4cfa179b2c0d3326a07
-    size: 117748
-  - relpath: Art/RealArt/getty_511618259_186076.jpg
-    md5: a4d4fc6ac2e033e29109f21c46d4cfd9
-    size: 301304
-  - relpath: Art/RealArt/getty_517194189_373099.jpg
-    md5: 031e1c1cffed5c99340af9c15a41e296
-    size: 203863
-  - relpath: 
-      Art/RealArt/gettyimages-1238924365_wide-b1f7435f5e1e69d0b3a32ad364de7204c89cc15e-s1100-c50.jpg
-    md5: a1c246194c7db1b90bc3f1ca1382b58c
-    size: 95701
-  - relpath: Art/RealArt/gh-famous-latinx-people-1631046697.png
-    md5: 691d2513f5c372a17aed0b77fdabbc1e
-    size: 2721598
-  - relpath: Art/RealArt/girl-with-a-pearl-earring-c-16.jpg
-    md5: 6a1f51973dbffa7a3ead8e9b012cc03c
-    size: 6037578
-  - relpath: Art/RealArt/group-people-illustration-set_52683-33806.jpg
-    md5: 5965d6d67ed00ebf835b37f5ae46ff74
-    size: 42049
-  - relpath: Art/RealArt/header-african-american-health-equity-500x500-1.jpg
-    md5: 3acfe1f382084b17f947054f214f3ae4
-    size: 62206
-  - relpath: Art/RealArt/hero-animals-02.jpg
-    md5: b5f274eb38bf949140377ff21cf73d4e
-    size: 174660
-  - relpath: Art/RealArt/hero-palettes-inspired-by-paintings.png
-    md5: 46deeacc3751084fbd594694142d7a2a
-    size: 595675
-  - relpath: Art/RealArt/hero_zebra_animals.jpg
-    md5: c1765fc8a0f3aebdfadc6ac6acca9a1f
-    size: 339145
-  - relpath: Art/RealArt/homeless-man-color-poverty.jpg
-    md5: 163315151e73bd8c5986e6f86159136e
-    size: 1904420
-  - relpath: Art/RealArt/homepage-hero-low.jpg
-    md5: 0b1e4480c2700fa8c20d30e587430ba5
-    size: 13328
-  - relpath: Art/RealArt/homepage-usp-photo-2_600x.jpg
-    md5: 503042cf199a3b2a98a581bca334b2bb
-    size: 166970
-  - relpath: 
-      Art/RealArt/how-to-draw-an-easy-rainbow-scenery-featured-image-1200.png
-    md5: 39588b121e1113cd1009701b33bb6858
-    size: 103700
-  - relpath: 
-      Art/RealArt/how-to-draw-easy-scenery-of-sunset-in-the-hills-1024x576.jpg
-    md5: 38b18bd034e788ee91e21ca5b896b3bd
-    size: 128512
-  - relpath: Art/RealArt/hq720.jpg
-    md5: 04604bccb0d11792dbdf9e55183f82b4
-    size: 123319
-  - relpath: Art/RealArt/hq7202.jpg
-    md5: d0dee2d81ec307ef26ec3d0f5ca1f75f
-    size: 158067
-  - relpath: Art/RealArt/hqdefault.jpg
-    md5: 987d08a365599e9d388e4401db1c32d1
-    size: 24356
-  - relpath: Art/RealArt/hqdefault2.jpg
-    md5: eeffb53e1429bdbcd9ec1910c1949e3d
-    size: 32417
-  - relpath: Art/RealArt/hqdefault3.jpg
-    md5: 9c39b7a039ac10e16f369acdc647ea37
-    size: 29227
-  - relpath: Art/RealArt/humpback-whale-1680735293.jpg
-    md5: a4ab05b5735680c24f31ae55abeb18f1
-    size: 272707
-  - relpath: Art/RealArt/iStock-1326443525.2e16d0ba.fill-950x535.jpg
-    md5: 836b905758565642f17b49ea3ad47bcd
-    size: 87436
-  - relpath: Art/RealArt/il_570xN.1185533356_i5n8.jpg
-    md5: 6a5958476eb82e060630593b23c238d2
-    size: 144698
-  - relpath: Art/RealArt/il_570xN.3032062592_e10u.jpg
-    md5: 9df09796dff8a64b171e888cab58acb8
-    size: 112573
-  - relpath: Art/RealArt/il_570xN.354623508_9g1k.jpg
-    md5: 42524d6e62886bee86d4c2e08ef9cdd2
-    size: 81392
-  - relpath: Art/RealArt/il_570xN.3757074450_o5mt.jpg
-    md5: b5111112a1d64f0cc5810aa87fc40d80
-    size: 155235
-  - relpath: Art/RealArt/il_570xN.4398975758_9o5j.jpg
-    md5: 761ccfd133a52a9610f79c721476ace9
-    size: 75892
-  - relpath: Art/RealArt/il_fullxfull.3846364111_dz4y.jpg
-    md5: 9865e1a124325c5277d8018d7329694f
-    size: 1692788
-  - relpath: Art/RealArt/image-20160818-12312-4dyz0u.jpg
-    md5: cd59233662820bbb6f6370d19ee023f6
-    size: 196028
-  - relpath: Art/RealArt/image12.jpeg
-    md5: 23d789de8a7aac832e616a0b33d8e2f1
-    size: 14457
-  - relpath: Art/RealArt/image14.jpeg
-    md5: 50b1f57980ab70d96520547f7ac2dc19
-    size: 11919
-  - relpath: Art/RealArt/image15.jpeg
-    md5: 11a2a563fe62ac0b3911bd41dd04824e
-    size: 15126
-  - relpath: Art/RealArt/image16.jpeg
-    md5: 1235a4cf50e1a433f31f058c5868a765
-    size: 16119
-  - relpath: Art/RealArt/image34.jpg
-    md5: c8fb0f62d71f82507d722eaad25c0ba4
-    size: 112614
-  - relpath: Art/RealArt/images.jpg
-    md5: cc753baa92b676bf9fd8db2e3a3a40c8
-    size: 15717
-  - relpath: Art/RealArt/images108.jpg
-    md5: 34c0b270e58135459e406e372acadfce
-    size: 12216
-  - relpath: Art/RealArt/images15.jpg
-    md5: a3f8a69ef730ba821140af40554b6dcb
-    size: 11345
-  - relpath: Art/RealArt/images16.jpg
-    md5: 54cdf0b75c0416f2a51c2d60f7b4280b
-    size: 14074
-  - relpath: Art/RealArt/images19.jpg
-    md5: 5174490252bb88e1d8b1b2a2efba50cb
-    size: 15767
-  - relpath: Art/RealArt/images3.jpg
-    md5: 3d80fcd415d638fba83292c15cf18a9a
-    size: 17209
-  - relpath: Art/RealArt/images31.jpg
-    md5: b69aa1ee49c4bd7799af05469a3711cf
-    size: 11565
-  - relpath: Art/RealArt/images32.jpg
-    md5: 70c713a322a5c7ca72374164ac211e38
-    size: 13021
-  - relpath: Art/RealArt/images34.jpg
-    md5: 3013e35ce52d88bd8c6baa5b670fb277
-    size: 15218
-  - relpath: Art/RealArt/images37.jpg
-    md5: ed75fa057266de8513edcf23d4375c31
-    size: 12121
-  - relpath: Art/RealArt/images38.jpg
-    md5: 18b3dbdd7f53bc38b784ee70bed6340e
-    size: 15765
-  - relpath: Art/RealArt/images39.jpg
-    md5: 493c45cffa054b4423c3d27a0b5f9a40
-    size: 16695
-  - relpath: Art/RealArt/images4.jpg
-    md5: 43d29576f326e9126785c77e7625ce40
-    size: 11945
-  - relpath: Art/RealArt/images40.jpg
-    md5: ce4b124517e13d7c296d1a2378f588d0
-    size: 16656
-  - relpath: Art/RealArt/images43.jpg
-    md5: f84a59be721ccd225aaeab080ced9a48
-    size: 16456
-  - relpath: Art/RealArt/images45.jpg
-    md5: b4481239da811bb4669ab5b3875ce804
-    size: 11769
-  - relpath: Art/RealArt/images53.jpg
-    md5: 6b5a24700a93cfd3f31fc1e461601d03
-    size: 11831
-  - relpath: Art/RealArt/images56.jpg
-    md5: 6039dc98a46fe1833b1b6ee05b6f0ce3
-    size: 13084
-  - relpath: Art/RealArt/images6.jpg
-    md5: c29584a4ff72a28edee624344a8ba799
-    size: 11363
-  - relpath: Art/RealArt/images60.jpg
-    md5: 36051338b54dafb0996456ebfa1211c1
-    size: 13655
-  - relpath: Art/RealArt/images64.jpg
-    md5: 5daf54fe33fdf4411975fe4d1dd29773
-    size: 13659
-  - relpath: Art/RealArt/images70.jpg
-    md5: a2bf704d43be164cc658a201b0226e92
-    size: 14790
-  - relpath: Art/RealArt/images72.jpg
-    md5: 8ade6652fc00e70bf499454cab86991b
-    size: 12733
-  - relpath: Art/RealArt/images76.jpg
-    md5: 0286be982bd884e1f2c785697c6e3b9f
-    size: 11606
-  - relpath: Art/RealArt/images79.jpg
-    md5: 34e4c5caf780b8c52a608c4abfc55478
-    size: 16157
-  - relpath: Art/RealArt/images80.jpg
-    md5: 4e0639b026d10fd137697fc11234ea5b
-    size: 11320
-  - relpath: Art/RealArt/images83.jpg
-    md5: 46598471109f3ee12ca78c43b89ea953
-    size: 14212
-  - relpath: Art/RealArt/images88.jpg
-    md5: 2f8e93f2175bd5fe77ee55b472874031
-    size: 12592
-  - relpath: Art/RealArt/images9.jpg
-    md5: 7dfdde64e14176ec8f0e60ea16a8da29
-    size: 12734
-  - relpath: Art/RealArt/images95.jpg
-    md5: 0d66e6bc6bce903db4e4f04bc09054d7
-    size: 15187
-  - relpath: 
-      Art/RealArt/impressive-summer-sunrise-scenery-background-nature-sea-ocean_743855-17494.jpg
-    md5: cb2f14e4c312d8aedb4a402a663dcc61
-    size: 123049
-  - relpath: Art/RealArt/index-celebs-who-ran-for-office-1566504748.jpg
-    md5: 4d7a3a2a86e3a047570f48e983277e02
-    size: 49904
-  - relpath: 
-      Art/RealArt/iri-painting_wide-4ba5e79b58c77487cbcc07b6b406cb2d5dcdb73d.jpg
-    md5: c13eaa8e00c325572a08c4df255b372f
-    size: 535567
-  - relpath: Art/RealArt/iy1ex3cookmf9cme5qlnxa.jpg
-    md5: cdd33998552d4e72bc8e9c31483bd92f
-    size: 172339
-  - relpath: Art/RealArt/jennifer-lawrence.jpg
-    md5: 58e543e9d292b3e3c8da11012fbacc17
-    size: 107419
-  - relpath: Art/RealArt/julien.jpg
-    md5: 5bf96950d76d1f49cf546c1d4a2f7f4a
-    size: 482041
-  - relpath: Art/RealArt/lamb-iStock-665494268-16x9-e1559777676675-1200x675.jpg
-    md5: 84e8d13683e5f5ed2127e650f9335838
-    size: 70326
-  - relpath: 
-      Art/RealArt/large-beautiful-print-of-village-scenery-waterproof-texture-original-imafzgbuhjehkgfe.jpeg
-    md5: 0ee925b06fa775f2fe8f38288f895f8a
-    size: 146261
-  - relpath: 
-      Art/RealArt/large-beautiful-print-of-village-scenery-waterproof-texture-original-imafzgbusjtaysub.jpeg
-    md5: d12e3971c3c4b75d0f8a7016beca5ae8
-    size: 136674
-  - relpath: Art/RealArt/lemuranimaheader3.jpg
-    md5: e3e797231c010c979ca9bcc1c1fb119f
-    size: 1588408
-  - relpath: Art/RealArt/lindsay-adler-male-portrait-final-image.jpeg
-    md5: 93a940de633301b39b59f2ca08b05912
-    size: 135711
-  - relpath: Art/RealArt/lindsey-pattison_october-2023_hero.jpg
-    md5: bb6e5863ed61d1ec304bd2e0a57177ab
-    size: 961195
-  - relpath: Art/RealArt/looking-at-the-beautiful-scenery-vector-18883800.jpg
-    md5: 921962fa82c26e567056783dde920388
-    size: 95363
-  - relpath: Art/RealArt/male-portraits-how-to-photograph-men.jpg
-    md5: 48f3217aa60931a84590e6fe5a00b300
-    size: 188244
-  - relpath: Art/RealArt/mammoth.jpg
-    md5: b3872765c5ad0b7c13979912132b2aad
-    size: 208180
-  - relpath: 
-      Art/RealArt/many-happy-diverse-ethnicity-different-260nw-1733872811.jpg
-    md5: 45fc0e5b86787e27b3e17521d9f1aff1
-    size: 61851
-  - relpath: Art/RealArt/maxresdefault.jpg
-    md5: af25564b5dd9e3a5be11a26b12e95509
-    size: 209566
-  - relpath: Art/RealArt/mediaonmedia-most-influential-person-in-media-19455.jpg
-    md5: bbea2ff0990ae1c71e99ddec88bffae2
-    size: 297622
-  - relpath: Art/RealArt/meerkat-closeup-log_2x3.jpg
-    md5: bcde4d681a2d26e99ba1b55b57b5a2e3
-    size: 988405
-  - relpath: Art/RealArt/michael_b._jordan_cannes_2018.jpg
-    md5: 5d2b6e352b736aece5a0edeeab997de5
-    size: 164087
-  - relpath: Art/RealArt/most-famous-paintings-by-jan-van-eyck.jpg
-    md5: 0f933b775a269982b34d0f968ed1d451
-    size: 154469
-  - relpath: Art/RealArt/mountainpygmypossum_science_BCDJ6K.jpg
-    md5: 4197700eeb555dcb3fe462241af451cc
-    size: 826914
-  - relpath: 
-      Art/RealArt/natural-scenery-pictures-736-x-1308-2yckka60jpvm2q4e.jpg
-    md5: a97b1fca02ff9ba3905ec2a3eb23a8b6
-    size: 149938
-  - relpath: Art/RealArt/natural-scenery-raphael-sanzio.jpg
-    md5: 30f2bca5c3a9944fc7af43acb12de7a9
-    size: 180223
-  - relpath: Art/RealArt/nature-scenery-background-821397-evzvw-fb.jpg
-    md5: 2d6ab2405a09cd2ceb8dbcf6c1740f46
-    size: 16620
-  - relpath: Art/RealArt/nature-scenery.jpg
-    md5: 7296174722175c37242990678afc776d
-    size: 166695
-  - relpath: Art/RealArt/naturepl_01154678_2x1.jpg
-    md5: a771d88b700386cba915092b1e72e83d
-    size: 919218
-  - relpath: Art/RealArt/noir.jpg
-    md5: 5f4e5b2d8345afd9696ddb48b93f9f4d
-    size: 194209
-  - relpath: Art/RealArt/original.jpg
-    md5: 52826da47a8c04ab9884729095eedbc3
-    size: 442776
-  - relpath: Art/RealArt/p5quSf4dZXctG9WFepXFdR-1200-80.jpg
-    md5: b1df3c596723c2415638ba2e114611b4
-    size: 129570
-  - relpath: 
-      Art/RealArt/painting-mountain-lake-with-mountain-background_188544-9126.jpg
-    md5: 5f5df0535aee58c93a4ae892350cdeef
-    size: 72387
-  - relpath: Art/RealArt/paintings-by-el-greco-franz-marc-cezanne-bruegel.jpg
-    md5: ddd316e36abe35241da73b6ae956e5c0
-    size: 158311
-  - relpath: Art/RealArt/paintings-of-venice-1.jpg
-    md5: 0dd1f0f79728802123ae66c58ebb9ddc
-    size: 409214
-  - relpath: Art/RealArt/people-icon-set-trendy-flat-260nw-703972951.jpg
-    md5: 8483c1f1a8f1762cfd4d45ceb28716f1
-    size: 49561
-  - relpath: Art/RealArt/people-movement_740563843.jpg
-    md5: f1a264aa93330595b2428eb9f2062a88
-    size: 306874
-  - relpath: Art/RealArt/people-person.jpg
-    md5: 748b5d38dbaeb3d9efafe0bb414eda72
-    size: 49466
-  - relpath: Art/RealArt/people-pleasing_mask.jpg
-    md5: 7df1fe5c8fe45bb654e39ae1d40f09c9
-    size: 173232
-  - relpath: 
-      Art/RealArt/people-rocco-giannetti-2023-2000x1125_1682531615_1024x576.jpg
-    md5: 6eb147626d3050f8a327ea70d68ed6f4
-    size: 138629
-  - relpath: Art/RealArt/people-strategy_1200x700.jpg
-    md5: a1ba9d9356924b5f65892e44b09cd724
-    size: 136144
-  - relpath: 
-      Art/RealArt/people-taking-selfie-together-registration-day_23-2149096795.jpg
-    md5: b0bf563f0964cfd2e03389d72084b2b4
-    size: 68651
-  - relpath: Art/RealArt/people.jpg
-    md5: 6c9a4c8c3effdee01ef2469d7e7b36d2
-    size: 132081
-  - relpath: Art/RealArt/peoplegrove-og_image.jpg
-    md5: 646391bb3f9effb949dd4a3d4c671397
-    size: 57959
-  - relpath: Art/RealArt/pexels-mali-maeder-110820-1280x720.png
-    md5: f04ddb1e8dedf8632b57a9b195f6277c
-    size: 1765032
-  - relpath: Art/RealArt/pexels-photo-1172064.jpeg
-    md5: 5b212399f5f23dc89f404ad0459f1d40
-    size: 3511786
-  - relpath: Art/RealArt/pexels-photo-2422290.jpeg
-    md5: dce1611289570a572f4bd8bf4d71585b
-    size: 1520279
-  - relpath: Art/RealArt/pexels-photo-2598024.jpeg
-    md5: 06ea8c9b450eb6cd4ade1ccc3f3cd83a
-    size: 985911
-  - relpath: Art/RealArt/pexels-photo-4029925.jpeg
-    md5: 1efb5545fb87196c4a4039954dda834d
-    size: 1024885
-  - relpath: Art/RealArt/pexels-photo-415829.jpeg
-    md5: 3cf8bb709f305640c1e3a7da7de95377
-    size: 1116139
-  - relpath: Art/RealArt/pexels-photo-5091121.jpeg
-    md5: 57fdfbc6d6e477aaa852cd9ad5ebc976
-    size: 1443612
-  - relpath: Art/RealArt/pexels-photo-620337.jpeg
-    md5: 8a011ed49f2593224140c0005f6d8785
-    size: 472424
-  - relpath: Art/RealArt/picasso-femme-a-la-montre-1932-2-654d363e6a607.jpg
-    md5: 84602f685315731215764bb46feda290
-    size: 5016989
-  - relpath: 
-      Art/RealArt/picturesque-scenery-waterfall-flowing-through-260nw-2360180703.jpg
-    md5: 3bbf099d8931e0064401fa7446c28e44
-    size: 25839
-  - relpath: Art/RealArt/pleaser.jpeg
-    md5: 7b5b2d40d0c9eecc3aba40fe40a488c8
-    size: 3440125
-  - relpath: 
-      Art/RealArt/pngtree-beautiful-natural-scenery-like-in-a-fairyland-used-as-phone-wallpaper-image_1949463.jpg
-    md5: a402d993b22c04997ec0d1d5899011a5
-    size: 49815
-  - relpath: 
-      Art/RealArt/pngtree-sunset-scenery-wallpapers-1920x1080-image_2667375.jpg
-    md5: ddf2fa65afcbc41054fa9756150199d8
-    size: 54306
-  - relpath: Art/RealArt/portrait-african-american-man_23-2149072179.jpg
-    md5: 0a9fff247188183a4b29f8e52e931df9
-    size: 28350
-  - relpath: Art/RealArt/portrait-faces-and-photography-french-woman-clara.jpg
-    md5: 1f95b07d0fa8a62456fde18ec9e00329
-    size: 92217
-  - relpath: 
-      Art/RealArt/portrait-smiling-middle-aged-african-260nw-2088822202.jpg
-    md5: cc47eeaaa995363f28c554024e84f9f0
-    size: 20992
-  - relpath: 
-      Art/RealArt/portrait-young-beautiful-woman-perfect-600nw-2228044151.jpg
-    md5: b463cd045ab41f30155ff5e67828cee1
-    size: 28810
-  - relpath: 
-      Art/RealArt/portrait-young-woman-with-natural-make-up_23-2149084942.jpg
-    md5: be1dc44925112ec779f5bef5a6582959
-    size: 47684
-  - relpath: Art/RealArt/power-to-the-people_en.pdf_0.png
-    md5: f96af7b7e7dc04af031dec45c5d3319f
-    size: 390985
-  - relpath: Art/RealArt/r19032hr19032c_composite_rd.jpg
-    md5: 7e9f8b4beb3a3f7ccc835cf041ca9b7e
-    size: 286202
-  - relpath: Art/RealArt/railroad-163518_640.jpg
-    md5: 2ccd53a9e3398062649267ab9add7761
-    size: 82613
-  - relpath: 
-      Art/RealArt/rk-beautiful-autumn-scenery-park-outdoor-photography-sunrise-light-101482086.jpg
-    md5: d552faed66c355e9e3a5927f0adba10b
-    size: 107195
-  - relpath: Art/RealArt/scenery-4nho1u78dzvt1meo.jpg
-    md5: 1917122bbbb7812e421bf9f9b6be9d1b
-    size: 418750
-  - relpath: 
-      Art/RealArt/scenery-lake-blue-sky-forest-reflection-scenic-clouds-6016x3384-6639.jpg
-    md5: 4084bf91ae9480f7838957abe048cf5e
-    size: 6471176
-  - relpath: 
-      Art/RealArt/scenery-pink-lakeside-sunset-lake-landscape-scenic-panorama-2048x2048-144.png
-    md5: ac93da9253a40a09ddd4b04920fd113d
-    size: 668995
-  - relpath: Art/RealArt/scenery.jpg
-    md5: 2d8df271a7a2c8bcc34d864e37c6e040
-    size: 263161
-  - relpath: Art/RealArt/sddefault.jpg
-    md5: f4ccdae2fe0a56f48961733a6f04e132
-    size: 52091
-  - relpath: Art/RealArt/sddefault2.jpg
-    md5: 1854ee057cb398b9dfa96c9c69ba6593
-    size: 63697
-  - relpath: Art/RealArt/sea-164989_1280.jpg
-    md5: 8a9e697c489ae34a6080cc76c8ab6852
-    size: 371807
-  - relpath: Art/RealArt/self-portrait-of-a-man.jpg
-    md5: 99ed6b5c81f9a6b76a1943c1bd6d4345
-    size: 81354
-  - relpath: Art/RealArt/set-safari-animals-illustration-600nw-2150029883.jpg
-    md5: d372cdf226beb86cd27cddeb19bd556c
-    size: 49400
-  - relpath: Art/RealArt/shouts-animals-watch-baby-hemingway.jpg
-    md5: efc89a809beb22b4f1cf3976925abcaf
-    size: 726369
-  - relpath: Art/RealArt/shutterstock_1020032878-scaled.jpg
-    md5: fcb79f1426f00dc80e885659497fd2e1
-    size: 1021663
-  - relpath: Art/RealArt/shutterstock_243101992.jpg
-    md5: 5c9944b5f3b0bae998433f4e2f1aa3e4
-    size: 12194
-  - relpath: 
-      Art/RealArt/silver-la-pastiche-art-paintings-ps8151-fr-20430620x24-64_600.jpg
-    md5: 8db0c77a70a6932bd6b0c11faaf32a7d
-    size: 49759
-  - relpath: Art/RealArt/snapshot_20230310.jpg
-    md5: 85d4f520d2a890dde73afb70faab52ac
-    size: 571630
-  - relpath: 
-      Art/RealArt/spider-monkey-gty-ps-230705_1688589803900_hpEmbed_sl_3x2.jpg
-    md5: cab1e10cab98d7eed8696cfbdb077965
-    size: 1222825
-  - relpath: Art/RealArt/subordinate-meerkat-pack.jpg
-    md5: b1eb4581e3abf435a59eeb22c552841c
-    size: 161325
-  - relpath: Art/RealArt/sudowoodo160500053.jpg
-    md5: 770ec124eddfc07a6c6041c07b006b24
-    size: 58530
-  - relpath: Art/RealArt/sunset-ocean-beautiful-scenery-paint-by-number.jpg
-    md5: b694fa7d717e84213132d1aec50b1b9b
-    size: 61204
-  - relpath: Art/RealArt/sunset-trees-abstract-painting-3.jpg
-    md5: 06b7ff8f67ce3b34d48dab6abf31eb37
-    size: 134995
-  - relpath: Art/RealArt/taxture-scenery-poster-500x500.jpg
-    md5: 0885d2bab5f44295e6a66542ae2d5865
-    size: 62558
-  - relpath: 
-      Art/RealArt/the-essay_58_resurgence-of-the-people_2019-article-image.jpg
-    md5: 6f3d769b283850f5d4d860ae27a3d112
-    size: 202110
-  - relpath: Art/RealArt/thumb-duiker-animal.jpg
-    md5: ce236e19dd143b0934ac4aa70fc30e58
-    size: 52428
-  - relpath: Art/RealArt/tiger-full-width.jpg.thumb.1160.1160.jpg
-    md5: 576b7c01c4855c51678cabaa6747a189
-    size: 158593
-  - relpath: 
-      Art/RealArt/unknown-artist-mountain-landscapes-oil-on-card-paintings-set-of-2-8.jpg
-    md5: 1c3f055aa1bc95e64d215ac8bb41e37a
-    size: 54586
-  - relpath: Art/RealArt/v1_txt2img_8e704e98-ca05-4ec7-9c2c-3b6e02cad79f.png
-    md5: 07757ea00490ab9c103293b7406d42dd
-    size: 647915
-  - relpath: Art/RealArt/van-gogh-starry-night-min.jpg
-    md5: 0626c9a641d0e8147c998dba90f2c8c1
-    size: 95966
-  - relpath: 
-      Art/RealArt/visitors-look-at-the-painting-water-serpents-ii-by-austrian-news-photo-1677014327.jpg
-    md5: 5b0696782d9fcfd298cd4f0f26b3d42b
-    size: 956743
-  - relpath: Art/RealArt/ways-to-take-stunning-portraits-3.jpg
-    md5: 86507988b9b1533586bcd763b5d47a03
-    size: 285556
-  - relpath: 
-      Art/RealArt/wers-blooming-green-grass-spring-concept-generative-ai-technology-free-photo.jpg
-    md5: 9be06506b858ffca83d6196c1c95161c
-    size: 14712
-  - relpath: Art/RealArt/what-color-paintings-sell-best.jpg
-    md5: 3461373e8ea076c484a5328023816d76
-    size: 240079
-  - relpath: Art/RealArt/whats-world-population-jpg.jpg
-    md5: 4439c5c78b7dd0feb4a9fd35e5f116db
-    size: 103562
-  - relpath: Art/RealArt/white-tailed-deer---fawn_jpg.jpg
-    md5: ff8a37fada6b8bc5266b46a7250e12ec
-    size: 110061
-  - relpath: 
-      Art/RealArt/why_we_connect_with_vincent_van_goghs_paintings_1050x700.jpg
-    md5: 5fa31c495d375fc29b7990b8416ad2fc
-    size: 273947
-  - relpath: Art/RealArt/wild_and_wonderful_asian_animals_header_1140.jpg
-    md5: 5ab121c3e4f9267db4ba6b936642db36
-    size: 106817
-  - relpath: Art/RealArt/wildlife_hero.jpg
-    md5: e530be52f99060e4b5b8eda1856e106b
-    size: 274021
-  - relpath: Art/RealArt/wm_TreesOfAThousandLights_1920px.jpg
-    md5: ea15a43a517c040a769d899bd85b97c9
-    size: 967764
-  - relpath: Art/RealArt/young-girl-holding-chaffinch-upton-house-1336611.jpg
-    md5: 48751d38687b0337f3769090a3ad0a2c
-    size: 958361
+    cloud:
+      remote_storage:
+        etag: 08e292b3ced19792031001
+        version_id: '1768826879134050'
