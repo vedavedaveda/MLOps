@@ -1,5 +1,4 @@
 from pathlib import Path
-from typing import Tuple
 
 import torch
 import typer
@@ -62,7 +61,7 @@ class MyDataset(Dataset):
 
 
 # Pre-loading optimization (DTU MLOps technique)
-def preload_images_as_tensors(dataset: MyDataset, target_size=(32, 32)) -> Tuple[torch.Tensor, torch.Tensor]:
+def preload_images_as_tensors(dataset: MyDataset, target_size=(32, 32)) -> tuple[torch.Tensor, torch.Tensor]:
     """
     Pre-load all images from disk as tensors (THE KEY OPTIMIZATION!).
 
@@ -125,7 +124,7 @@ class TensorDatasetWithTransform(Dataset):
 
 
 # get_datasets now uses tensor pre-loading
-def get_datasets(data_path: Path = None, use_preloading: bool = True) -> Tuple[Dataset, Dataset]:
+def get_datasets(data_path: Path = None, use_preloading: bool = True) -> tuple[Dataset, Dataset]:
     """
     Get training and test datasets.
 
@@ -134,7 +133,6 @@ def get_datasets(data_path: Path = None, use_preloading: bool = True) -> Tuple[D
         use_preloading: If True (default), pre-load images as tensors for 5x speedup.
                        Set to False to use original PIL-based method.
     """
-
     # Default to data directory in project root
     if data_path is None:
         project_root = Path(__file__).parent.parent.parent
@@ -191,9 +189,8 @@ def get_datasets(data_path: Path = None, use_preloading: bool = True) -> Tuple[D
     return train_dataset, test_dataset
 
 
-def _get_datasets_original(data_path: Path) -> Tuple[Dataset, Dataset]:
+def _get_datasets_original(data_path: Path) -> tuple[Dataset, Dataset]:
     """Original method (kept for backwards compatibility)."""
-
     # Training transforms with augmentation
     train_transform = transforms.Compose(
         [

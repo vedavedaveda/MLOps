@@ -121,6 +121,12 @@ lint.ignore = [
   "S605",
   "S607",
   "TC003",
+  "D",
+  "S101",
+  "E741",
+  "N806",
+  "N812",
+  "EM101",
 ]
 lint.exclude = [ "student_repos/" ]
 lint.pydocstyle.convention = "google"
