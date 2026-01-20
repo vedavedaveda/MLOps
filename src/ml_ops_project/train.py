@@ -1,5 +1,5 @@
 from ml_ops_project.model import CNN
-from ml_ops_project.data import get_datasets      # adjust: should return (train_set, test_set)
+from ml_ops_project.data import get_datasets  # adjust: should return (train_set, test_set)
 
 import matplotlib.pyplot as plt
 import torch
@@ -22,13 +22,13 @@ def train(cfg) -> None:
     except ValueError:
         # Hydra not initialized (e.g., in tests)
         hydra_path = "."
-    
+
     logger.add(os.path.join(hydra_path, "training.log"), level="DEBUG")
-    
+
     logger.info("Starting training session")
     logger.debug(f"Configuration:\n{OmegaConf.to_yaml(cfg)}")
     print(f"configuration: \n {OmegaConf.to_yaml(cfg)}")
-    
+
     # Initialize Weights & Biases
     hparams = cfg.experiment
     wandb.init(
@@ -40,10 +40,10 @@ def train(cfg) -> None:
             "num_classes": hparams.model.number_of_classes,
             "optimizer": "Adam",
             "device": str(DEVICE),
-        }
+        },
     )
     logger.info("Weights & Biases initialized")
-    
+
     logger.info(f"Initializing CNN model with {hparams.model.number_of_classes} classes")
     model = CNN(number_of_classes=hparams.model.number_of_classes).to(DEVICE)
     logger.info(f"Model moved to device: {DEVICE}")
@@ -66,7 +66,7 @@ def train(cfg) -> None:
         epoch_loss = 0.0
         epoch_acc = 0.0
         num_batches = 0
-        
+
         for i, (images, targets) in enumerate(train_loader):
             images = images.to(DEVICE)
             targets = targets.to(DEVICE, dtype=torch.long)
@@ -80,38 +80,31 @@ def train(cfg) -> None:
             statistics["train_loss"].append(loss.item())
             accuracy = (logits.argmax(dim=1) == targets).float().mean().item()
             statistics["train_accuracy"].append(accuracy)
-            
+
             epoch_loss += loss.item()
             epoch_acc += accuracy
             num_batches += 1
-            
+
             # Log to Weights & Biases every step
-            wandb.log({
-                "train_loss": loss.item(),
-                "train_accuracy": accuracy,
-                "epoch": epoch
-            })
+            wandb.log({"train_loss": loss.item(), "train_accuracy": accuracy, "epoch": epoch})
 
             if i % hparams.training.log_every_n_steps == 0:
-                log.info(f"Epoch {epoch+1}/{hparams.training.epochs}, Batch {i}/{len(train_loader)}, "
-                        f"Loss: {loss.item():.4f}, Accuracy: {accuracy:.4f}")
-                
+                log.info(
+                    f"Epoch {epoch+1}/{hparams.training.epochs}, Batch {i}/{len(train_loader)}, "
+                    f"Loss: {loss.item():.4f}, Accuracy: {accuracy:.4f}"
+                )
+
                 # Log sample images to wandb (first batch of each logging step)
                 if i == 0:
-                    wandb.log({
-                        "examples": [wandb.Image(img) for img in images[:5].cpu()]
-                    })
-        
+                    wandb.log({"examples": [wandb.Image(img) for img in images[:5].cpu()]})
+
         # Log epoch summary
         avg_loss = epoch_loss / num_batches
         avg_acc = epoch_acc / num_batches
         logger.info(f"Epoch {epoch+1} completed - Avg Loss: {avg_loss:.4f}, Avg Accuracy: {avg_acc:.4f}")
-        
+
         # Log epoch-level metrics to wandb
-        wandb.log({
-            "epoch_avg_loss": avg_loss,
-            "epoch_avg_accuracy": avg_acc
-        })
+        wandb.log({"epoch_avg_loss": avg_loss, "epoch_avg_accuracy": avg_acc})
 
     logger.info("Training completed, saving model...")
     model_path = "cnn_model.pth"
@@ -133,7 +126,7 @@ def train(cfg) -> None:
     fig.savefig(plot_path)
     logger.success(f"Plot saved to {plot_path}")
     print(f"Saved plot to {plot_path}")
-    
+
     # Log the training plot to wandb
     wandb.log({"training_curves": wandb.Image(plot_path)})
     plt.close(fig)
@@ -148,16 +141,16 @@ def train(cfg) -> None:
             logits = model(images)
             correct += (logits.argmax(dim=1) == targets).sum().item()
             total += targets.size(0)
-            
+
             if batch_idx % 10 == 0:
                 logger.debug(f"Evaluated {batch_idx}/{len(test_loader)} batches")
 
     test_accuracy = correct / total
     logger.success(f"Test accuracy: {test_accuracy:.4f}")
-    
+
     # Log test accuracy to wandb
     wandb.log({"test_accuracy": test_accuracy})
-    
+
     # Save model as wandb artifact
     logger.info("Saving model as Weights & Biases artifact...")
     artifact = wandb.Artifact(
@@ -168,15 +161,16 @@ def train(cfg) -> None:
             "test_accuracy": test_accuracy,
             "epochs": hparams.training.epochs,
             "learning_rate": hparams.training.learning_rate,
-        }
+        },
     )
     artifact.add_file(model_path)
     wandb.log_artifact(artifact)
     logger.success("Model artifact saved to Weights & Biases")
-    
+
     # Finish the wandb run
     wandb.finish()
     logger.info("Training and evaluation completed successfully!")
+
 
 if __name__ == "__main__":
     train()
