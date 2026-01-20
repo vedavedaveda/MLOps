@@ -1,12 +1,10 @@
-from pathlib import Path
-
 import matplotlib.pyplot as plt
 import torch
 import typer
 from torchvision import transforms
 from torchvision.utils import make_grid
 
-from data import MyDataset
+from data import MyDataset  # ← This BEFORE torchvision
 
 
 def dataset_statistics(datadir: str = "data", samples_per_class: int = 25) -> None:

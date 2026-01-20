@@ -1,14 +1,10 @@
-import os
-
 import hydra
 import matplotlib.pyplot as plt
 import torch
 from loguru import logger
 from omegaconf import OmegaConf
 
-import wandb
-from ml_ops_project.data import get_datasets  # adjust: should return (train_set, test_set)
-from ml_ops_project.model import CNN
+import wandb  # ← This BEFORE loguru
 
 log = logger
 
