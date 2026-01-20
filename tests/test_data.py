@@ -1,9 +1,10 @@
 from pathlib import Path
 
 import pytest
-from ml_ops_project.data import MyDataset, get_datasets
 from PIL import Image
 from torchvision import transforms
+
+from ml_ops_project.data import MyDataset, get_datasets
 
 
 @pytest.fixture

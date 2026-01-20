@@ -91,7 +91,7 @@ def train(cfg) -> None:
 
             if i % hparams.training.log_every_n_steps == 0:
                 log.info(
-                    f"Epoch {epoch+1}/{hparams.training.epochs}, Batch {i}/{len(train_loader)}, "
+                    f"Epoch {epoch + 1}/{hparams.training.epochs}, Batch {i}/{len(train_loader)}, "
                     f"Loss: {loss.item():.4f}, Accuracy: {accuracy:.4f}"
                 )
 
@@ -102,7 +102,7 @@ def train(cfg) -> None:
         # Log epoch summary
         avg_loss = epoch_loss / num_batches
         avg_acc = epoch_acc / num_batches
-        logger.info(f"Epoch {epoch+1} completed - Avg Loss: {avg_loss:.4f}, Avg Accuracy: {avg_acc:.4f}")
+        logger.info(f"Epoch {epoch + 1} completed - Avg Loss: {avg_loss:.4f}, Avg Accuracy: {avg_acc:.4f}")
 
         # Log epoch-level metrics to wandb
         wandb.log({"epoch_avg_loss": avg_loss, "epoch_avg_accuracy": avg_acc})

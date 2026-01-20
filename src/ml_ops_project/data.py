@@ -78,7 +78,7 @@ def preload_images_as_tensors(dataset: MyDataset, target_size=(32, 32)) -> Tuple
     for idx in range(total):
         # Progress indicator (every 10%)
         if idx % max(1, total // 10) == 0:
-            print(f"  Progress: {idx}/{total} ({100*idx/total:.0f}%)")
+            print(f"  Progress: {idx}/{total} ({100 * idx / total:.0f}%)")
 
         img_path = dataset.image_paths[idx]
         label = dataset.labels[idx]

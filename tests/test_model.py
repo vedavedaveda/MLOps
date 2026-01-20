@@ -1,5 +1,6 @@
 import pytest
 import torch
+
 from ml_ops_project.model import CNN
 
 
