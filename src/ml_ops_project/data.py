@@ -1,12 +1,12 @@
 from pathlib import Path
 from typing import Tuple
 
-import typer
 import torch
+import typer
+from PIL import Image
 from torch.utils.data import Dataset
 from torchvision import transforms
 from torchvision.transforms import functional as TF
-from PIL import Image
 
 
 class MyDataset(Dataset):

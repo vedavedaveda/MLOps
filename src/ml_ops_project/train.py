@@ -1,13 +1,14 @@
-from ml_ops_project.model import CNN
-from ml_ops_project.data import get_datasets  # adjust: should return (train_set, test_set)
+import os
 
+import hydra
 import matplotlib.pyplot as plt
 import torch
-import hydra
-from omegaconf import OmegaConf
 from loguru import logger
-import os
+from omegaconf import OmegaConf
+
 import wandb
+from ml_ops_project.data import get_datasets  # adjust: should return (train_set, test_set)
+from ml_ops_project.model import CNN
 
 log = logger
 

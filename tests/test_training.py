@@ -1,8 +1,7 @@
-import torch
-from torch.utils.data import TensorDataset
-from omegaconf import OmegaConf
-
 import ml_ops_project.train as train
+import torch
+from omegaconf import OmegaConf
+from torch.utils.data import TensorDataset
 
 
 def make_fake_datasets(number_of_classes: int):
