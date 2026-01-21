@@ -124,7 +124,6 @@ class TensorDatasetWithTransform(Dataset):
         return image, label
 
 
-# get_datasets now uses tensor pre-loading
 def get_datasets(data_path: Path = None, use_preloading: bool = True) -> Tuple[Dataset, Dataset]:
     """
     Get training and test datasets.
@@ -135,10 +134,23 @@ def get_datasets(data_path: Path = None, use_preloading: bool = True) -> Tuple[D
                        Set to False to use original PIL-based method.
     """
 
-    # Default to data directory in project root
+    # Default to data directory
     if data_path is None:
-        project_root = Path(__file__).parent.parent.parent
-        data_path = project_root / "data"
+        # Check for GCS mounted path first (used in cloud training)
+        gcs_path = Path("/gcs/mlops_art_data/data")
+        local_path = Path(__file__).parent.parent.parent / "data"
+
+        if gcs_path.exists():
+            data_path = gcs_path
+            print(f"Using GCS mounted data: {data_path}")
+        elif local_path.exists():
+            data_path = local_path
+            print(f"Using local data: {data_path}")
+        else:
+            raise FileNotFoundError(
+                f"Data not found at {gcs_path} or {local_path}. "
+                f"Please provide data_path explicitly."
+            )
 
     if not use_preloading:
         # Original method (slow but compatible)
@@ -187,65 +199,6 @@ def get_datasets(data_path: Path = None, use_preloading: bool = True) -> Tuple[D
     # Create datasets
     train_dataset = TensorDatasetWithTransform(train_images, train_labels, train_transform)
     test_dataset = TensorDatasetWithTransform(test_images, test_labels, test_transform)
-
-    return train_dataset, test_dataset
-
-
-def _get_datasets_original(data_path: Path) -> Tuple[Dataset, Dataset]:
-    """Original method (kept for backwards compatibility)."""
-
-    # Training transforms with augmentation
-    train_transform = transforms.Compose([
-        transforms.Resize((32, 32)),
-        transforms.RandomHorizontalFlip(),
-        transforms.RandomRotation(15),
-        transforms.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2),
-        transforms.ToTensor(),
-        transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
-    ])
-
-    # Test transforms without augmentation
-    test_transform = transforms.Compose([
-        transforms.Resize((32, 32)),
-        transforms.ToTensor(),
-        transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
-    ])
-
-    # Load full dataset
-    full_dataset = MyDataset(data_path, transform=None)
-    print(f"Total images found: {len(full_dataset)}")
-
-    # Split
-    train_size = int(0.8 * len(full_dataset))
-    test_size = len(full_dataset) - train_size
-
-    generator = torch.Generator().manual_seed(42)
-    train_subset, test_subset = torch.utils.data.random_split(
-        full_dataset,
-        [train_size, test_size],
-        generator=generator
-    )
-
-    # Wrapper to apply transforms
-    class TransformSubset(Dataset):
-        def __init__(self, subset, transform):
-            self.subset = subset
-            self.transform = transform
-
-        def __getitem__(self, idx):
-            image, label = self.subset[idx]
-            if self.transform:
-                image = self.transform(image)
-            return image, label
-
-        def __len__(self):
-            return len(self.subset)
-
-    train_dataset = TransformSubset(train_subset, train_transform)
-    test_dataset = TransformSubset(test_subset, test_transform)
-
-    print(f"Training set: {len(train_dataset)} images")
-    print(f"Test set: {len(test_dataset)} images")
 
     return train_dataset, test_dataset
 
