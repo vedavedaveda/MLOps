@@ -63,11 +63,26 @@ Created using [mlops_template](https://github.com/SkafteNicki/mlops_template),
 a [cookiecutter template](https://github.com/cookiecutter/cookiecutter) for getting
 started with Machine Learning Operations (MLOps).
 
-
+Running AI classifier frontend and backend as microservices with docker
 
 ## Notes for us
 
-DVC/Cloud stuff:
+### DVC/Cloud stuff:
 ```uv run dvc add data```
 ```uv run dvc push --no-run-cache```
 ```uv run dvc pull --no-run-cache```
+
+### Running AI classifier frontend and backend as microservices with docker
+
+```docker build -t backend:latest -f backend.dockerfile .```
+```docker run --rm -p 8001:8080 backend:latest```
+
+Open new terminal and type following commands:
+
+```docker build -t frontend:latest -f frontend.dockerfile .```
+```docker run --rm -p 8501:8501 -e "BACKEND=http://host.docker.internal:8001" frontend:latest```
+
+### Running pre-commit rules
+
+Should be done prior to every time you commit
+```uv run pre-commit run --all-files```
