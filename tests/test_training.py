@@ -42,14 +42,14 @@ def setup_wandb_mocks(monkeypatch):
     monkeypatch.setattr(train.wandb, "init", lambda **kwargs: None)
     monkeypatch.setattr(train.wandb, "log", lambda *args, **kwargs: None)
     monkeypatch.setattr(train.wandb, "finish", lambda: None)
-    
+
     # Mock wandb.Artifact
     class FakeArtifact:
         def __init__(self, *args, **kwargs):
             pass
         def add_file(self, *args, **kwargs):
             pass
-    
+
     monkeypatch.setattr(train.wandb, "Artifact", FakeArtifact)
     monkeypatch.setattr(train.wandb, "log_artifact", lambda *args, **kwargs: None)
     monkeypatch.setattr(train.wandb, "Image", lambda *args, **kwargs: None)
@@ -61,7 +61,7 @@ def test_optimizer_step_is_called(tmp_path, monkeypatch):
     monkeypatch.setenv("MPLBACKEND", "Agg")
     monkeypatch.setattr(train, "DEVICE", torch.device("cpu"))
     monkeypatch.setattr(train, "get_datasets", lambda: make_fake_datasets(3))
-    
+
     # Setup wandb mocks
     setup_wandb_mocks(monkeypatch)
 
@@ -88,7 +88,7 @@ def test_training_changes_model_weights(tmp_path, monkeypatch):
     monkeypatch.setenv("MPLBACKEND", "Agg")
     monkeypatch.setattr(train, "DEVICE", torch.device("cpu"))
     monkeypatch.setattr(train, "get_datasets", lambda: make_fake_datasets(3))
-    
+
     # Setup wandb mocks
     setup_wandb_mocks(monkeypatch)
 
@@ -119,4 +119,3 @@ def test_training_changes_model_weights(tmp_path, monkeypatch):
     )
 
     assert any_parameter_changed
-    

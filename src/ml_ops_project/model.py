@@ -37,7 +37,7 @@ class CNN(nn.Module):
 
     def forward(self, x: Tensor) -> Tensor:
         return self.model(x)
- 
+
 if __name__ == "__main__":
     model = CNN()
     x = torch.rand(1, 3, 32, 32)  # Example input tensor
