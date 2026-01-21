@@ -10,10 +10,15 @@ from PIL import Image
 from pydantic import BaseModel
 from torchvision import transforms
 
-from src.ml_ops_project.model import CNN 
+try:
+    from src.ml_ops_project.model import CNN
+except ModuleNotFoundError:
+    from model import CNN
 
-MODEL_PATH = Path("outputs/2026-01-15/21-09-38/cnn_model.pth") # Adjust with chosen model path
-DEVICE = torch.device("cpu")  
+# MODEL_PATH = Path("outputs/2026-01-21/12-11-02/cnn_model.pth") # Adjust with chosen model path
+MODEL_PATH = Path("cnn_model.pth")
+
+DEVICE = torch.device("cpu")
 
 image_transform = transforms.Compose(
     [
