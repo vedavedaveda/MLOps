@@ -3,11 +3,11 @@ steps:
     id: 'Build container image'
     args: [
       'build',
-      '.',
+      '-f',
+      'dockerfiles/train.dockerfile',
       '-t',
       'europe-west1-docker.pkg.dev/$PROJECT_ID/container-registry/train-image:latest',
-      '-f',
-      'dockerfiles/train.dockerfile'
+      '.'
     ]
   - name: 'gcr.io/cloud-builders/docker'
     id: 'Push container image'
@@ -17,3 +17,5 @@ steps:
     ]
 options:
   logging: CLOUD_LOGGING_ONLY
+images:
+  - 'europe-west1-docker.pkg.dev/$PROJECT_ID/container-registry/train-image:latest'
