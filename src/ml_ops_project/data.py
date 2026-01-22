@@ -4,10 +4,13 @@ from typing import Tuple
 import typer
 import torch
 from torch.utils.data import Dataset
+from torch.utils.data import DataLoader
+from torch.utils.data.distributed import DistributedSampler
+
 from torchvision import transforms
 from torchvision.transforms import functional as TF
 from PIL import Image
-
+import os
 
 class MyDataset(Dataset):
     """Dataset for AI-generated vs Real art classification."""
@@ -202,6 +205,39 @@ def get_datasets(data_path: Path = None, use_preloading: bool = True) -> Tuple[D
 
     return train_dataset, test_dataset
 
+def get_dataloaders(
+                    data_path=None,
+                    use_preloading: bool = True,
+                    batch_size: int = 64,
+                    num_workers: int = 4,
+                    pin_memory: bool = True,
+                ):
+    train_dataset, test_dataset = get_datasets(data_path=data_path, use_preloading=use_preloading)
+
+    # If launched with torchrun, WORLD_SIZE will be > 1
+    world_size = int(os.environ.get("WORLD_SIZE", "1"))
+    is_ddp = world_size > 1
+
+    train_sampler = DistributedSampler(train_dataset, shuffle=True) if is_ddp else None
+
+    train_loader = DataLoader(
+        train_dataset,
+        batch_size=batch_size,
+        shuffle=(train_sampler is None),
+        sampler=train_sampler,
+        num_workers=num_workers,
+        pin_memory=pin_memory,
+    )
+
+    test_loader = DataLoader(
+        test_dataset,
+        batch_size=batch_size,
+        shuffle=False,
+        num_workers=num_workers,
+        pin_memory=pin_memory,
+    )
+
+    return train_loader, test_loader, train_sampler
 
 def preprocess(data_path: Path, output_folder: Path) -> None:
     print("Preprocessing data...")

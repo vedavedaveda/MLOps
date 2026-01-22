@@ -1,5 +1,5 @@
 from ml_ops_project.model import CNN
-from ml_ops_project.data import get_datasets
+from ml_ops_project.data import  get_dataloaders
 
 import matplotlib
 matplotlib.use('Agg')
@@ -51,11 +51,14 @@ def train(cfg) -> None:
     logger.info(f"Model moved to device: {DEVICE}")
 
     logger.info("Loading datasets...")
-    train_set, test_set = get_datasets()
-    logger.info(f"Dataset loaded - Train samples: {len(train_set)}, Test samples: {len(test_set)}")
-    train_loader = torch.utils.data.DataLoader(train_set, batch_size=hparams.training.batch_size, shuffle=True)
-    test_loader = torch.utils.data.DataLoader(test_set, batch_size=hparams.training.batch_size, shuffle=False)
+    train_loader, test_loader, _ = get_dataloaders(
+        batch_size=hparams.training.batch_size,
+        num_workers=hparams.training.num_workers,  # distributed/parallel loading
+        pin_memory=(DEVICE.type == "cuda"),
+    )
     logger.debug(f"DataLoaders created with batch_size={hparams.training.batch_size}")
+    logger.info(f"Train DataLoader num_workers = {train_loader.num_workers}")
+
     loss_fn = torch.nn.CrossEntropyLoss()
     optimizer = torch.optim.Adam(model.parameters(), lr=hparams.training.learning_rate)
     logger.info(f"Optimizer: Adam with learning_rate={hparams.training.learning_rate}")
