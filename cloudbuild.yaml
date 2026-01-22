@@ -1,14 +1,14 @@
 steps:
   - name: 'gcr.io/cloud-builders/docker'
     id: 'Build container image'
-    args: [
-      'build',
-      '-f',
-      'dockerfiles/train.dockerfile',
-      '-t',
-      'europe-west1-docker.pkg.dev/$PROJECT_ID/container-registry/train-image:latest',
-      '.'
-    ]
+    entrypoint: 'bash'
+    args:
+      - -c
+      - |
+          docker build \
+            -f dockerfiles/train.dockerfile \
+            -t europe-west1-docker.pkg.dev/$PROJECT_ID/container-registry/train-image:latest \
+            .
   - name: 'gcr.io/cloud-builders/docker'
     id: 'Push container image'
     args: [
