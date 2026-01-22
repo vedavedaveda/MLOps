@@ -86,3 +86,28 @@ Open new terminal and type following commands:
 
 Should be done prior to every time you commit
 ```uv run pre-commit run --all-files```
+
+### Creating training job on Google Cloud Storage
+
+Create a file `configs/config_cpu.yaml`:
+```yaml
+workerPoolSpecs:
+    machineSpec:
+        machineType: n1-highmem-2
+    replicaCount: 1
+    containerSpec:
+        imageUri: europe-west1-docker.pkg.dev/dtumlops-484415/container-registry/train-image:latest
+        env:
+        - name: WANDB_API_KEY
+          value: <wand_api_key>
+```
+
+```bash
+cloud ai custom-jobs create \
+    --region=europe-west1 \
+    --display-name=test-training-run \
+    --config=configs/config_cpu.yaml
+ ```
+
+ View the result in the GCP Console:
+- Navigate to **Vertex AI** → **Training** → **Custom Jobs**

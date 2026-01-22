@@ -2,6 +2,8 @@ data/
 
 docs/site/
 
+configs/config_cpu.yaml
+
 # Project outputs
 outputs/
 wandb/
