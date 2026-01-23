@@ -10,8 +10,15 @@ from omegaconf import OmegaConf
 from loguru import logger
 import os
 import wandb
-from pathlib import Path
-from hydra.utils import get_original_cwd
+
+from google.cloud import storage
+
+def upload_to_gcs(local_path, bucket_name, remote_path):
+    client = storage.Client()
+    bucket = client.bucket(bucket_name)
+    blob = bucket.blob(remote_path)
+    blob.upload_from_filename(local_path)
+    print(f"Uploaded {local_path} to gs://{bucket_name}/{remote_path}")
 
 log = logger
 
@@ -121,19 +128,14 @@ def train(cfg) -> None:
         })
 
     logger.info("Training completed, saving model...")
-
-    try:
-        project_root = Path(get_original_cwd())
-    except ValueError:
-        # Hydra is not initialized (e.g., in unit tests calling __wrapped__)
-        project_root = Path.cwd()
-    models_dir = project_root / "models"
-    models_dir.mkdir(parents=True, exist_ok=True)
-
-    model_path = models_dir / "cnn_model.pth"
+    model_path = "cnn_model.pth"
     torch.save(model.state_dict(), model_path)
     logger.success(f"Model saved to {model_path}")
     print(f"Saved model to {model_path}")
+
+    bucket_name = "mlops_art_data"
+    remote_path = "models/cnn_model.pth"  # Or any desired folder/key in your bucket
+    upload_to_gcs(str(model_path), bucket_name, remote_path)
 
     logger.info("Generating training statistics plots...")
     fig, axs = plt.subplots(1, 2, figsize=(15, 5))
@@ -186,7 +188,7 @@ def train(cfg) -> None:
             "learning_rate": hparams.training.learning_rate,
         }
     )
-    artifact.add_file(str(model_path))
+    artifact.add_file(model_path)
     wandb.log_artifact(artifact)
     logger.success("Model artifact saved to Weights & Biases")
 
