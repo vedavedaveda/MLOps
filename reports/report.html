@@ -221,7 +221,7 @@ corporate and increase the quality of your code.</p>
 </blockquote>
 <p>The total code coverage of our code is <strong>89%</strong> (314 statements, 36 missed). This coverage includes all modules in <code>src/ml_ops_project</code>, with the highest coverage in <code>train.py</code> (99%) and the lowest in <code>model.py</code> (75%). Most of the uncovered lines are related to exception handling, edge cases, and less frequently executed branches, rather than the main execution paths. Overall, we believe the core functionality is well-tested, since the primary workflows for training, data handling, and API logic are covered.</p>
 <p>However, even if the code coverage were 100% (or close to it), we would not automatically trust the code to be error-free. High coverage only shows that lines were executed during tests, not that the tests include strong assertions, realistic scenarios, or correct behavior under unexpected inputs. Bugs can still exist due to incorrect logic, missing edge cases, or integration issues that unit tests do not capture.</p>
-<h3>Code Coverage Report</h3>
+<p><strong>Code Coverage Report</strong></p>
 <p>```text
 Name                             Stmts   Miss  Cover   Missing</p>
 <hr />
@@ -282,7 +282,7 @@ merging changes.</p>
 <p>We use caching in two places: uv caches dependencies so installs are faster, and DVC's <code>--no-run-cache</code>
 prevents redundant processing.</p>
 <p>This whole setup catches bugs before they hit production and makes sure our data quality is good.</p>
-<p>[Link to test workflow: <code>https://github.com/vedavedaveda/MLOps/blob/main/.github/workflows/tests.yaml</code>]</p>
+<p>[Link to test workflow: <code>../.github/workflows/tests.yaml</code>]</p>
 <h2>Running code and tracking experiments</h2>
 <blockquote>
 <p>In the following section we are interested in learning more about the experimental setup for running your code and
@@ -298,20 +298,19 @@ especially the reproducibility of your experiments.</p>
 <p>Answer:</p>
 </blockquote>
 <p>We configured experiments using <strong>Hydra</strong> with a base <code>default_config.yaml</code> that selects the active experiment via:</p>
-<p>```yaml
+<p><code>yaml
 defaults:
-  - experiment: exp1
-Each experiment lives in configs/experiment/ (e.g., exp1.yaml, exp2.yaml) and defines parameters like:</p>
-<p>model:
+  - experiment: exp1</code>
+Each experiment lives in configs/experiment/ (e.g., exp1.yaml, exp2.yaml) and defines parameters like:
+<code>model:
   number_of_classes: 2
 training:
   learning_rate: 1e-3
   batch_size: 32
   epochs: 10
   log_every_n_steps: 100
-  num_workers: 4
-```</p>
-<p>Then we could run it with uv like this uv run python -m ml_ops_project.train experiment=exp2</p>
+  num_workers: 4</code></p>
+<p>Then we could run it with uv like this <code>uv run python -m ml_ops_project.train experiment=exp2</code></p>
 <h3>Question 13</h3>
 <blockquote>
 <p><strong>Reproducibility of experiments are important. Related to the last question, how did you secure that no information</strong>
@@ -366,7 +365,8 @@ while the smoother epoch-averaged metrics give us a clearer view of overall tren
 <p><code>bash
 docker build -f dockerfiles/train.dockerfile . -t train:latest
 docker run --rm train:latest</code>
-The training container is also used in the cloud by pushing it to Artifact Registry and executing it as a Cloud Run Job. Both dockerifles are in dockerfiles/ folder. Link to the train.dockerfile: dockerfiles/train.dockerfile</p>
+The training container is also used in the cloud by pushing it to Artifact Registry and executing it as a Cloud Run Job. Both dockerifles are in dockerfiles/ folder.</p>
+<p>Link to the train dockerfile: <code>../dockerfiles/train.dockerfile</code></p>
 <h3>Question 16</h3>
 <blockquote>
 <p><strong>When running into bugs while trying to run your experiments, how did you perform debugging? Additionally, did you</strong>
@@ -440,7 +440,7 @@ The training container is also used in the cloud by pushing it to Artifact Regis
 <em>was because ...</em></p>
 <p>Answer:</p>
 </blockquote>
-<p>We trained our model in the cloud using Vertex AI. When a training job begins, GCS buckets are mounted automatically. The cloudbuild.yaml file builds the container using docker, tags the image for the artifact registry, and then pushes the image there, giving us a containerised training environment that Vertex AI can work in. The training job can be submitted manually, but it also runs automatically each time something is pushed to the repo. Logs from the training jobs are saved in the cloud, which is helpful for troubleshooting. After training, the model is uploaded to the GCS bucket, and training outputs are optionally saved and visualised in WandB.</p>
+<p>We trained our model in the cloud using Vertex AI. When a training job begins, GCS buckets are mounted automatically. The cloudbuild.yaml file builds the container using docker, tags the image for the artifact registry, and then pushes the image there, giving us a containerised training environment that Vertex AI can work in. The training job can be submitted manually, but it also runs automatically each time something is pushed to the repo. Logs from the training jobs are saved in the cloud, which is helpful for troubleshooting. After training, the model is uploaded to the GCS bucket, and training outputs are optionally saved and visualised in WandB!</p>
 <h2>Deployment</h2>
 <h3>Question 23</h3>
 <blockquote>
@@ -462,9 +462,9 @@ The training container is also used in the cloud by pushing it to Artifact Regis
 <em>For deployment we wrapped our model into application using ... . We first tried locally serving the model, which</em>
 <em>worked. Afterwards we deployed it in the cloud, using ... . To invoke the service an user would call</em>
 <em><code>curl -X POST -F "file=@file.json"&lt;weburl&gt;</code></em></p>
-<p>Answer:
-We successfully deployed our API locally for development and testing. The FastAPI application was served using Uvicorn, allowing us to verify that both endpoints worked end-to-end: <code>GET /</code> for a health check and <code>POST /predict</code> for inference on uploaded images. We validated the deployment by sending HTTP requests and checking that the API returned the expected JSON output (predicted label, class name, and probabilities). We also started preparing a cloud deployment, but we did not have enough time to complete it properly within the project timeframe (including setting up the full model artifact workflow and deployment configuration). To invoke the local service, we used simple requests such as:</p>
+<p>Answer:</p>
 </blockquote>
+<p>We successfully deployed our API locally for development and testing. The FastAPI application was served using Uvicorn, allowing us to verify that both endpoints worked end-to-end: <code>GET /</code> for a health check and <code>POST /predict</code> for inference on uploaded images. We validated the deployment by sending HTTP requests and checking that the API returned the expected JSON output (predicted label, class name, and probabilities). We also started preparing a cloud deployment, but we did not have enough time to complete it properly within the project timeframe (including setting up the full model artifact workflow and deployment configuration). To invoke the local service, we used simple requests such as:</p>
 <p><code>bash
 curl http://localhost:8000/
 curl -X POST -F "image=@example.png" http://localhost:8000/predict</code></p>
@@ -532,6 +532,10 @@ We all collaborated on a single GC project, so we're not sure about our individu
 <p>Answer:</p>
 </blockquote>
 <p><img alt="alt text" src="figures/architecture.png" /></p>
+<p>In our pipeline, we develop locally and push code to GitHub, which triggers our GitHub Actions. The build process creates a Docker image that we store in an artifact registry.
+From there, we use Vertex AI to launch custom jobs that write artifacts to cloud storage. As we've noted in the diagram, our backend and frontend APIs aren't fully functional yet, which is honestly holding us back quite a bit.
+On the deployment side, users clone our source code from GitHub, then Docker pulls the newest image to run locally. We've also integrated W&amp;B (Weights &amp; Biases) for logging our metrics and artifacts during the pre-commit and commit phases.
+We're trying to separate concerns between build, storage, and execution, but the incomplete API situation means we can't deliver end-to-end functionality yet. The local execution path alongside our cloud infrastructure reflects the fact that we're still figuring out our deployment strategy. It's a work-in-progress setup that has the basic MLOps components we need - version control, containerization, cloud compute, and experiment tracking - but it needs more work before we can call it production-ready. That dotted "run locally" line at the top represents our testing workflows that bypass the full pipeline.</p>
 <h3>Question 30</h3>
 <blockquote>
 <p><strong>Discuss the overall struggles of the project. Where did you spend most time and what did you do to overcome these</strong>
@@ -560,12 +564,12 @@ We all collaborated on a single GC project, so we're not sure about our individu
 Answer:</p>
 </blockquote>
 <p>We aimed to divide the workload equally and ensure that everyone contributed actively to the project. Most tasks were split and completed asynchronously, and we regularly met as a group to integrate components, debug issues, and make sure the full pipeline worked end-to-end. The distribution of work is also reflected in our GitHub commit history and pull requests.</p>
-<h3>Individual Contributions</h3>
+<p><strong>Individual Contributions</strong></p>
 <p>The tasks listed below are only <strong>some</strong> of the main responsibilities each person worked on. Throughout the project, we also supported each other when problems appeared, worked together on debugging and integration, and each team member completed additional smaller tasks when needed.</p>
 <ul>
 <li><strong>Student 195473 (Freja):</strong> Profiling, integration of <strong>Weights &amp; Biases</strong>, and setting up <strong>GitHub workflows/CI</strong>.</li>
 <li><strong>Student 233910 (Veda):</strong> <strong>Cloud Storage</strong> setup, <strong>Cloud deployment</strong> (Cloud Run), and parts of the <strong>data preprocessing</strong> workflow.</li>
 <li><strong>Student 233912 (Aleksandra):</strong> <strong>Model and training</strong> implementation, <strong>API</strong> implementation, and <strong>testing</strong> of the endpoints.</li>
 </ul>
-<h3>Use of Generative AI Tools</h3>
+<p><strong>Use of Generative AI Tools</strong></p>
 <p>We used generative AI tools (e.g., ChatGPT) as a support tool during development. It was mainly used for debugging help, clarifying concepts (e.g., CI/CD, DVC, Cloud configuration), and improving code quality (e.g., refactoring suggestions and documentation). All generated suggestions were reviewed and adapted by the team, and the final implementation decisions were made manually.</p>
