@@ -87,6 +87,11 @@ Open new terminal and type following commands:
 Should be done prior to every time you commit
 ```uv run pre-commit run --all-files```
 
+### Getting code coverage report
+Run following commands:
+```uv run coverage run -m pytest tests/```
+```uv run coverage report -m -i```
+
 ### Creating training job on Google Cloud Storage
 
 Create a file `configs/config_cpu.yaml`:
