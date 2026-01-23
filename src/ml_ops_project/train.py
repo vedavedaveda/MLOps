@@ -133,7 +133,7 @@ def train(cfg) -> None:
     logger.success(f"Model saved to {model_path}")
     print(f"Saved model to {model_path}")
 
-    try:    
+    try:
         bucket_name = "mlops_art_data"
         remote_path = "models/cnn_model.pth"  # Or any desired folder/key in your bucket
         upload_to_gcs(str(model_path), bucket_name, remote_path)
