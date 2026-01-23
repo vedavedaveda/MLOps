@@ -275,7 +275,7 @@ The total code coverage of our code is **89%** (314 statements, 36 missed). This
 
 However, even if the code coverage were 100% (or close to it), we would not automatically trust the code to be error-free. High coverage only shows that lines were executed during tests, not that the tests include strong assertions, realistic scenarios, or correct behavior under unexpected inputs. Bugs can still exist due to incorrect logic, missing edge cases, or integration issues that unit tests do not capture.
 
-### Code Coverage Report
+**Code Coverage Report**
 
 ```text
 Name                             Stmts   Miss  Cover   Missing
@@ -357,7 +357,7 @@ prevents redundant processing.
 
 This whole setup catches bugs before they hit production and makes sure our data quality is good.
 
-[Link to test workflow: `https://github.com/vedavedaveda/MLOps/blob/main/.github/workflows/tests.yaml`]
+[Link to test workflow: `../.github/workflows/tests.yaml`]
 
 ## Running code and tracking experiments
 
@@ -381,8 +381,9 @@ We configured experiments using **Hydra** with a base `default_config.yaml` that
 ```yaml
 defaults:
   - experiment: exp1
+```
 Each experiment lives in configs/experiment/ (e.g., exp1.yaml, exp2.yaml) and defines parameters like:
-
+```
 model:
   number_of_classes: 2
 training:
@@ -393,7 +394,7 @@ training:
   num_workers: 4
 ```
 
-Then we could run it with uv like this uv run python -m ml_ops_project.train experiment=exp2
+Then we could run it with uv like this ```uv run python -m ml_ops_project.train experiment=exp2```
 
 ### Question 13
 
@@ -469,7 +470,9 @@ We used Docker to containerize our project to ensure consistent environments acr
 docker build -f dockerfiles/train.dockerfile . -t train:latest
 docker run --rm train:latest
 ```
-The training container is also used in the cloud by pushing it to Artifact Registry and executing it as a Cloud Run Job. Both dockerifles are in dockerfiles/ folder. Link to the train.dockerfile: dockerfiles/train.dockerfile
+The training container is also used in the cloud by pushing it to Artifact Registry and executing it as a Cloud Run Job. Both dockerifles are in dockerfiles/ folder. 
+
+Link to the train dockerfile: ```../dockerfiles/train.dockerfile```
 
 
 ### Question 16
@@ -598,6 +601,7 @@ Yes, we implemented an API for our model using **FastAPI**. The service exposes 
 > *`curl -X POST -F "file=@file.json"<weburl>`*
 >
 > Answer:
+
 We successfully deployed our API locally for development and testing. The FastAPI application was served using Uvicorn, allowing us to verify that both endpoints worked end-to-end: `GET /` for a health check and `POST /predict` for inference on uploaded images. We validated the deployment by sending HTTP requests and checking that the API returned the expected JSON output (predicted label, class name, and probabilities). We also started preparing a cloud deployment, but we did not have enough time to complete it properly within the project timeframe (including setting up the full model artifact workflow and deployment configuration). To invoke the local service, we used simple requests such as:
 
 ```bash
@@ -730,12 +734,14 @@ Finally, while most modules were manageable to implement individually by followi
 
 We aimed to divide the workload equally and ensure that everyone contributed actively to the project. Most tasks were split and completed asynchronously, and we regularly met as a group to integrate components, debug issues, and make sure the full pipeline worked end-to-end. The distribution of work is also reflected in our GitHub commit history and pull requests.
 
-### Individual Contributions
+**Individual Contributions**
+
 The tasks listed below are only **some** of the main responsibilities each person worked on. Throughout the project, we also supported each other when problems appeared, worked together on debugging and integration, and each team member completed additional smaller tasks when needed.
 
 - **Student 195473 (Freja):** Profiling, integration of **Weights & Biases**, and setting up **GitHub workflows/CI**.
 - **Student 233910 (Veda):** **Cloud Storage** setup, **Cloud deployment** (Cloud Run), and parts of the **data preprocessing** workflow.
 - **Student 233912 (Aleksandra):** **Model and training** implementation, **API** implementation, and **testing** of the endpoints.
 
-### Use of Generative AI Tools
+**Use of Generative AI Tools**
+
 We used generative AI tools (e.g., ChatGPT) as a support tool during development. It was mainly used for debugging help, clarifying concepts (e.g., CI/CD, DVC, Cloud configuration), and improving code quality (e.g., refactoring suggestions and documentation). All generated suggestions were reviewed and adapted by the team, and the final implementation decisions were made manually.
