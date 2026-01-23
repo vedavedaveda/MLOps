@@ -166,9 +166,9 @@ No we did not use any other packages then the ones that was explained in the cou
 >
 > Answer:
 
-We managed dependencies using uv, a fast Python package manager. All project dependencies 
-are defined in `pyproject.toml`, with production dependencies listed under `dependencies` 
-and development tools (testing, linting, documentation) in the `dev` dependency group. 
+We managed dependencies using uv, a fast Python package manager. All project dependencies
+are defined in `pyproject.toml`, with production dependencies listed under `dependencies`
+and development tools (testing, linting, documentation) in the `dev` dependency group.
 We configured custom package indexes for PyTorch CPU-only builds to reduce installation size.
 
 For a new team member to get an exact copy of our environment, they would:
@@ -198,15 +198,15 @@ The `uv.lock` file ensures the exact same builds for anyone by pinning all depen
 > Answer:
 
 We initialized our project using the cookiecutter MLOps template, which provided a good foundation for the
-kind of project we are doing. We filled out the standard directories: `src/ml_ops_project/` with our 
-core modules, `tests/` for unit testing, `configs/` for Hydra configuration files, `data/` 
+kind of project we are doing. We filled out the standard directories: `src/ml_ops_project/` with our
+core modules, `tests/` for unit testing, `configs/` for Hydra configuration files, `data/`
 for datasets, and `dockerfiles/` for Docker containers.
 
 Our main deviations and additions include:
 
 - `analyze/`: Custom directory for data analysis and exploration
 - `.dvc/` and `data.dvc`: Integrated DVC for data version control and tracking large datasets
-- Multiple Dockerfiles: Separated `backend.dockerfile`, `frontend.dockerfile`, and additional files 
+- Multiple Dockerfiles: Separated `backend.dockerfile`, `frontend.dockerfile`, and additional files
   in `dockerfiles/` for different services (training, API, frontend)
 - `cloudbuild.yaml`: Google Cloud Build configuration for automated deployment
 - Split requirements files: Created separate requirements for backend, frontend, and development environments
@@ -226,17 +226,17 @@ These additions enhanced our MLOps workflow with better data versioning and clou
 >
 > Answer:
 
-We implemented several code quality measures. Pre-commit hook* automatically enforce standards before 
-each commit, including trailing whitespace removal, end-of-file fixing, YAML validation, and blocking 
+We implemented several code quality measures. Pre-commit hook* automatically enforce standards before
+each commit, including trailing whitespace removal, end-of-file fixing, YAML validation, and blocking
 large files. Before committing, we check our code against these rules with `uv run pre-commit run --all-files`.
 
-We also made sure to write comments throughout our code to help team members quickly understand its purpose. 
+We also made sure to write comments throughout our code to help team members quickly understand its purpose.
 
-These practices are essential in larger projects. Automated checks prevent inconsistencies and eliminate 
-debates about code style, allowing developers to focus on logic rather than formatting. Documentation 
-and clear comments reduce onboarding time for new team members and make the codebase easier to maintain. 
-Without these standards, code quality becomes worse over time as different developers introduce their own 
-styles, making collaboration difficult. These practices create a foundation for teams to work efficiently 
+These practices are essential in larger projects. Automated checks prevent inconsistencies and eliminate
+debates about code style, allowing developers to focus on logic rather than formatting. Documentation
+and clear comments reduce onboarding time for new team members and make the codebase easier to maintain.
+Without these standards, code quality becomes worse over time as different developers introduce their own
+styles, making collaboration difficult. These practices create a foundation for teams to work efficiently
 while maintaining code quality and preventing technical debt of getting too bad.
 
 ## Version control
@@ -318,23 +318,23 @@ Before setting up DVC we had issues with ensuring that we were working with the 
 >
 > Answer:
 
-Our CI setup runs on GitHub Actions with two different workflow files. The main test workflow runs 
-every time someone pushes to main or opens a pull request. It installs all dependencies using uv, then 
-runs our full test suite with pytest (`uv run pytest -v`). We test on three different operating 
-systems (Ubuntu, Windows, macOS) to make sure everything works everywhere, not just on our local machines. 
+Our CI setup runs on GitHub Actions with two different workflow files. The main test workflow runs
+every time someone pushes to main or opens a pull request. It installs all dependencies using uv, then
+runs our full test suite with pytest (`uv run pytest -v`). We test on three different operating
+systems (Ubuntu, Windows, macOS) to make sure everything works everywhere, not just on our local machines.
 We stick with Python 3.12 and use uv caching to speed things up between runs.
 
-There's also a pre-commit workflow that double-checks all our pre-commit rules in CI, just in case 
+There's also a pre-commit workflow that double-checks all our pre-commit rules in CI, just in case
 someone skips them locally.
 
-Furthermore, we have our DVC workflow for data validation. Whenever someone changes data-related 
-files in a pull request, it starts automatically. It connects to our Google Cloud Storage, pulls the 
-latest data with DVC, generates stats and visualizations (sample images, label distributions), and posts 
-everything directly to the pull request using CML. This way we can see if the data looks right before 
+Furthermore, we have our DVC workflow for data validation. Whenever someone changes data-related
+files in a pull request, it starts automatically. It connects to our Google Cloud Storage, pulls the
+latest data with DVC, generates stats and visualizations (sample images, label distributions), and posts
+everything directly to the pull request using CML. This way we can see if the data looks right before
 merging changes.
 
-We use caching in two places: uv caches dependencies so installs are faster, and DVC's `--no-run-cache` 
-prevents redundant processing. 
+We use caching in two places: uv caches dependencies so installs are faster, and DVC's `--no-run-cache`
+prevents redundant processing.
 
 This whole setup catches bugs before they hit production and makes sure our data quality is good.
 
@@ -406,7 +406,30 @@ We ensured reproducibility by using **Hydra** configuration files as the single 
 >
 > Answer:
 
---- question 14 fill here ---
+![14_runs_compared](figures/14-runs-compared.png)
+Screenshot 1: Workspace overview showing all 14 runs compared
+
+![winter_rain_13](figures/single-run-(winter-rain-13).png)
+Screenshot 2: Detailed view of single run (winter-rain-13)
+
+We used Weights & Biases for running some experiments with different parameters. Our main tracked metrics include
+training accuracy, test accuracy, training loss, and epoch-averaged loss/accuracy. We ran a
+Bayesian hyperparameter sweep with 14 different configurations to optimize our model's performance.
+
+The sweep tuned three key hyperparameters: learning rate (0.0005-0.005 with log-uniform distribution),
+batch size (48, 64, 80, 96), and epochs (15, 20, 25, 30). We optimized for test accuracy and used
+Hyperband early termination to stop poorly performing runs after 5 iterations, saving computational resources.
+
+These metrics are important for different reasons. Test accuracy tells us how well our model actually performs
+on unseen data. This is what we actually care about. The first screenshot shows test accuracy across all runs,
+making it easy to compare which hyperparameter combinations worked best. Training accuracy and loss help us
+diagnose issues like underfitting or overfitting. The noisy patterns in the training curves show the model learning,
+while the smoother epoch-averaged metrics give us a clearer view of overall trends.
+
+The comparison view was particularly valuable for our sweep. We could quickly see that some runs (like lively-plant-7, ethereal-dawn-4, and blooming-sponge-5) achieved higher test accuracy than others. The second screenshot shows detailed training dynamics for a single run, helping us understand how the model learned over time. This data-driven approach to hyperparameter tuning was much more efficient than manually trying different values.
+
+
+Project link: https://wandb.ai/frejaj9-danmarks-tekniske-universitet-dtu/art-classifier
 
 ### Question 15
 
@@ -654,7 +677,7 @@ We all collaborated on a single GC project, so we're not sure about our individu
 >
 > Answer:
 
-The biggest struggle for us was working in the cloud. The web interface isn't very intuitive or easy to navigate, and we struggled with deploying our model on Cloud Run. 
+The biggest struggle for us was working in the cloud. The web interface isn't very intuitive or easy to navigate, and we struggled with deploying our model on Cloud Run.
 
 ### Question 31
 
@@ -671,15 +694,3 @@ The biggest struggle for us was working in the cloud. The web interface isn't ve
 > *All members contributed to code by...*
 > *We have used ChatGPT to help debug our code. Additionally, we used GitHub Copilot to help write some of our code.*
 > Answer:
-
-fewafewubaofewnafioewnifowf ewafw afew afewafewafionewoanf waf ewonfieownaf fewnaiof newio fweanøf wea fewa
- fweafewa fewiagonwa ognwra'g
- wa
- gwreapig ipweroang w rag
- wa grwa
-  g
-  ew
-  gwea g
-  ew ag ioreabnguorwa bg̈́aw
-   wa
-   gew4igioera giroeahgi0wra gwa
