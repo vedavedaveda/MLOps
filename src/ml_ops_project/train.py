@@ -10,6 +10,8 @@ from omegaconf import OmegaConf
 from loguru import logger
 import os
 import wandb
+from pathlib import Path
+from hydra.utils import get_original_cwd
 
 log = logger
 
@@ -119,7 +121,16 @@ def train(cfg) -> None:
         })
 
     logger.info("Training completed, saving model...")
-    model_path = "cnn_model.pth"
+
+    try:
+        project_root = Path(get_original_cwd())
+    except ValueError:
+        # Hydra is not initialized (e.g., in unit tests calling __wrapped__)
+        project_root = Path.cwd()
+    models_dir = project_root / "models"
+    models_dir.mkdir(parents=True, exist_ok=True)
+
+    model_path = models_dir / "cnn_model.pth"
     torch.save(model.state_dict(), model_path)
     logger.success(f"Model saved to {model_path}")
     print(f"Saved model to {model_path}")
@@ -175,7 +186,7 @@ def train(cfg) -> None:
             "learning_rate": hparams.training.learning_rate,
         }
     )
-    artifact.add_file(model_path)
+    artifact.add_file(str(model_path))
     wandb.log_artifact(artifact)
     logger.success("Model artifact saved to Weights & Biases")
 

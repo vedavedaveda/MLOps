@@ -16,7 +16,7 @@ except ModuleNotFoundError:
     from model import CNN
 
 # MODEL_PATH = Path("outputs/2026-01-21/12-11-02/cnn_model.pth") # Adjust with chosen model path
-MODEL_PATH = Path("cnn_model.pth")
+MODEL_PATH = Path("models/cnn_model.pth")
 
 DEVICE = torch.device("cpu")
 
