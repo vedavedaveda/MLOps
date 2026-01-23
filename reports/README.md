@@ -727,3 +727,15 @@ Finally, while most modules were manageable to implement individually by followi
 > *All members contributed to code by...*
 > *We have used ChatGPT to help debug our code. Additionally, we used GitHub Copilot to help write some of our code.*
 > Answer:
+
+We aimed to divide the workload equally and ensure that everyone contributed actively to the project. Most tasks were split and completed asynchronously, and we regularly met as a group to integrate components, debug issues, and make sure the full pipeline worked end-to-end. The distribution of work is also reflected in our GitHub commit history and pull requests.
+
+### Individual Contributions
+The tasks listed below are only **some** of the main responsibilities each person worked on. Throughout the project, we also supported each other when problems appeared, worked together on debugging and integration, and each team member completed additional smaller tasks when needed.
+
+- **Student 195473 (Freja):** Profiling, integration of **Weights & Biases**, and setting up **GitHub workflows/CI**.
+- **Student 233910 (Veda):** **Cloud Storage** setup, **Cloud deployment** (Cloud Run), and parts of the **data preprocessing** workflow.
+- **Student 233912 (Aleksandra):** **Model and training** implementation, **API** implementation, and **testing** of the endpoints.
+
+### Use of Generative AI Tools
+We used generative AI tools (e.g., ChatGPT) as a support tool during development. It was mainly used for debugging help, clarifying concepts (e.g., CI/CD, DVC, Cloud configuration), and improving code quality (e.g., refactoring suggestions and documentation). All generated suggestions were reviewed and adapted by the team, and the final implementation decisions were made manually.
