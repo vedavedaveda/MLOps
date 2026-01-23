@@ -30,4 +30,3 @@ ENTRYPOINT ["uv", "run", "python", "src/ml_ops_project/train.py"]
 #
 # REMOVE A CONTAINER:
 # docker rm <container_id>
-

@@ -470,7 +470,7 @@ We used Docker to containerize our project to ensure consistent environments acr
 docker build -f dockerfiles/train.dockerfile . -t train:latest
 docker run --rm train:latest
 ```
-The training container is also used in the cloud by pushing it to Artifact Registry and executing it as a Cloud Run Job. Both dockerifles are in dockerfiles/ folder. 
+The training container is also used in the cloud by pushing it to Artifact Registry and executing it as a Cloud Run Job. Both dockerifles are in dockerfiles/ folder.
 
 Link to the train dockerfile: ```../dockerfiles/train.dockerfile```
 
