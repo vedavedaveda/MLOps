@@ -569,7 +569,7 @@ We used the GCP Compute Engine to run training jobs for our model. The jobs were
 >
 > Answer:
 
-We trained our model in the cloud using Vertex AI. When a training job begins, GCS buckets are mounted automatically. The cloudbuild.yaml file builds the container using docker, tags the image for the artifact registry, and then pushes the image there, giving us a containerised training environment that Vertex AI can work in. The training job can be submitted manually, but it also runs automatically each time something is pushed to the repo. Logs from the training jobs are saved in the cloud, which is helpful for troubleshooting. After training, the model is uploaded to the GCS bucket, and training outputs are optionally saved and visualised in WandB.
+We trained our model in the cloud using Vertex AI. When a training job begins, GCS buckets are mounted automatically. The cloudbuild.yaml file builds the container using docker, tags the image for the artifact registry, and then pushes the image there, giving us a containerised training environment that Vertex AI can work in. The training job can be submitted manually, but it also runs automatically each time something is pushed to the repo. Logs from the training jobs are saved in the cloud, which is helpful for troubleshooting. After training, the model is uploaded to the GCS bucket, and training outputs are optionally saved and visualised in WandB!
 
 ## Deployment
 
