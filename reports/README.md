@@ -750,3 +750,4 @@ The tasks listed below are only **some** of the main responsibilities each perso
 **Use of Generative AI Tools**
 
 We used generative AI tools (e.g., ChatGPT) as a support tool during development. It was mainly used for debugging help, clarifying concepts (e.g., CI/CD, DVC, Cloud configuration), and improving code quality (e.g., refactoring suggestions and documentation). All generated suggestions were reviewed and adapted by the team, and the final implementation decisions were made manually.
+
