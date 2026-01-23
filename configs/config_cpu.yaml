@@ -1,0 +1,10 @@
+# config_cpu.yaml
+workerPoolSpecs:
+    machineSpec:
+        machineType: n1-highmem-2
+    replicaCount: 1
+    containerSpec:
+        imageUri: europe-west1-docker.pkg.dev/dtumlops-484415/container-registry/train-image:latest
+        env:
+        - name: WANDB_API_KEY
+          value: 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
