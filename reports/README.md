@@ -532,7 +532,7 @@ We used the GCP Compute Engine to run training jobs for our model. The jobs were
 >
 > Answer:
 
---- question 19 fill here ---
+![alt text](figures/cloud-storage.png)
 
 ### Question 20
 
@@ -541,7 +541,8 @@ We used the GCP Compute Engine to run training jobs for our model. The jobs were
 >
 > Answer:
 
---- question 20 fill here ---
+![alt text](figures/artifact-registry.png)
+![alt text](figures/container-registry.png)
 
 ### Question 21
 
@@ -550,7 +551,7 @@ We used the GCP Compute Engine to run training jobs for our model. The jobs were
 >
 > Answer:
 
---- question 21 fill here ---
+![alt text](figures/build-history.png)
 
 ### Question 22
 
@@ -689,7 +690,7 @@ This frontend improves the overall usability of the system and makes it more acc
 >
 > Answer:
 
---- question 29 fill here ---
+![alt text](figures/architecture.png)
 
 ### Question 30
 
