@@ -55,13 +55,7 @@ def load_model(model_path: Path) -> CNN:
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     global model
-    # Load the model on startup, but don't crash the app if missing
-    try:
-        model = load_model(MODEL_PATH)
-    except FileNotFoundError as exc:
-        # Log and continue startup; `/predict` will return 500 until model is available
-        print(f"[Startup warning] {exc}")
-        model = None
+    model = load_model(MODEL_PATH)
     yield
     model = None
 
