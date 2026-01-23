@@ -167,13 +167,6 @@ No we did not use any other packages then the ones that was explained in the cou
 >
 > Answer:
 
-### Question 4
-
-> **Explain how you managed dependencies in your project? Explain the process a new team member would have to go**
-> **through to get an exact copy of your environment.**
->
-> Recommended answer length: 100-200 words
-
 We managed dependencies using uv, a fast Python package manager. All project dependencies 
 are defined in `pyproject.toml`, with production dependencies listed under `dependencies` 
 and development tools (testing, linting, documentation) in the `dev` dependency group. 
@@ -234,13 +227,6 @@ These additions enhanced our MLOps workflow with better data versioning and clou
 >
 > Answer:
 
-### Question 6
-
-> **Did you implement any rules for code quality and format? What about typing and documentation? Additionally,**
-> **explain with your own words why these concepts matters in larger projects.**
->
-> Recommended answer length: 100-200 words.
-
 We implemented several code quality measures. Pre-commit hook* automatically enforce standards before 
 each commit, including trailing whitespace removal, end-of-file fixing, YAML validation, and blocking 
 large files. Before committing, we check our code against these rules with `uv run pre-commit run --all-files`.
@@ -271,7 +257,7 @@ while maintaining code quality and preventing technical debt of getting too bad.
 >
 > Answer:
 
---- question 7 fill here ---
+We've implemented three testing files with 20 tests in total. For the data, we created ten tests that use a fake dataset to ensure proper functionality. For the model we created 8 tests that validates the core functionality (forward pass, gradient flow, etc.). For the training, we implemented two tests that ensure the model updates throughout the training process.
 
 ### Question 8
 
@@ -301,7 +287,7 @@ while maintaining code quality and preventing technical debt of getting too bad.
 >
 > Answer:
 
---- question 9 fill here ---
+We did use branches and pull requests. We created a github issue for each week's worth of tasks, and then converted each bullet point into a subissue. For each task (subissue), we created a corresponding branch which generally shared the title of the task. Once the task was completed, we created pull requests to merge the updated code into main. This worked well for us, especially towards the end when we had an issue with one of the tasks, since it was easy to find and restore the code to how it was before. We did sometimes push directly to main too, especially when trying to test the workflows or fix small errors (although we know this isn't the best practise).
 
 ### Question 10
 
@@ -316,7 +302,7 @@ while maintaining code quality and preventing technical debt of getting too bad.
 >
 > Answer:
 
---- question 10 fill here ---
+Before setting up DVC we had issues with ensuring that we were working with the same data in the same file structure. In this sense, setting up DVC was extremely helpful. The dataset is tracked using teh pointer file `data.dvc`, which keeps track of the state of the data in each commit. Pulling the data is easy, and helped us to ensure that we all had the same dataset. We didn't have any major issues with the data luckily, but if we had it would have been easy to use DVC to revert any issues caused by the dataset.
 
 ### Question 11
 
@@ -372,7 +358,24 @@ This whole setup catches bugs before they hit production and makes sure our data
 >
 > Answer:
 
---- question 12 fill here ---
+We configured experiments using **Hydra** with a base `default_config.yaml` that selects the active experiment via:
+
+```yaml
+defaults:
+  - experiment: exp1
+Each experiment lives in configs/experiment/ (e.g., exp1.yaml, exp2.yaml) and defines parameters like:
+
+model:
+  number_of_classes: 2
+training:
+  learning_rate: 1e-3
+  batch_size: 32
+  epochs: 10
+  log_every_n_steps: 100
+  num_workers: 4
+```
+
+Then we could run it with uv like this uv run python -m ml_ops_project.train experiment=exp2
 
 ### Question 13
 
@@ -387,7 +390,7 @@ This whole setup catches bugs before they hit production and makes sure our data
 >
 > Answer:
 
---- question 13 fill here ---
+We ensured reproducibility by using **Hydra** configuration files as the single source of truth for all experiment settings (model architecture and training hyperparameters). Each run is launched with an explicit experiment config (e.g., `experiment=exp2`), and Hydra automatically creates a unique `outputs/` directory per run, where it stores the full resolved configuration (`.hydra/config.yaml`) together with logs. This guarantees that no parameter choices are lost, even when running many experiments. We also logged all training metrics and final artifacts (trained model weights and plots) to **Weights & Biases**, providing a persistent record of results and metadata. To reproduce a run, one simply re-runs training with the same config selection/overrides, e.g. `uv run python -m ml_ops_project.train experiment=exp2`, and uses the stored Hydra config and logged W&B metadata to verify identical settings.
 
 ### Question 14
 
@@ -419,7 +422,13 @@ This whole setup catches bugs before they hit production and makes sure our data
 >
 > Answer:
 
---- question 15 fill here ---
+We used Docker to containerize our project to ensure consistent environments across local development and Google Cloud. We built separate images for key parts of the pipeline, including a **training image** (used to run the full training script with Hydra configs) and an **API image** (used to serve the FastAPI inference service). This allowed us to run experiments and deployments with the same dependencies and runtime behavior regardless of machine setup. Locally, we can build and run the training container with:
+
+```bash
+docker build -f dockerfiles/train.dockerfile . -t train:latest
+docker run --rm train:latest
+The training container is also used in the cloud by pushing it to Artifact Registry and executing it as a Cloud Run Job. Both dockerifles are in dockerfiles/ folder. Link to the train.dockerfile: dockerfiles/train.dockerfile
+```
 
 ### Question 16
 
@@ -434,7 +443,7 @@ This whole setup catches bugs before they hit production and makes sure our data
 >
 > Answer:
 
---- question 16 fill here ---
+When debugging experiments, we primarily relied on incremental validation and observability. We verified that each pipeline step produced the expected outputs (e.g., dataset sizes, tensor shapes, loss decreasing) and used a combination of print statements and structured logging (Loguru) to pinpoint where failures occurred. Since we run experiments through Hydra, each run produced a separate `outputs/` folder containing logs and the resolved configuration, which made it easy to reproduce and debug specific failures. We also used W&B to inspect training curves and quickly detect anomalies such as exploding loss or unexpected accuracy behavior. For profiling, we performed targeted performance checks using Python’s `cProfile` to identify bottlenecks (e.g., slow data loading vs. model compute). While the code is functional and stable, we do not consider it “perfect” yet—there are still opportunities to optimize data loading, reduce overhead, and improve training performance when running on cloud resources.
 
 ## Working in the cloud
 
@@ -451,7 +460,13 @@ This whole setup catches bugs before they hit production and makes sure our data
 >
 > Answer:
 
---- question 17 fill here ---
+We used:
+- **GCS Bucket:** Used to store datasets and trained model artifacts, and sharing data between jobs.
+- **Compute Engine:** Used to run and train our model in VMs.
+- **Build:** Used to build and push Docker images to the Artifact Registry
+- **Artifact Registry:** Stores container images for API and training
+- **Vertex AI:** Runs training jobs on GCP.
+- **Monitoring:** Logging and alerting us of errors.
 
 ### Question 18
 
@@ -466,7 +481,7 @@ This whole setup catches bugs before they hit production and makes sure our data
 >
 > Answer:
 
---- question 18 fill here ---
+We used the GCP Compute Engine to run training jobs for our model. The jobs were configured using YAML files that specified the hardware as n1-highmem-2 VM instances, which provide increased memory suitable for machine learning workloads. The training ran inside custom Docker containers, using images stored in the GCP Artifact Registry, initiated via the cloud ai custom-jobs create command, targeting the europe-west1 region for optimal latency and resource availability. Output models and logs were stored on Google Cloud Storage, and the process was managed through Vertex AI in the GCP Console. This setup allowed flexible scaling and reproducibility in a standardized GCP environment.
 
 ### Question 19
 
@@ -508,7 +523,7 @@ This whole setup catches bugs before they hit production and makes sure our data
 >
 > Answer:
 
---- question 22 fill here ---
+We trained our model in the cloud using Vertex AI. When a training job begins, GCS buckets are mounted automatically. The cloudbuild.yaml file builds the container using docker, tags the image for the artifact registry, and then pushes the image there, giving us a containerised training environment that Vertex AI can work in. The training job can be submitted manually, but it also runs automatically each time something is pushed to the repo. Logs from the training jobs are saved in the cloud, which is helpful for troubleshooting. After training, the model is uploaded to the GCS bucket, and training outputs are optionally saved and visualised in WandB.
 
 ## Deployment
 
@@ -525,7 +540,7 @@ This whole setup catches bugs before they hit production and makes sure our data
 >
 > Answer:
 
---- question 23 fill here ---
+Yes, we implemented an API for our model using **FastAPI**. The service exposes two endpoints. First, a simple `GET /` endpoint returns a static welcome message, which acts as a lightweight health check to confirm that the service is running correctly. Second, a `POST /predict` endpoint performs inference: it accepts an uploaded image file (multipart form data), applies the same preprocessing pipeline used during training (e.g., resizing and normalization), and then runs the model forward pass. The response is returned as structured JSON containing `predicted_label`, `predicted_class`, and a `probabilities` dictionary with the class probabilities. This design makes the API easy to integrate into other systems while remaining transparent and testable, since clients can validate both the predicted class and the underlying confidence scores.
 
 ### Question 24
 
@@ -540,8 +555,12 @@ This whole setup catches bugs before they hit production and makes sure our data
 > *`curl -X POST -F "file=@file.json"<weburl>`*
 >
 > Answer:
+We successfully deployed our API locally for development and testing. The FastAPI application was served using Uvicorn, allowing us to verify that both endpoints worked end-to-end: `GET /` for a health check and `POST /predict` for inference on uploaded images. We validated the deployment by sending HTTP requests and checking that the API returned the expected JSON output (predicted label, class name, and probabilities). We also started preparing a cloud deployment, but we did not have enough time to complete it properly within the project timeframe (including setting up the full model artifact workflow and deployment configuration). To invoke the local service, we used simple requests such as:
 
---- question 24 fill here ---
+```bash
+curl http://localhost:8000/
+curl -X POST -F "image=@example.png" http://localhost:8000/predict
+```
 
 ### Question 25
 
@@ -571,7 +590,7 @@ This whole setup catches bugs before they hit production and makes sure our data
 >
 > Answer:
 
---- question 26 fill here ---
+We implemented alert monitoring that notifies us via email whenever Cloud Run fails to build.
 
 ## Overall discussion of project
 
@@ -589,8 +608,7 @@ This whole setup catches bugs before they hit production and makes sure our data
 > *costing the most was ... due to ... . Working in the cloud was ...*
 >
 > Answer:
-
---- question 27 fill here ---
+We all collaborated on a single GC project, so we're not sure about our individual spending patterns. In total for the project we spent $4.63. The most expensive service by far was naturally the Compute Engine - on which we spent $3.79 - which makes sense since this service did the intensive work of training our model.
 
 ### Question 28
 
@@ -637,7 +655,7 @@ This whole setup catches bugs before they hit production and makes sure our data
 >
 > Answer:
 
---- question 30 fill here ---
+The biggest struggle for us was working in the cloud. The web interface isn't very intuitive or easy to navigate, and we struggled with deploying our model on Cloud Run. 
 
 ### Question 31
 
