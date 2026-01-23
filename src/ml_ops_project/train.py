@@ -119,7 +119,11 @@ def train(cfg) -> None:
 
     logger.info("Training completed, saving model...")
 
-    project_root = Path(get_original_cwd())
+    try:
+        project_root = Path(get_original_cwd())
+    except ValueError:
+        # Hydra is not initialized (e.g., in unit tests calling __wrapped__)
+        project_root = Path.cwd()
     models_dir = project_root / "models"
     models_dir.mkdir(parents=True, exist_ok=True)
 
