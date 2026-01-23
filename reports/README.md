@@ -271,7 +271,26 @@ We've implemented three testing files with 20 tests in total. For the data, we c
 >
 > Answer:
 
---- question 8 fill here ---
+The total code coverage of our code is **89%** (314 statements, 36 missed). This coverage includes all modules in `src/ml_ops_project`, with the highest coverage in `train.py` (99%) and the lowest in `model.py` (75%). Most of the uncovered lines are related to exception handling, edge cases, and less frequently executed branches, rather than the main execution paths. Overall, we believe the core functionality is well-tested, since the primary workflows for training, data handling, and API logic are covered.
+
+However, even if the code coverage were 100% (or close to it), we would not automatically trust the code to be error-free. High coverage only shows that lines were executed during tests, not that the tests include strong assertions, realistic scenarios, or correct behavior under unexpected inputs. Bugs can still exist due to incorrect logic, missing edge cases, or integration issues that unit tests do not capture.
+
+### Code Coverage Report
+
+```text
+Name                             Stmts   Miss  Cover   Missing
+--------------------------------------------------------------
+src/ml_ops_project/__init__.py       0      0   100%
+src/ml_ops_project/api.py           60      8    87%   15-16, 41, 75, 78, 83-84, 92
+src/ml_ops_project/data.py         123     24    80%   62-64, 143-153, 160, 215-240, 243-245, 249
+src/ml_ops_project/model.py         12      3    75%   42-44
+src/ml_ops_project/train.py        119      1    99%   198
+--------------------------------------------------------------
+TOTAL                              314     36    89%
+```
+Commands used:
+```uv run coverage run -m pytest tests/```
+```uv run coverage report -m -i ```
 
 ### Question 9
 
@@ -449,8 +468,9 @@ We used Docker to containerize our project to ensure consistent environments acr
 ```bash
 docker build -f dockerfiles/train.dockerfile . -t train:latest
 docker run --rm train:latest
-The training container is also used in the cloud by pushing it to Artifact Registry and executing it as a Cloud Run Job. Both dockerifles are in dockerfiles/ folder. Link to the train.dockerfile: dockerfiles/train.dockerfile
 ```
+The training container is also used in the cloud by pushing it to Artifact Registry and executing it as a Cloud Run Job. Both dockerifles are in dockerfiles/ folder. Link to the train.dockerfile: dockerfiles/train.dockerfile
+
 
 ### Question 16
 
@@ -597,7 +617,11 @@ curl -X POST -F "image=@example.png" http://localhost:8000/predict
 >
 > Answer:
 
---- question 25 fill here ---
+We performed both **unit testing** and **load testing** of our API.
+
+For **unit testing**, we used **pytest** to test the main behavior of our two endpoints: `/` and `/predict`. The tests verify that the root endpoint responds correctly and that the prediction endpoint returns valid outputs for expected inputs. This helped ensure that the core API functionality works as intended and that changes to the code do not break the main workflow.
+
+For **load testing**, we used **Locust** to simulate multiple users sending requests to the API at the same time. In our experiments, the API handled a small number of concurrent users without issues, and response times stayed stable under light load. However, we did not push the system to failure, so we cannot yet state the maximum capacity of the service. In the future, we would extend the load tests by increasing the number of users and request rate until performance degrades or errors appear, to better understand the API limits.
 
 ### Question 26
 
@@ -646,7 +670,9 @@ We all collaborated on a single GC project, so we're not sure about our individu
 >
 > Answer:
 
---- question 28 fill here ---
+Yes, we implemented an additional **frontend** for our API using **Streamlit**. We did this to make the project easier to demonstrate and use without requiring manual API calls through tools like `curl` or Postman. The Streamlit interface allows a user to enter input values in a simple UI, send them to the `/predict` endpoint, and immediately display the returned prediction in a clear and interactive way.
+
+This frontend improves the overall usability of the system and makes it more accessible for non-technical users, while also providing a convenient way to quickly validate that the API and model are working correctly end-to-end.
 
 ### Question 29
 
@@ -677,7 +703,13 @@ We all collaborated on a single GC project, so we're not sure about our individu
 >
 > Answer:
 
-The biggest struggle for us was working in the cloud. The web interface isn't very intuitive or easy to navigate, and we struggled with deploying our model on Cloud Run.
+The biggest struggle in our project was working in the cloud environment and getting the full deployment pipeline to run reliably. The Google Cloud web interface was not very intuitive to navigate, which made it harder to understand what was happening during configuration and deployment. The most time-consuming part was deploying the model on Cloud Run, where we ran into multiple issues related to container setup, environment variables, permissions, and making sure the service actually started correctly. We overcame this mainly by debugging step-by-step, checking logs frequently, and iterating on the Docker and deployment configuration until the API behaved consistently.
+
+We also had to put extra effort into getting our data into the cloud and making sure it was handled correctly throughout the pipeline. At the same time, we struggled with DVC, because earlier we were expected to use Google Drive for this part, but the course later changed and recommended skipping that module. This meant we had to figure out DVC on our own while setting up the cloud workflow, which was confusing at first. We overcame it by reading documentation, trying small experiments, and then applying the setup to the full project once it worked reliably.
+
+We also struggled with incorporating ruff into the GitHub workflow. It worked locally, but failed in CI due to differences in configuration, versions, and formatting rules. In the end, we did not fully manage to resolve this issue, and it is something we would improve by spending more time aligning the local environment with the CI setup and ensuring consistent tool versions and configuration.
+
+Finally, while most modules were manageable to implement individually by following the exercises, combining everything into one coherent system was difficult. Integrating all components (data versioning, training, API, tests, CI, and deployment) required coordination, and splitting tasks meant we had to regularly sync to ensure everyone understood how changes affected the rest of the pipeline. What helped most was tackling major issues together and testing the full workflow end-to-end after each significant change.
 
 ### Question 31
 
