@@ -696,6 +696,11 @@ This frontend improves the overall usability of the system and makes it more acc
 
 ![alt text](figures/architecture.png)
 
+In our pipeline, we develop locally and push code to GitHub, which triggers our GitHub Actions. The build process creates a Docker image that we store in an artifact registry.
+From there, we use Vertex AI to launch custom jobs that write artifacts to cloud storage. As we've noted in the diagram, our backend and frontend APIs aren't fully functional yet, which is honestly holding us back quite a bit.
+On the deployment side, users clone our source code from GitHub, then Docker pulls the newest image to run locally. We've also integrated W&B (Weights & Biases) for logging our metrics and artifacts during the pre-commit and commit phases.
+We're trying to separate concerns between build, storage, and execution, but the incomplete API situation means we can't deliver end-to-end functionality yet. The local execution path alongside our cloud infrastructure reflects the fact that we're still figuring out our deployment strategy. It's a work-in-progress setup that has the basic MLOps components we need - version control, containerization, cloud compute, and experiment tracking - but it needs more work before we can call it production-ready. That dotted "run locally" line at the top represents our testing workflows that bypass the full pipeline.
+
 ### Question 30
 
 > **Discuss the overall struggles of the project. Where did you spend most time and what did you do to overcome these**
